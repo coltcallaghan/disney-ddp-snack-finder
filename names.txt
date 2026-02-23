@@ -1,0 +1,622 @@
+Aloha Isle - Snacks
+Egg Roll Wagon - Snacks
+Jungle Navigation Co., Ltd. Skipper Canteen  - Children's Lunch/Dinner
+Jungle Navigation Co., Ltd. Skipper Canteen  - Lunch/Dinner
+Sunshine Tree Terrace - All-Day
+The Beak and Barrel - All Day
+Tortuga Tavern - Lunch/Dinner
+Be Our Guest - Children's  Lunch
+Be Our Guest - Children's Dinner
+Be Our Guest - Dinner
+Be Our Guest - Lunch
+Cheshire Cafe - Snacks
+Cinderella's Royal Table - Breakfast
+Cinderella's Royal Table - Children's Breakfast
+Cinderella's Royal Table - Children's Lunch/Dinner
+Cinderella's Royal Table - Lunch/Dinner
+Friar's Nook - Breakfast
+Friar's Nook - Lunch/Dinner
+Gaston's Tavern - All-Day
+Pinocchio Village Haus - Lunch/Dinner
+Prince Eric Village Market - All-Day
+Storybook Treats - Snacks
+Diamond Horseshoe - Children's Lunch/Dinner
+Diamond Horseshoe - Lunch/Dinner
+Frontierland Churro Cart - All-Day
+Golden Oak Outpost - Lunch/Dinner
+Pecos Bill Tall Tale Inn and Cafe - Lunch/Dinner
+Westward Ho Refreshments - Breakfast
+Westward Ho Refreshments - Snacks
+Columbia Harbour House - Lunch/Dinner
+Liberty Square Market - All-Day
+Liberty Tree Tavern - Children's Lunch/Dinner
+Liberty Tree Tavern - Lunch/Dinner
+Sleepy Hollow - All-Day
+Casey's Corner - Lunch/Dinner
+Crystal Palace - Breakfast
+Crystal Palace - Lunch/Dinner
+Main Street Bakery - Starbucks - All-Day
+Plaza Ice Cream Parlor - Snacks
+Plaza Restaurant - Children's Lunch/Dinner
+Plaza Restaurant - Lunch/Dinner
+Tony's Town Square - Children's Lunch/Dinner
+Tony's Town Square - Lunch/Dinner
+TTC Joffrey's Coffee and Tea Company - All-Day
+AstroFizz - All-Day
+Auntie Gravity's Galactic Goodies - Snacks
+Cosmic Ray's Starlight Cafe - Lunch/Dinner
+Energy Bytes - All-Day
+Lunching Pad - Breakfast
+Lunching Pad - Lunch/Dinner
+Revive Joffrey's Coffee and Tea Company - All-Day
+Tomorrowland Terrace - Lunch/Dinner
+Africa Refreshment Outpost - Snacks
+American Adventure Joffrey's Coffee and Tea Company - All-Day
+Block & Hans - Snacks
+Fife and Drum Tavern - Lunch/Dinner
+Funnel Cakes - Snacks
+Regal Eagle Smokehouse Outdoor Bar - All-Day
+Regal Eagle Smokehouse: Crafts Drafts & Barbecue - Lunch/Dinner
+Canada Joffrey's Coffee and Tea Company - All-Day Updated
+Le Cellier - Children's Lunch/Dinner
+Le Cellier - Lunch/Dinner
+Joy of Tea - All-Day
+Lotus Blossom Cafe - Lunch/Dinner
+Nine Dragons Restaurant - Children's Dinner
+Nine Dragons Restaurant - Lunch/Dinner
+Boulangerie Patisserie les Halles - All-Day
+Chefs de France - Children's Lunch/Dinner
+Chefs de France - Lunch/Dinner
+Crepes A Emporter - All-Day
+L'Artisan des Glaces - Snacks
+La Creperie de Paris - Children's Lunch/Dinner
+La Creperie de Paris - Lunch/Dinner
+Les Vins de Chefs de France - All-Day
+Monsieur Paul - Dinner
+Biergarten Restaurant - Lunch/Dinner
+Sommerfest - Lunch/Dinner
+Gelateria Toscana - All-Day
+Italy Donkey - Snacks
+Pizza al Taglio - Via Napoli Pizza Window - Lunch/Dinner
+Tutto  Gusto Wine Cellar - Children's Lunch/Dinner
+Tutto  Gusto Wine Cellar - Lunch/Dinner
+Tutto Italia Ristorante - Children's Lunch/Dinner
+Tutto Italia Ristorante - Lunch/Dinner
+Via Napoli Ristorante e Pizzeria - Children's Lunch/Dinner
+Via Napoli Ristorante e Pizzeria - Lunch/Dinner
+Garden House - All-Day
+Kabuki Cafe - All-Day
+Katsura Grill - Lunch/Dinner
+Shiki-Sai: Sushi Izakaya - Children's Lunch/Dinner
+Shiki-Sai: Sushi Izakaya - Lunch/Dinner
+Takumi-Tei - Dinner
+Takumi-Tei - Omakase Tasting
+Teppan Edo - Children's Lunch/Dinner
+Teppan Edo - Lunch/Dinner
+Choza de Margarita - All-Day
+La Cantina de San Angel - Lunch/Dinner
+La Cava del Tequila - All-Day
+La Hacienda de San Angel - Children's Dinner
+La Hacienda de San Angel - Dinner
+San Angel Inn Restaurante - Children's Lunch/Dinner
+San Angel Inn Restaurante - Lunch/Dinner
+Restaurant Marrakesh - Children's Lunch/Dinner
+Restaurant Marrakesh - Dinner
+Restaurant Marrakesh - Lunch
+Spice Road Table - Children's Lunch/Dinner
+Spice Road Table - Lunch/Dinner
+Tangierine Cafe - Lunch/Dinner
+Akershus Royal Banquet Hall - Breakfast
+Akershus Royal Banquet Hall - Lunch/Dinner
+Kringla Bakeri Og Kafe - Lunch/Dinner Updated
+Promenade Refreshments - Lunch/Dinner
+Refreshment Port - Lunch/Dinner
+Showcase Plaza Joffrey's Coffee and Tea Company - All-Day
+Swirled Showcase - All Day Updated
+Rose and Crown Beer Garden - All-Day
+Rose and Crown Dining Room - Children's Lunch/Dinner
+Rose and Crown Dining Room - Lunch/Dinner
+Rose and Crown Pub - All-Day
+Yorkshire County Fish Shop - Lunch/Dinner
+CommuniCore Hall - All-Day
+Connections Cafe  - All-Day
+Connections Eatery - Lunch/Dinner Updated
+Epcot Entrance Joffrey's Coffee and Tea Company - All-Day
+Festival Favorites - All-Day
+GEO-82 - Lunch/Dinner
+Refreshment Station  - Snacks
+Space 220 - Children's Lunch/Dinner
+Space 220 - Dinner
+Space 220 - Lunch
+Space 220 Lounge - Pub/Lounge
+Taste Track - Lunch/Dinner
+The Odyssey - All-Day
+World Discovery Joffrey's Coffee and Tea Company - All-Day
+Coral Reef Restaurant - Children's Dinner
+Coral Reef Restaurant - Dinner
+Garden Grill - Breakfast
+Garden Grill - Lunch/Dinner
+Sunshine Seasons - All-Day Updated
+Dawa Bar - All-Day
+Harambe Fruit Market - All-Day
+Harambe Market - Lunch/Dinner
+Kusafiri Coffee Shop and Bakery - Breakfast/Brunch
+Kusafiri Coffee Shop and Bakery - Lunch/Dinner
+Mahindi - All-Day
+Tamu Tamu Refreshments - Breakfast
+Tamu Tamu Refreshments - Snacks
+Tusker House Restaurant - Breakfast
+Tusker House Restaurant - Lunch/Dinner
+Anandapur Ice Cream Truck - Snacks
+Caravan Road - All-Day Updated
+Drinkwallah - All-Day
+Mr. Kamal's - Lunch/Dinner
+Quality Beverages - All-Day
+Royal Anandapur Joffrey's Coffee and Tea Company - All-Day
+Thirsty River Bar and Trek Snacks - All-Day
+Warung Outpost - Lunch/Dinner Updated
+Yak and Yeti Local Food Cafes - Breakfast Updated
+Yak and Yeti Local Food Cafes - Lunch/Dinner Updated
+Yak and Yeti Restaurant - Children's Lunch/Dinner Updated
+Yak and Yeti Restaurant - Lunch/Dinner Updated
+Restaurantosaurus - CLOSED - Lunch/Dinner Updated
+Restaurantosaurus - CLOSED - Pub/Lounge
+Creature Comforts - Starbucks - All-Day
+Eight Spoon Cafe - All-Day Updated
+Feeding Ground - All-Day
+Flame Tree BBQ - Lunch/Dinner Updated
+Isle of Java - All-Day Updated
+Nomad Lounge - Children's Lunch/Dinner
+Nomad Lounge - Pub/Lounge Updated
+Pizzafari  - Lunch/Dinner
+Smiling Crocodile - All-Day
+Terra Treats - All-Day
+Tiffins - Children's Lunch/Dinner
+Tiffins - Lunch/Dinner Updated
+Pongu Pongu - Snacks
+Satu'li Canteen - Breakfast
+Satu'li Canteen - Lunch/Dinner
+Animal Kingdom Entrance Joffrey's Coffee and Tea Company - All-Day
+Rainforest Cafe - Breakfast
+Rainforest Cafe - Children's Breakfast
+Rainforest Cafe - Children's Lunch/Dinner
+Rainforest Cafe - Lunch/Dinner
+ABC Commissary - Lunch/Dinner
+Sci Fi Dine-In Theater - Children's Lunch/Dinner
+Sci Fi Dine-In Theater - Lunch/Dinner
+'50s Prime Time Cafe - Children's Lunch/Dinner
+'50s Prime Time Cafe - Lunch/Dinner
+Backlot Express - Lunch/Dinner
+Dinosaur Gertie's Ice Cream of Extinction - Snacks
+Dockside Diner - Lunch/Dinner
+Epic Eats - All-Day
+Hollywood and Vine - Breakfast
+Hollywood and Vine - Lunch/Dinner
+Oasis Canteen - All-Day
+Peevy's Polar Pipeline - All-Day
+BaseLine Tap House - Snacks
+Ice Cold Hydraulics - All-Day
+Mama Melrose's Ristorante Italiano - Children's Lunch/Dinner
+Mama Melrose's Ristorante Italiano - Lunch/Dinner
+PizzeRizzo - Lunch/Dinner
+Hollywood Brown Derby - Children's Lunch/Dinner
+Hollywood Brown Derby - Dining with an Imagineer
+Hollywood Brown Derby - Lunch/Dinner
+Hollywood Brown Derby Lounge - All-Day
+Studios Popcorn - Snacks
+The Trolley Car Cafe - Starbucks - All-Day Updated
+Ice Cold Snack Stand - All-Day
+Neighborhood Bakery - Snacks
+Pixar Place Joffrey's Coffee and Tea Company - All-Day
+The Market - All-Day
+Docking Bay 7 Food and Cargo WDW - Lunch/Dinner
+Kat Saka's Kettle - Snacks
+Milk Stand - Snacks
+Oga's Cantina - Breakfast
+Oga's Cantina - Lunch/Dinner
+Ronto Roasters - All-Day
+Anaheim Produce - All-Day
+Catalina Eddie's - Lunch/Dinner
+Fairfax Fare - Breakfast
+Fairfax Fare - Lunch/Dinner
+Hollywood Hills Theater - Snacks
+Hollywood Scoops - Snacks
+KRNR Station - Snacks
+Pretzel Palooza - Snacks
+Rosie's All-American Cafe - Lunch/Dinner
+Sunshine Day Bar - All-Day
+Tower of Terror Joffrey's Coffee and Tea Company - All-Day
+Popcorn and Snacks - All Day
+Roundup Rodeo BBQ - Lunch/Dinner
+Woody's Lunch Box - Breakfast Updated
+Woody's Lunch Box - Lunch/Dinner Updated
+All Star Pizza Delivery - Dinner
+Silver Screen Spirits Pool Bar - All-Day
+World Premiere Food Court - Breakfast
+World Premiere Food Court - Lunch/Dinner
+Intermission Food Court - Breakfast
+Intermission Food Court - Lunch/Dinner
+Singing Spirits Pool Bar - All-Day
+End Zone Food Court - Breakfast
+End Zone Food Court - Lunch/Dinner
+Grandstand Spirits Pool Bar - All-Day
+Animal Kingdom Lodge In-Room Dining - All-Day
+Boma - Flavors of Africa - Breakfast
+Boma - Flavors of Africa - Dinner
+Jiko - The Cooking Place - Children's Dinner
+Jiko - The Cooking Place - Dinner
+Mara - Breakfast
+Mara - Lunch/Dinner
+Uzima Springs Watering Hole - All-Day
+Victoria Falls - Pub/Lounge
+Maji Pool Bar - Lunch/Dinner
+Sanaa - Breakfast
+Sanaa - Children's Lunch/Dinner
+Sanaa - Dinner
+Sanaa - Lunch
+Drop Off Bar - All-Day
+Landscape of Flavors - Breakfast
+Landscape of Flavors - Lunch/Dinner
+Beach Club Marketplace - Breakfast
+Beach Club Marketplace - Lunch/Dinner
+Beaches and Cream Soda Shop - Children's Lunch/Dinner
+Beaches and Cream Soda Shop - Lunch/Dinner
+Beaches and Cream Soda Shop - Snacks
+Cape May Cafe - Breakfast
+Cape May Cafe - Dinner
+Hurricane Hanna's Grill - All-Day
+Hurricane Hanna's Waterside Bar - All-Day
+Martha's Vineyard - Pub/Lounge
+Yacht and Beach Club In-Room Dining - All-Day
+AbracadaBar - Pub/Lounge
+Belle Vue Lounge - Breakfast
+Blue Ribbon Corn Dogs - All-Day
+BoardWalk Ice Cream - All-Day
+Boardwalk Joe's - Snacks
+Boardwalk Pizza Window - Take-Out
+Boardwalk Resort In-Room Dining - All-Day
+Boardwalk Snacks - Snacks
+Carousel Coffee - All-Day
+Flying Fish - Children's Dinner
+Flying Fish - Dinner
+Leaping Horse Libations - All-Day
+The BoardWalk Deli - Breakfast
+The BoardWalk Deli - Lunch/Dinner Updated
+The Cake Bake Shop by Gwendolyn Rogers - Afternoon Tea
+The Cake Bake Shop by Gwendolyn Rogers - Breakfast
+The Cake Bake Shop by Gwendolyn Rogers - Children's Breakfast
+The Cake Bake Shop by Gwendolyn Rogers - Children's Lunch/Dinner
+The Cake Bake Shop by Gwendolyn Rogers - Lunch/Dinner Updated
+Trattoria al Forno - Breakfast
+Trattoria al Forno - Children's Breakfast
+Trattoria al Forno - Children's Dinner
+Trattoria al Forno - Dinner
+Banana Cabana - All-Day
+Caribbean Skyliner Joffrey's Coffee and Tea Company - All-Day
+Centertown Market - Breakfast
+Centertown Market - Lunch/Dinner
+Sebastian's Bistro - Children's Lunch/Dinner
+Sebastian's Bistro - Dinner
+Spyglass Grill - Breakfast
+Spyglass Grill - Lunch/Dinner
+California Grill - Children's Dinner
+California Grill - Dinner
+California Grill Lounge - Pub/Lounge
+Chef Mickey's  - Breakfast
+Chef Mickey's  - Dinner
+Contempo Cafe - Breakfast
+Contempo Cafe - Lunch/Dinner
+Contemporary Grounds Joffrey's Coffee and Tea Company - All-Day
+Contemporary Resort In-Room Dining - All-Day
+Outer Rim - Pub/Lounge
+Sand Bar - All-Day
+Steakhouse 71 - Breakfast
+Steakhouse 71 - Dinner
+Steakhouse 71 - Lunch
+Steakhouse 71 Lounge - Pub/Lounge
+Cove Pool Bar - Lunch
+Top of The World Lounge - A Villains Lair - Snacks
+Barcelona Lounge - Breakfast
+Barcelona Lounge - Pub/Lounge
+Cafe Rix - All-Day
+Coronado Springs In-Room Dining - All-Day
+Dahlia Lounge - Pub/Lounge
+El Mercado de Coronado - Breakfast
+El Mercado de Coronado - Lunch/Dinner
+Gran Destino Tower In-Room Dining - All-Day
+Laguna Bar - All-Day
+Maya Grill - Children's Dinner
+Maya Grill - Dinner
+Rix Sports Bar & Grill - Breakfast
+Rix Sports Bar & Grill - Children's Lunch/Dinner
+Rix Sports Bar & Grill - Lunch/Dinner
+Siesta's Cantina - Lunch/Dinner
+Three Bridges Bar and Grill - Children's Dinner
+Three Bridges Bar and Grill - Dinner
+Toledo -- Tapas, Steak, & Seafood - Children's Dinner
+Toledo -- Tapas, Steak, & Seafood - Dinner
+Bar Riva - All-Day
+Le Petit Cafe - Breakfast
+Le Petit Cafe - Pub/Lounge
+Primo Piatto - Breakfast
+Primo Piatto - Lunch/Dinner
+Topolino's Terrace -- Flavors of the Riviera - Breakfast
+Topolino's Terrace -- Flavors of the Riviera - Children's Breakfast
+Topolino's Terrace -- Flavors of the Riviera - Children's Dinner
+Topolino's Terrace -- Flavors of the Riviera - Dinner
+Vivoli il Gelato Riviera Cart - Snacks
+Bourbon Steak - Dinner
+Cabana Bar and Beach Club - Lunch/Dinner
+Fountain - All-Day
+Fountain - Children's Lunch/Dinner
+Fountain - Snacks
+Fuel - All-Day
+Lagoon - Dinner
+Lagoon - Lunch
+Phins - Pub/Lounge
+Rosa Mexicano - Breakfast
+Rosa Mexicano - Children's Breakfast
+Rosa Mexicano - Children's Lunch/Dinner
+Rosa Mexicano - Dinner
+Rosa Mexicano - Lunch
+Shula's Steak House - Children's Dinner
+Shula's Steak House - Dinner
+Todd English' bluezoo Lounge - Dinner
+Todd English's bluezoo - Children's Dinner
+Todd English's bluezoo - Dinner
+Chuck Wagon Fresh Fixins Food Truck - Lunch/Dinner
+Crockett's Tavern - Pub/Lounge
+Meadow Snack Bar - Snacks
+Pioneer Hall: Hoop Dee Doo Musical Revue - Hoop Dee Doo Musical Revue
+Trail's End Quick Service Restaurant - Breakfast
+Trail's End Quick Service Restaurant - Lunch/Dinner
+1900 Park Fare - Breakfast
+1900 Park Fare - Dinner
+Beaches Pool Bar and Grill - All-Day
+Citricos - Children's Dinner
+Citricos - Dinner
+Courtyard Pool Bar - All-Day
+Enchanted Rose - Pub/Lounge
+Garden View Tea Room - Afternoon Tea Updated
+Garden View Tea Room - My Disney Girl's Perfectly Princess Tea Party
+Gasparilla Island Grill  - All-Day Updated
+Grand Floridian Cafe - Breakfast/Brunch
+Grand Floridian Cafe - Children's Breakfast/Lunch
+Grand Floridian Cafe - Children's Dinner
+Grand Floridian Cafe - Dinner
+Narcoossee's - Children's Dinner
+Narcoossee's - Dinner
+The Perch - All Day
+Victoria and Albert's - Dinner
+Good's Food to Go - Breakfast
+Good's Food to Go - Lunch/Dinner Updated
+Gurgling Suitcase - All-Day
+Olivia's Cafe - Brunch
+Olivia's Cafe - Children's Brunch
+Olivia's Cafe - Children's Dinner
+Olivia's Cafe - Dinner
+Turtle Shack - All-Day
+'Ohana - Breakfast
+'Ohana - Dinner
+Barefoot Pool Bar - All-Day
+Capt. Cook's  - Breakfast
+Capt. Cook's  - Lunch/Dinner
+Kona Cafe - Breakfast
+Kona Cafe - Children's Breakfast
+Kona Cafe - Children's Lunch/Dinner
+Kona Cafe - Dinner
+Kona Cafe - Lunch
+Kona Island - Breakfast
+Kona Island - Lunch/Dinner
+Oasis Bar and Grill - All-Day
+Pineapple Lanai - Snacks
+Polynesian Resort In-Room Dining - All-Day
+Tambu Lounge - Snacks
+Trader Sam's Grog Grotto - All-Day
+Wailulu Bar and Grill - Breakfast/Brunch
+Wailulu Bar and Grill - Lunch/Dinner
+Everything POP Shopping and Dining - Breakfast
+Everything POP Shopping and Dining - Lunch/Dinner
+Petals Pool Bar - All-Day
+Mardi Grogs - Lunch/Dinner
+Sassagoula Floatworks and Food Factory - Breakfast
+Sassagoula Floatworks and Food Factory - Lunch/Dinner
+Scat Cat's Club Cafe - All-Day Updated
+Scat Cat's Club Lounge - Pub/Lounge Updated
+Boatwright's Dining Hall - Children's Dinner
+Boatwright's Dining Hall - Dinner
+Muddy Rivers - Lunch/Dinner
+River Roost Lounge - Snacks
+Riverside Mill Food Court - Breakfast
+Riverside Mill Food Court - Lunch/Dinner
+Artist's Palette - Breakfast
+Artist's Palette - Lunch/Dinner
+Backstretch Pool Bar - All-Day
+Chip 'n' Dale's Cafe at Lake Buena Vista Golf Course - All-Day
+Golf Course Beverage Cart at Lake Buena Vista Golf Course - All-Day
+On The Rocks Pool Bar - All-Day
+Paddock Grill - All-Day
+Turf Club Bar and Grill - Children's Dinner
+Turf Club Bar and Grill - Dinner
+Turf Club Lounge - Pub/Lounge
+Chip 'n' Dale's Deli - All-Day
+Evergreens - Dinner
+Express Cafe - All-Day
+Garden Gallery - Breakfast
+Garden Gallery - Dinner
+Golf Course Beverage Cart at Shades of Green - All-Day
+Mangino's - Children's Dinner
+Mangino's - Dinner
+Amare - Breakfast
+Amare - Dinner
+Amare - Lunch
+Grounds - All-Day
+Stir - Pub/Lounge
+Tangerine - Pub/Lounge
+Chill - All-Day
+Garden Grove Cafe - Breakfast
+Garden Grove Cafe - Children's Breakfast
+Garden Grove Cafe - Children's Lunch
+Garden Grove Cafe - Lunch
+Il Mulino New York Trattoria - Children's Dinner
+Il Mulino New York Trattoria - Dinner
+Java Bar - All-Day
+Kimonos - Dinner
+Splash Pool Bar and Grill - All-Day
+Artist Point - Children's Dinner
+Artist Point - Dinner
+Geyser Point Bar and Grill - Lunch/Dinner
+Roaring Fork - Breakfast
+Roaring Fork - Lunch/Dinner
+Territory Lounge - Pub/Lounge
+Whispering Canyon Cafe - Breakfast/Lunch
+Whispering Canyon Cafe - Children's Breakfast/Lunch
+Whispering Canyon Cafe - Children's Dinner
+Whispering Canyon Cafe - Dinner
+Wilderness Lodge In-Room Dining - All-Day
+Ale and Compass Lounge - Snacks
+Ale and Compass Restaurant - Breakfast/Lunch
+Ale and Compass Restaurant - Children's Breakfast/Lunch
+Ale and Compass Restaurant - Children's Dinner
+Ale and Compass Restaurant - Dinner
+Crew's Cup Lounge - All-Day
+Crew's Cup Lounge - Children's Lunch/Dinner
+The Market at Ale and Compass - All-Day
+Yachtsman Steakhouse - Children's Dinner
+Yachtsman Steakhouse - Dinner
+Cookes of Dublin - Lunch/Dinner
+Enzo's Hideaway Tunnel Bar - Children's Lunch/Dinner
+Enzo's Hideaway Tunnel Bar - Dinner
+Enzo's Hideaway Tunnel Bar - Lunch
+Enzo's Hideaway Tunnel Bar - Special Meals
+Erin Mckenna's Bakery NYC - All-Day
+Gideon’s Bakehouse - All-Day Updated
+Homecomin' - Brunch
+Homecomin' - Children's Lunch/Dinner
+Homecomin' - Lunch/Dinner
+Jock Lindsey's Hangar Bar  - All-Day
+Maria and Enzo's Ristorante - Brunch
+Maria and Enzo's Ristorante - Children's Lunch/Dinner
+Maria and Enzo's Ristorante - Dinner
+Maria and Enzo's Ristorante - Lunch
+Morimoto Asia - Children's Lunch/Dinner
+Morimoto Asia - Lunch/Dinner
+Morimoto Street Food - Lunch/Dinner
+Paddlefish - Brunch
+Paddlefish - Children's Lunch/Dinner
+Paddlefish - Dinner
+Paddlefish - Lunch
+Paddy's Bar - Pub/Lounge
+Paradiso 37, Taste of the Americas - Children's Lunch/Dinner
+Paradiso 37, Taste of the Americas - Lunch/Dinner
+Pizza Ponte - All-Day
+Raglan Road - Breakfast
+Raglan Road - Brunch
+Raglan Road - Children's Lunch/Dinner
+Raglan Road - Lunch/Dinner
+STK Orlando - Brunch
+STK Orlando - Children's Lunch/Dinner
+STK Orlando - Dinner
+STK Orlando - Lunch
+Terralina Crafted Italian - Brunch
+Terralina Crafted Italian - Children's Lunch/Dinner
+Terralina Crafted Italian - Lunch/Dinner
+The Basket at Wine Bar George - All-Day
+The BOATHOUSE - Brunch
+The BOATHOUSE - Children's Lunch/Dinner
+The BOATHOUSE - Lunch/Dinner
+The Edison - Children's Lunch/Dinner
+The Edison - Dinner
+The Edison - Lunch
+The Landing Joffrey's Coffee and Tea Company - All-Day
+Vivoli Gelateria - Snacks Updated
+Wine Bar George - Brunch
+Wine Bar George - Children's Lunch/Dinner
+Wine Bar George - Lunch/Dinner Updated
+B.B. Wolf's Sausage Co. - Take-Out
+Dockside Margaritas - All-Day
+Earl of Sandwich - All-Day
+EET by Maneet Chauhan - Children's Lunch/Dinner
+EET by Maneet Chauhan - Lunch/Dinner
+Ghirardelli Soda Fountain and Chocolate Shop - All-Day
+Marketplace Joffrey's Handcrafted Smoothies - All-Day
+Marketplace Snacks - Snacks
+Starbucks - Marketplace - All-Day
+Sunshine Churros Cart - Snacks
+Swirls on the Water - All-Day
+T-Rex - Children's Lunch/Dinner
+T-Rex - Lunch/Dinner
+Wetzel's Pretzels - Snacks Updated
+4R Cantina Barbacoa Food Truck - Lunch/Dinner
+AMC Fork and Screen Theatres - Lunch/Dinner
+Cilantro Urban Eatery - All-Day
+City Works Eatery and Pour House - Brunch
+City Works Eatery and Pour House - Children's Lunch/Dinner
+City Works Eatery and Pour House - Lunch/Dinner
+Cookie Bar - All-Day
+Everglazed - All-Day Updated
+Go Juice Food Truck - All Day
+GoJuice - All-Day
+Haagen-Dazs - Snacks
+House of Blues Restaurant and Bar - Brunch
+House of Blues Restaurant and Bar - Children's Lunch/Dinner
+House of Blues Restaurant and Bar - Lunch/Dinner
+Jaleo - Children's Lunch/Dinner
+Jaleo - Dinner
+Jaleo - Lunch
+Local Green Orlando Food Truck - Dinner
+Pepe - Lunch/Dinner
+Salt & Straw - All-Day Updated
+Splitsville Luxury Lanes - All-Day
+Splitsville Luxury Lanes - Children's Lunch/Dinner
+Starbucks - West Side - All-Day
+Summer House on the Lake - Breakfast
+Summer House on the Lake - Brunch
+Summer House on the Lake - Children's Brunch
+Summer House on the Lake - Children's Lunch/Dinner
+Summer House on the Lake - Lunch/Dinner
+The Smokehouse - Children's Lunch/Dinner
+The Smokehouse - Lunch/Dinner
+Wetzel's Pretzels - Snacks
+YeSake - Snacks
+Amorette's Patisserie - Snacks
+Blaze Fast-Fire'd Pizza - Lunch/Dinner
+Chicken Guy - Lunch/Dinner
+Coca-Cola Store Rooftop Beverage Bar - All-Day
+D-Luxe Burger - Lunch/Dinner
+Frontera Cocina - Children's Lunch/Dinner
+Frontera Cocina - Lunch/Dinner
+Planet Hollywood Observatory - Children's Lunch/Dinner
+Planet Hollywood Observatory - Lunch/Dinner
+Polite Pig - All-Day
+The Daily Poutine Gourmet Frites - Snacks
+Wolfgang Puck Bar & Grill - Brunch
+Wolfgang Puck Bar & Grill - Children's Lunch/Dinner
+Wolfgang Puck Bar & Grill - Dinner
+Wolfgang Puck Bar & Grill - Lunch
+Arctic Expedition - Snacks
+Avalunch - All-Day
+Blizzard Beach Mini Donut Hut - Snacks
+Cooling Hut - All-Day
+Frostbite Freddy's Frozen Freshments - Snacks
+Frosty the Joe Man  - Snacks
+I.C. Expeditions - Snacks
+Lottawatta Lodge - All-Day
+Polar Pub - All-Day
+Snack Cart - Snacks
+Warming Hut - All-Day
+Amity Outpost - Lunch
+Arctic Dots - Snacks
+Coffee Hut - Snacks
+Hammerhead Fred's - All-Day
+Happy Landings - Snacks
+High 'n Dry - Snacks
+Leaning Palms - Lunch
+Let's Go Slurpin' - All-Day
+Lowtide Lou's - Lunch
+Popcorn Cart - Snacks
+Snack Hut - Snacks
+Snack Shack - Lunch
+Surf Doggies - Snacks
+Typhoon Mini Donuts - Snacks
+Typhoon Tilly's - Lunch

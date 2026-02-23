@@ -1,0 +1,813 @@
+/* =========================================
+   Disney Dining App - Mobile-First Design
+   ========================================= */
+
+/* App Container */
+.app {
+  min-height: 100vh;
+  width: 100%;
+  background: var(--bg-primary);
+  display: flex;
+  flex-direction: column;
+}
+
+/* =========================================
+   Header (Sticky, Compact)
+   ========================================= */
+.header,
+.palette-header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: linear-gradient(135deg, var(--disney-blue-dark) 0%, var(--disney-blue) 100%);
+  color: var(--text-inverse);
+  padding: 10px var(--spacing-md);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+}
+
+.header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 700px;
+  margin: 0 auto;
+  gap: var(--spacing-sm);
+}
+
+.header-title {
+  font-size: 1.1rem;
+  font-weight: 800;
+  color: #fff;
+  letter-spacing: 0.3px;
+  flex: 1;
+  text-align: center;
+}
+
+.header .disney-logo,
+.palette-header .disney-logo {
+  height: 32px;
+  margin: 0;
+  filter: brightness(0) invert(1) drop-shadow(0 1px 2px rgba(0, 0, 0, 0.2));
+}
+
+/* Sparkle decoration */
+.header::after,
+.palette-header::after {
+  content: '✦  ✦  ✦';
+  position: absolute;
+  bottom: 6px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 0.5rem;
+  letter-spacing: 8px;
+  color: rgba(255, 255, 255, 0.3);
+  pointer-events: none;
+}
+
+/* Info button */
+.info-btn {
+  background: rgba(255, 255, 255, 0.15);
+  border: none;
+  border-radius: var(--radius-full);
+  padding: 8px;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 40px;
+  min-height: 40px;
+  transition: background var(--transition-fast);
+  flex-shrink: 0;
+}
+
+.info-btn:hover {
+  background: rgba(255, 255, 255, 0.28);
+}
+
+.info-btn svg {
+  width: 22px;
+  height: 22px;
+}
+
+/* =========================================
+   Search Hero
+   ========================================= */
+.search-hero {
+  background: var(--search-hero-bg);
+  padding: var(--spacing-md) var(--spacing-md) var(--spacing-lg);
+}
+
+.search-hero-inner {
+  position: relative;
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  background: var(--search-input-bg);
+  border-radius: var(--search-input-radius);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+}
+
+.search-icon {
+  padding: 0 var(--spacing-md);
+  color: var(--text-muted);
+  font-size: 1.2rem;
+  flex-shrink: 0;
+}
+
+.search-hero-input {
+  flex: 1;
+  border: none;
+  outline: none;
+  font-size: 1.05rem;
+  font-family: inherit;
+  font-weight: 500;
+  padding: 14px 0;
+  color: var(--text-primary);
+  background: transparent;
+  min-height: 52px;
+}
+
+.search-hero-input::placeholder {
+  color: var(--text-muted);
+}
+
+.search-clear-btn {
+  background: none;
+  border: none;
+  font-size: 1.4rem;
+  color: var(--text-muted);
+  padding: 0 var(--spacing-md);
+  cursor: pointer;
+  min-width: 44px;
+  min-height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: color var(--transition-fast);
+}
+
+.search-clear-btn:hover {
+  color: var(--text-primary);
+}
+
+/* =========================================
+   GPS Status Banner
+   ========================================= */
+.gps-banner {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-sm);
+  padding: 8px var(--spacing-md);
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.gps-banner--loading {
+  background: #eef6ff;
+  color: var(--disney-blue);
+  border-bottom: 1px solid #c0d8f8;
+}
+
+.gps-banner--denied {
+  background: #fff8e7;
+  color: #7a5200;
+  border-bottom: 1px solid #f5d547;
+}
+
+.gps-banner--granted {
+  background: #e8f8ef;
+  color: #1a6b3a;
+  border-bottom: 1px solid #a8e6bf;
+}
+
+.gps-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.gps-dot--green {
+  background: #2ec27e;
+}
+
+.gps-dot--pulse {
+  background: var(--disney-blue);
+  animation: gpsPulse 1s ease-in-out infinite;
+}
+
+@keyframes gpsPulse {
+  0%, 100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.4;
+    transform: scale(1.4);
+  }
+}
+
+.gps-retry-btn {
+  margin-left: auto;
+  background: none;
+  border: 1px solid currentColor;
+  border-radius: var(--radius-full);
+  padding: 2px 10px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  cursor: pointer;
+  color: inherit;
+  transition: all var(--transition-fast);
+}
+
+.gps-retry-btn:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+/* =========================================
+   Compact Filter Row
+   ========================================= */
+.compact-filters {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-sm);
+  padding: var(--spacing-sm) var(--spacing-md);
+  background: var(--bg-card);
+  border-bottom: 1px solid var(--border-light);
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+}
+
+.compact-filters::-webkit-scrollbar {
+  display: none;
+}
+
+/* DDP Toggle Pill */
+.ddp-pill {
+  flex-shrink: 0;
+  padding: 8px 14px;
+  border-radius: var(--radius-full);
+  border: 2px solid var(--disney-gold);
+  background: transparent;
+  color: var(--disney-gold);
+  font-size: 0.8rem;
+  font-weight: 800;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: all var(--transition-fast);
+  min-height: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.ddp-pill--active {
+  background: var(--ddp-badge-bg);
+  color: var(--ddp-badge-text);
+  border-color: transparent;
+  box-shadow: var(--ddp-badge-shadow);
+}
+
+/* Compact Select Dropdowns */
+.compact-select {
+  flex-shrink: 0;
+  padding: 8px 30px 8px 12px;
+  border: 2px solid var(--border-light);
+  border-radius: var(--radius-full);
+  font-size: 0.8rem;
+  font-weight: 600;
+  background: var(--bg-secondary);
+  color: var(--text-primary);
+  -webkit-appearance: none;
+  appearance: none;
+  cursor: pointer;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%234a4a6a' d='M6 8L1 3h10z'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  min-height: 40px;
+  transition: all var(--transition-fast);
+}
+
+.compact-select:focus {
+  outline: none;
+  border-color: var(--disney-blue);
+  box-shadow: 0 0 0 3px rgba(26, 95, 180, 0.15);
+}
+
+/* Clear Filters Button */
+.clear-filters-btn {
+  flex-shrink: 0;
+  padding: 8px 14px;
+  border: none;
+  border-radius: var(--radius-full);
+  background: var(--bg-primary);
+  color: var(--text-secondary);
+  font-size: 0.8rem;
+  font-weight: 700;
+  cursor: pointer;
+  min-height: 40px;
+  transition: all var(--transition-fast);
+}
+
+.clear-filters-btn:hover {
+  background: var(--disney-blue);
+  color: var(--text-inverse);
+}
+
+/* =========================================
+   Main Content
+   ========================================= */
+.content {
+  flex: 1;
+  padding: var(--spacing-md);
+  max-width: 1400px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+/* Results Count */
+.results-count {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--text-secondary);
+  margin-bottom: var(--spacing-md);
+  padding: var(--spacing-sm) var(--spacing-md);
+  background: var(--bg-card);
+  border-radius: var(--radius-md);
+  display: inline-block;
+  box-shadow: var(--shadow-sm);
+}
+
+/* Locations Grid */
+.locations-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--spacing-md);
+  padding-bottom: var(--spacing-xl);
+}
+
+/* =========================================
+   Snack Card (Redesigned)
+   ========================================= */
+.snack-card,
+.palette-card {
+  position: relative;
+  background: var(--bg-card);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-md);
+  border: 1px solid var(--border-light);
+  padding: var(--spacing-md);
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-sm);
+  overflow: hidden;
+  opacity: 0;
+  transform: translateY(12px);
+  animation: cardEnter 320ms ease forwards;
+  animation-delay: calc(var(--card-index, 0) * var(--card-stagger-delay));
+  transition: all var(--transition-normal);
+}
+
+/* Cap stagger delay for cards 21+ */
+.snack-card:nth-child(n+21) {
+  animation-delay: calc(20 * var(--card-stagger-delay));
+}
+
+@keyframes cardEnter {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.snack-card:hover,
+.palette-card:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-lg), 0 0 0 1px rgba(26, 95, 180, 0.1);
+}
+
+.snack-card--ddp {
+  border-left: 4px solid var(--disney-gold);
+}
+
+/* DDP Badge */
+.ddp-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  align-self: flex-start;
+  background: var(--ddp-badge-bg);
+  color: var(--ddp-badge-text);
+  font-size: 0.72rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 0.6px;
+  padding: 4px 10px;
+  border-radius: var(--radius-full);
+  box-shadow: var(--ddp-badge-shadow);
+}
+
+.ddp-badge-star {
+  font-size: 0.8rem;
+  color: #fff8e1;
+  text-shadow: 0 0 4px rgba(255, 220, 50, 0.8);
+}
+
+/* Distance Badge */
+.distance-badge {
+  position: absolute;
+  top: var(--spacing-sm);
+  right: var(--spacing-sm);
+  background: var(--distance-badge-bg);
+  color: var(--distance-badge-text);
+  font-size: 0.72rem;
+  font-weight: 800;
+  padding: 3px 10px;
+  border-radius: var(--radius-full);
+}
+
+/* Card Body */
+.card-body {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-xs);
+}
+
+.snack-name {
+  font-size: 1rem;
+  font-weight: 800;
+  color: var(--text-primary);
+  line-height: 1.3;
+  margin-top: var(--spacing-xs);
+  padding-right: 60px;
+}
+
+.snack-restaurant {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--disney-blue);
+}
+
+.card-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+
+.chip {
+  font-size: 0.7rem;
+  font-weight: 700;
+  padding: 2px 8px;
+  border-radius: var(--radius-full);
+  letter-spacing: 0.3px;
+}
+
+.chip--category {
+  background: rgba(26, 95, 180, 0.1);
+  color: var(--disney-blue-dark);
+}
+
+.chip--park {
+  background: rgba(97, 53, 131, 0.1);
+  color: var(--disney-purple);
+}
+
+.snack-price {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  font-weight: 500;
+}
+
+/* Directions Button */
+.directions-btn {
+  display: block;
+  margin-top: auto;
+  text-align: center;
+  background: linear-gradient(135deg, var(--disney-blue) 0%, var(--disney-blue-light) 100%);
+  color: #fff;
+  font-size: 0.9rem;
+  font-weight: 800;
+  padding: 12px;
+  border-radius: var(--radius-md);
+  text-decoration: none;
+  letter-spacing: 0.4px;
+  transition: all var(--transition-fast);
+  box-shadow: var(--shadow-sm);
+  min-height: 48px;
+  line-height: 24px;
+  border: none;
+  cursor: pointer;
+}
+
+.directions-btn:hover {
+  background: linear-gradient(135deg, var(--disney-blue-dark) 0%, var(--disney-blue) 100%);
+  transform: translateY(-1px);
+  box-shadow: var(--shadow-md);
+  color: #fff;
+  text-decoration: none;
+}
+
+.directions-btn:active {
+  transform: translateY(0) scale(0.98);
+}
+
+/* =========================================
+   Skeleton Loading
+   ========================================= */
+.skeleton-card {
+  animation: none;
+  opacity: 1;
+  transform: none;
+  min-height: 160px;
+}
+
+.skeleton-line {
+  background: linear-gradient(
+    90deg,
+    var(--skeleton-base) 25%,
+    var(--skeleton-shine) 50%,
+    var(--skeleton-base) 75%
+  );
+  background-size: 200% 100%;
+  border-radius: var(--radius-sm);
+  animation: shimmer 1.4s ease-in-out infinite;
+}
+
+.skeleton-line--title {
+  height: 20px;
+  width: 70%;
+  margin-bottom: 10px;
+}
+
+.skeleton-line--subtitle {
+  height: 14px;
+  width: 50%;
+  margin-bottom: 8px;
+}
+
+.skeleton-line--body {
+  height: 14px;
+  width: 85%;
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: 200% 0;
+  }
+  100% {
+    background-position: -200% 0;
+  }
+}
+
+/* =========================================
+   No Results
+   ========================================= */
+.no-results {
+  text-align: center;
+  padding: var(--spacing-2xl) var(--spacing-lg);
+  background: var(--bg-card);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-sm);
+}
+
+.no-results p {
+  font-size: 1rem;
+  color: var(--text-secondary);
+  margin-bottom: var(--spacing-md);
+}
+
+.no-results button {
+  padding: var(--spacing-sm) var(--spacing-lg);
+  background: var(--disney-blue);
+  color: var(--text-inverse);
+  border: none;
+  border-radius: var(--radius-md);
+  font-size: 0.9rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all var(--transition-fast);
+}
+
+.no-results button:hover {
+  background: var(--disney-blue-dark);
+  transform: translateY(-1px);
+}
+
+/* =========================================
+   Modal
+   ========================================= */
+.modal-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(4px);
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--spacing-md);
+  animation: fadeIn 200ms ease;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.modal-content {
+  background: var(--bg-card);
+  border-radius: var(--radius-xl);
+  max-width: 500px;
+  width: 100%;
+  max-height: 85vh;
+  overflow-y: auto;
+  padding: var(--spacing-xl);
+  box-shadow: var(--shadow-lg);
+  position: relative;
+  animation: slideUp 300ms ease;
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.modal-content h2 {
+  color: var(--disney-blue);
+  margin-bottom: var(--spacing-md);
+  font-size: 1.5rem;
+}
+
+.modal-content h3,
+.modal-content h4 {
+  color: var(--disney-blue-dark);
+  margin-top: var(--spacing-md);
+  margin-bottom: var(--spacing-sm);
+}
+
+.modal-content p {
+  color: var(--text-secondary);
+  margin-bottom: var(--spacing-sm);
+}
+
+.modal-content ul {
+  margin-left: var(--spacing-lg);
+  margin-bottom: var(--spacing-md);
+  color: var(--text-secondary);
+}
+
+.modal-content li {
+  margin-bottom: var(--spacing-xs);
+}
+
+.modal-content strong,
+.modal-content b {
+  color: var(--disney-blue);
+}
+
+.modal-close {
+  position: absolute;
+  top: var(--spacing-md);
+  right: var(--spacing-md);
+  background: var(--bg-primary);
+  border: none;
+  border-radius: var(--radius-full);
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  color: var(--text-secondary);
+  cursor: pointer;
+  transition: all var(--transition-fast);
+}
+
+.modal-close:hover {
+  background: var(--disney-blue);
+  color: var(--text-inverse);
+  transform: rotate(90deg);
+}
+
+/* =========================================
+   Tablet & Desktop Styles
+   ========================================= */
+@media (min-width: 600px) {
+  .header,
+  .palette-header {
+    padding: 12px var(--spacing-lg);
+  }
+
+  .header-title {
+    font-size: 1.25rem;
+  }
+
+  .header .disney-logo,
+  .palette-header .disney-logo {
+    height: 40px;
+  }
+
+  .search-hero {
+    padding: var(--spacing-lg) var(--spacing-lg) var(--spacing-xl);
+  }
+
+  .compact-filters {
+    padding: var(--spacing-md) var(--spacing-lg);
+    gap: var(--spacing-md);
+  }
+
+  .content {
+    padding: var(--spacing-lg);
+  }
+
+  .locations-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--spacing-lg);
+  }
+
+  .snack-card,
+  .palette-card {
+    padding: var(--spacing-lg);
+  }
+
+  .snack-name {
+    font-size: 1.1rem;
+  }
+}
+
+@media (min-width: 900px) {
+  .header,
+  .palette-header {
+    padding: 14px var(--spacing-xl);
+  }
+
+  .header-title {
+    font-size: 1.3rem;
+  }
+
+  .header .disney-logo,
+  .palette-header .disney-logo {
+    height: 48px;
+  }
+
+  .content {
+    padding: var(--spacing-xl);
+  }
+
+  .locations-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (min-width: 1200px) {
+  .locations-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+/* =========================================
+   Leaflet Overrides
+   ========================================= */
+.leaflet-popup-content-wrapper {
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-md);
+}
+
+.leaflet-popup-content {
+  margin: var(--spacing-sm) var(--spacing-md);
+  font-family: 'Nunito', sans-serif;
+}
+
+.leaflet-popup-content b {
+  color: var(--disney-blue);
+}
+
+/* =========================================
+   Safe Area (for iPhone notch etc.)
+   ========================================= */
+@supports (padding-top: env(safe-area-inset-top)) {
+  .header,
+  .palette-header {
+    padding-top: calc(10px + env(safe-area-inset-top));
+  }
+
+  .content {
+    padding-bottom: calc(var(--spacing-xl) + env(safe-area-inset-bottom));
+  }
+}
