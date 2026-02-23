@@ -1,2525 +1,1948 @@
 {
+  "'50s Prime Time Cafe": [
+    "'50s Prime Time Cafe",
+    "'50s Prime Time Cafe - Children's Lunch/Dinner",
+    "'50s Prime Time Cafe - Lunch/Dinner"
+  ],
+  "'Ohana": [
+    "'Ohana",
+    "'Ohana - Breakfast",
+    "'Ohana - Dinner"
+  ],
+  "1900 Park Fare": [
+    "1900 Park Fare",
+    "1900 Park Fare - Breakfast",
+    "1900 Park Fare - Dinner"
+  ],
+  "4R Cantina Barbacoa Food Truck": [
+    "4R Cantina Barbacoa Food Truck",
+    "4R Cantina Barbacoa Food Truck - Lunch/Dinner"
+  ],
+  "ABC Commissary": [
+    "ABC Commissary",
+    "ABC Commissary - Lunch/Dinner"
+  ],
+  "AMC Fork and Screen Theatres": [
+    "AMC Fork and Screen Theatres",
+    "AMC Fork and Screen Theatres - Lunch/Dinner"
+  ],
+  "AbracadaBar": [
+    "AbracadaBar",
+    "AbracadaBar - Pub/Lounge"
+  ],
+  "Africa Refreshment Outpost": [
+    "Africa Refreshment Outpost",
+    "Africa Refreshment Outpost - Snacks"
+  ],
+  "Akershus Royal Banquet Hall": [
+    "Akershus Royal Banquet Hall",
+    "Akershus Royal Banquet Hall - Breakfast",
+    "Akershus Royal Banquet Hall - Lunch/Dinner"
+  ],
+  "Ale and Compass Lounge": [
+    "Ale and Compass Lounge",
+    "Ale and Compass Lounge - Snacks"
+  ],
+  "Ale and Compass Restaurant": [
+    "Ale and Compass Restaurant",
+    "Ale and Compass Restaurant - Children's Breakfast/Lunch",
+    "Ale and Compass Restaurant - Children's Dinner",
+    "Ale and Compass Restaurant - Dinner"
+  ],
+  "Ale and Compass Restaurant - Breakfast/Lunch": [
+    "Ale and Compass Restaurant",
+    "Ale and Compass Restaurant - Breakfast/Lunch"
+  ],
+  "All Star Pizza Delivery": [
+    "All Star Pizza Delivery",
+    "All Star Pizza Delivery - Dinner"
+  ],
   "Aloha Isle": [
-    "Aloha Isle - Snacks",
     "Aloha Isle",
+    "Aloha Isle - Snacks",
     "Aloha Isle Snacks"
   ],
-  "Aloha Isle - Snacks": [
-    "Aloha Isle - Snacks",
-    "Aloha Isle"
+  "Amare": [
+    "Amare",
+    "Amare - Breakfast",
+    "Amare - Dinner",
+    "Amare - Lunch"
+  ],
+  "American Adventure Joffrey's Coffee and Tea Company": [
+    "American Adventure Joffrey's Coffee and Tea Company",
+    "American Adventure Joffrey's Coffee and Tea Company - All-Day"
+  ],
+  "Amity Outpost": [
+    "Amity Outpost",
+    "Amity Outpost - Lunch"
+  ],
+  "Amorette's Patisserie": [
+    "Amorette's Patisserie",
+    "Amorette's Patisserie - Snacks"
+  ],
+  "Anaheim Produce": [
+    "Anaheim Produce",
+    "Anaheim Produce - All-Day"
+  ],
+  "Anandapur Ice Cream Truck": [
+    "Anandapur Ice Cream Truck",
+    "Anandapur Ice Cream Truck - Snacks"
+  ],
+  "Animal Kingdom Entrance Joffrey's Coffee and Tea Company": [
+    "Animal Kingdom Entrance Joffrey's Coffee and Tea Company",
+    "Animal Kingdom Entrance Joffrey's Coffee and Tea Company - All-Day"
+  ],
+  "Animal Kingdom Lodge In-Room Dining": [
+    "Animal Kingdom Lodge In-Room Dining",
+    "Animal Kingdom Lodge In-Room Dining - All-Day"
+  ],
+  "Arctic Dots": [
+    "Arctic Dots",
+    "Arctic Dots - Snacks"
+  ],
+  "Arctic Expedition": [
+    "Arctic Expedition",
+    "Arctic Expedition - Snacks"
+  ],
+  "Artist Point": [
+    "Artist Point",
+    "Artist Point - Children's Dinner",
+    "Artist Point - Dinner"
+  ],
+  "Artist's Palette": [
+    "Artist's Palette",
+    "Artist's Palette - Breakfast",
+    "Artist's Palette - Lunch/Dinner"
+  ],
+  "AstroFizz": [
+    "AstroFizz",
+    "AstroFizz - All-Day"
+  ],
+  "Auntie Gravity's Galactic Goodies": [
+    "Auntie Gravity's Galactic Goodies",
+    "Auntie Gravity's Galactic Goodies - Snacks"
+  ],
+  "Avalunch": [
+    "Avalunch",
+    "Avalunch - All-Day"
+  ],
+  "B.B. Wolf's Sausage Co.": [
+    "B.B. Wolf's Sausage Co.",
+    "B.B. Wolf's Sausage Co. - Take-Out"
+  ],
+  "Backlot Express": [
+    "Backlot Express",
+    "Backlot Express - Lunch/Dinner"
+  ],
+  "Backstretch Pool Bar": [
+    "Backstretch Pool Bar",
+    "Backstretch Pool Bar - All-Day"
+  ],
+  "Banana Cabana": [
+    "Banana Cabana",
+    "Banana Cabana - All-Day"
+  ],
+  "Bar Riva": [
+    "Bar Riva",
+    "Bar Riva - All-Day"
+  ],
+  "Barcelona Lounge": [
+    "Barcelona Lounge",
+    "Barcelona Lounge - Breakfast",
+    "Barcelona Lounge - Pub/Lounge"
+  ],
+  "Barefoot Pool Bar": [
+    "Barefoot Pool Bar",
+    "Barefoot Pool Bar - All-Day"
+  ],
+  "BaseLine Tap House": [
+    "BaseLine Tap House",
+    "BaseLine Tap House - Snacks"
+  ],
+  "Be Our Guest": [
+    "Be Our Guest",
+    "Be Our Guest - Children's  Lunch",
+    "Be Our Guest - Children's Dinner",
+    "Be Our Guest - Dinner",
+    "Be Our Guest - Lunch"
+  ],
+  "Be Our Guest - Children's  Lunch": [
+    "Be Our Guest",
+    "Be Our Guest - Children's  Lunch"
+  ],
+  "Beach Club Marketplace": [
+    "Beach Club Marketplace",
+    "Beach Club Marketplace - Breakfast",
+    "Beach Club Marketplace - Lunch/Dinner"
+  ],
+  "Beaches Pool Bar and Grill": [
+    "Beaches Pool Bar and Grill",
+    "Beaches Pool Bar and Grill - All-Day"
+  ],
+  "Beaches and Cream Soda Shop": [
+    "Beaches and Cream Soda Shop",
+    "Beaches and Cream Soda Shop - Children's Lunch/Dinner",
+    "Beaches and Cream Soda Shop - Lunch/Dinner",
+    "Beaches and Cream Soda Shop - Snacks"
+  ],
+  "Belle Vue Lounge": [
+    "Belle Vue Lounge",
+    "Belle Vue Lounge - Breakfast"
+  ],
+  "Biergarten Restaurant": [
+    "Biergarten Restaurant",
+    "Biergarten Restaurant - Lunch/Dinner"
+  ],
+  "Blaze Fast-Fire'd Pizza": [
+    "Blaze Fast-Fire'd Pizza",
+    "Blaze Fast-Fire'd Pizza - Lunch/Dinner"
+  ],
+  "Blizzard Beach Mini Donut Hut": [
+    "Blizzard Beach Mini Donut Hut",
+    "Blizzard Beach Mini Donut Hut - Snacks"
+  ],
+  "Block & Hans": [
+    "Block & Hans",
+    "Block & Hans - Snacks"
+  ],
+  "Blue Ribbon Corn Dogs": [
+    "Blue Ribbon Corn Dogs",
+    "Blue Ribbon Corn Dogs - All-Day"
+  ],
+  "BoardWalk Ice Cream": [
+    "BoardWalk Ice Cream",
+    "BoardWalk Ice Cream - All-Day"
+  ],
+  "Boardwalk Joe's": [
+    "Boardwalk Joe's",
+    "Boardwalk Joe's - Snacks"
+  ],
+  "Boardwalk Pizza Window": [
+    "Boardwalk Pizza Window",
+    "Boardwalk Pizza Window - Take-Out"
+  ],
+  "Boardwalk Resort In-Room Dining": [
+    "Boardwalk Resort In-Room Dining",
+    "Boardwalk Resort In-Room Dining - All-Day"
+  ],
+  "Boardwalk Snacks": [
+    "Boardwalk Snacks",
+    "Boardwalk Snacks - Snacks"
+  ],
+  "Boatwright's Dining Hall": [
+    "Boatwright's Dining Hall",
+    "Boatwright's Dining Hall - Children's Dinner",
+    "Boatwright's Dining Hall - Dinner"
+  ],
+  "Boma - Flavors of Africa": [
+    "Boma",
+    "Boma - Flavors of Africa - Breakfast",
+    "Boma - Flavors of Africa - Dinner"
+  ],
+  "Boulangerie Patisserie les Halles": [
+    "Boulangerie Patisserie les Halles",
+    "Boulangerie Patisserie les Halles - All-Day"
+  ],
+  "Bourbon Steak": [
+    "Bourbon Steak",
+    "Bourbon Steak - Dinner"
+  ],
+  "Cabana Bar and Beach Club": [
+    "Cabana Bar and Beach Club",
+    "Cabana Bar and Beach Club - Lunch/Dinner"
+  ],
+  "Cafe Rix": [
+    "Cafe Rix",
+    "Cafe Rix - All-Day"
+  ],
+  "California Grill": [
+    "California Grill",
+    "California Grill - Children's Dinner",
+    "California Grill - Dinner"
+  ],
+  "California Grill Lounge": [
+    "California Grill Lounge",
+    "California Grill Lounge - Pub/Lounge"
+  ],
+  "Canada Joffrey's Coffee and Tea Company": [
+    "Canada Joffrey's Coffee and Tea Company",
+    "Canada Joffrey's Coffee and Tea Company - All-Day Updated"
+  ],
+  "Cape May Cafe": [
+    "Cape May Cafe",
+    "Cape May Cafe - Breakfast",
+    "Cape May Cafe - Dinner"
+  ],
+  "Capt. Cook's": [
+    "Capt. Cook's",
+    "Capt. Cook's  - Breakfast",
+    "Capt. Cook's  - Lunch/Dinner"
+  ],
+  "Caravan Road": [
+    "Caravan Road",
+    "Caravan Road - All-Day Updated"
+  ],
+  "Caribbean Skyliner Joffrey's Coffee and Tea Company": [
+    "Caribbean Skyliner Joffrey's Coffee and Tea Company",
+    "Caribbean Skyliner Joffrey's Coffee and Tea Company - All-Day"
+  ],
+  "Carousel Coffee": [
+    "Carousel Coffee",
+    "Carousel Coffee - All-Day"
+  ],
+  "Casey's Corner": [
+    "Casey's Corner",
+    "Casey's Corner - Lunch/Dinner"
+  ],
+  "Catalina Eddie's": [
+    "Catalina Eddie's",
+    "Catalina Eddie's - Lunch/Dinner"
+  ],
+  "Centertown Market": [
+    "Centertown Market",
+    "Centertown Market - Breakfast",
+    "Centertown Market - Lunch/Dinner"
+  ],
+  "Chef Mickey's": [
+    "Chef Mickey's",
+    "Chef Mickey's  - Breakfast",
+    "Chef Mickey's  - Dinner"
+  ],
+  "Chefs de France": [
+    "Chefs de France",
+    "Chefs de France - Children's Lunch/Dinner",
+    "Chefs de France - Lunch/Dinner"
+  ],
+  "Cheshire Cafe": [
+    "Cheshire Cafe",
+    "Cheshire Cafe - Snacks"
+  ],
+  "Chicken Guy": [
+    "Chicken Guy",
+    "Chicken Guy - Lunch/Dinner"
+  ],
+  "Chill": [
+    "Chill",
+    "Chill - All-Day"
+  ],
+  "Chip 'n' Dale's Cafe at Lake Buena Vista Golf Course": [
+    "Chip 'n' Dale's Cafe at Lake Buena Vista Golf Course",
+    "Chip 'n' Dale's Cafe at Lake Buena Vista Golf Course - All-Day"
+  ],
+  "Chip 'n' Dale's Deli": [
+    "Chip 'n' Dale's Deli",
+    "Chip 'n' Dale's Deli - All-Day"
+  ],
+  "Choza de Margarita": [
+    "Choza de Margarita",
+    "Choza de Margarita - All-Day"
+  ],
+  "Chuck Wagon Fresh Fixins Food Truck": [
+    "Chuck Wagon Fresh Fixins Food Truck",
+    "Chuck Wagon Fresh Fixins Food Truck - Lunch/Dinner"
+  ],
+  "Cilantro Urban Eatery": [
+    "Cilantro Urban Eatery",
+    "Cilantro Urban Eatery - All-Day"
+  ],
+  "Cinderella's Royal Table": [
+    "Cinderella's Royal Table",
+    "Cinderella's Royal Table - Breakfast",
+    "Cinderella's Royal Table - Children's Breakfast",
+    "Cinderella's Royal Table - Children's Lunch/Dinner",
+    "Cinderella's Royal Table - Lunch/Dinner"
+  ],
+  "Citricos": [
+    "Citricos",
+    "Citricos - Children's Dinner",
+    "Citricos - Dinner"
+  ],
+  "City Works Eatery and Pour House": [
+    "City Works Eatery and Pour House",
+    "City Works Eatery and Pour House - Brunch",
+    "City Works Eatery and Pour House - Children's Lunch/Dinner",
+    "City Works Eatery and Pour House - Lunch/Dinner"
+  ],
+  "Coca-Cola Store Rooftop Beverage Bar": [
+    "Coca-Cola Store Rooftop Beverage Bar",
+    "Coca-Cola Store Rooftop Beverage Bar - All-Day"
+  ],
+  "Coffee Hut": [
+    "Coffee Hut",
+    "Coffee Hut - Snacks"
+  ],
+  "Columbia Harbour House": [
+    "Columbia Harbour House",
+    "Columbia Harbour House - Lunch/Dinner"
+  ],
+  "CommuniCore Hall": [
+    "CommuniCore Hall",
+    "CommuniCore Hall - All-Day"
+  ],
+  "Connections Cafe": [
+    "Connections Cafe",
+    "Connections Cafe  - All-Day"
+  ],
+  "Connections Eatery - Lunch/Dinner": [
+    "Connections Eatery",
+    "Connections Eatery - Lunch/Dinner Updated"
+  ],
+  "Contempo Cafe": [
+    "Contempo Cafe",
+    "Contempo Cafe - Breakfast",
+    "Contempo Cafe - Lunch/Dinner"
+  ],
+  "Contemporary Grounds Joffrey's Coffee and Tea Company": [
+    "Contemporary Grounds Joffrey's Coffee and Tea Company",
+    "Contemporary Grounds Joffrey's Coffee and Tea Company - All-Day"
+  ],
+  "Contemporary Resort In-Room Dining": [
+    "Contemporary Resort In-Room Dining",
+    "Contemporary Resort In-Room Dining - All-Day"
+  ],
+  "Cookes of Dublin": [
+    "Cookes of Dublin",
+    "Cookes of Dublin - Lunch/Dinner"
+  ],
+  "Cookie Bar": [
+    "Cookie Bar",
+    "Cookie Bar - All-Day"
+  ],
+  "Cooling Hut": [
+    "Cooling Hut",
+    "Cooling Hut - All-Day"
+  ],
+  "Coral Reef Restaurant": [
+    "Coral Reef Restaurant",
+    "Coral Reef Restaurant - Children's Dinner",
+    "Coral Reef Restaurant - Dinner"
+  ],
+  "Coronado Springs In-Room Dining": [
+    "Coronado Springs In-Room Dining",
+    "Coronado Springs In-Room Dining - All-Day"
+  ],
+  "Cosmic Ray's Starlight Cafe": [
+    "Cosmic Ray's Starlight Cafe",
+    "Cosmic Ray's Starlight Cafe - Lunch/Dinner"
+  ],
+  "Courtyard Pool Bar": [
+    "Courtyard Pool Bar",
+    "Courtyard Pool Bar - All-Day"
+  ],
+  "Cove Pool Bar": [
+    "Cove Pool Bar",
+    "Cove Pool Bar - Lunch"
+  ],
+  "Creature Comforts - Starbucks": [
+    "Creature Comforts",
+    "Creature Comforts - Starbucks - All-Day"
+  ],
+  "Crepes A Emporter": [
+    "Crepes A Emporter",
+    "Crepes A Emporter - All-Day"
+  ],
+  "Crew's Cup Lounge": [
+    "Crew's Cup Lounge",
+    "Crew's Cup Lounge - All-Day",
+    "Crew's Cup Lounge - Children's Lunch/Dinner"
+  ],
+  "Crockett's Tavern": [
+    "Crockett's Tavern",
+    "Crockett's Tavern - Pub/Lounge"
+  ],
+  "Crystal Palace": [
+    "Crystal Palace",
+    "Crystal Palace - Breakfast",
+    "Crystal Palace - Lunch/Dinner"
+  ],
+  "D-Luxe Burger": [
+    "D-Luxe Burger",
+    "D-Luxe Burger - Lunch/Dinner"
+  ],
+  "Dahlia Lounge": [
+    "Dahlia Lounge",
+    "Dahlia Lounge - Pub/Lounge"
+  ],
+  "Dawa Bar": [
+    "Dawa Bar",
+    "Dawa Bar - All-Day"
+  ],
+  "Diamond Horseshoe": [
+    "Diamond Horseshoe",
+    "Diamond Horseshoe - Children's Lunch/Dinner",
+    "Diamond Horseshoe - Lunch/Dinner"
+  ],
+  "Dinosaur Gertie's Ice Cream of Extinction": [
+    "Dinosaur Gertie's Ice Cream of Extinction",
+    "Dinosaur Gertie's Ice Cream of Extinction - Snacks"
+  ],
+  "Docking Bay 7 Food and Cargo WDW": [
+    "Docking Bay 7 Food and Cargo WDW",
+    "Docking Bay 7 Food and Cargo WDW - Lunch/Dinner"
+  ],
+  "Dockside Diner": [
+    "Dockside Diner",
+    "Dockside Diner - Lunch/Dinner"
+  ],
+  "Dockside Margaritas": [
+    "Dockside Margaritas",
+    "Dockside Margaritas - All-Day"
+  ],
+  "Drinkwallah": [
+    "Drinkwallah",
+    "Drinkwallah - All-Day"
+  ],
+  "Drop Off Bar": [
+    "Drop Off Bar",
+    "Drop Off Bar - All-Day"
+  ],
+  "EET by Maneet Chauhan": [
+    "EET by Maneet Chauhan",
+    "EET by Maneet Chauhan - Children's Lunch/Dinner",
+    "EET by Maneet Chauhan - Lunch/Dinner"
+  ],
+  "Earl of Sandwich": [
+    "Earl of Sandwich",
+    "Earl of Sandwich - All-Day"
   ],
   "Egg Roll Wagon": [
-    "Egg Roll Wagon - Snacks",
-    "Egg Roll Wagon"
+    "Egg Roll Wagon",
+    "Egg Roll Wagon - Snacks"
   ],
-  "Egg Roll Wagon - Snacks": [
-    "Egg Roll Wagon - Snacks",
-    "Egg Roll Wagon"
+  "Eight Spoon Cafe": [
+    "Eight Spoon Cafe",
+    "Eight Spoon Cafe - All-Day Updated"
+  ],
+  "El Mercado de Coronado": [
+    "El Mercado de Coronado",
+    "El Mercado de Coronado - Breakfast",
+    "El Mercado de Coronado - Lunch/Dinner"
+  ],
+  "Enchanted Rose": [
+    "Enchanted Rose",
+    "Enchanted Rose - Pub/Lounge"
+  ],
+  "End Zone Food Court": [
+    "End Zone Food Court",
+    "End Zone Food Court - Breakfast",
+    "End Zone Food Court - Lunch/Dinner"
+  ],
+  "Energy Bytes": [
+    "Energy Bytes",
+    "Energy Bytes - All-Day"
+  ],
+  "Enzo's Hideaway Tunnel Bar": [
+    "Enzo's Hideaway Tunnel Bar",
+    "Enzo's Hideaway Tunnel Bar - Children's Lunch/Dinner",
+    "Enzo's Hideaway Tunnel Bar - Dinner",
+    "Enzo's Hideaway Tunnel Bar - Lunch",
+    "Enzo's Hideaway Tunnel Bar - Special Meals"
+  ],
+  "Epcot Entrance Joffrey's Coffee and Tea Company": [
+    "Epcot Entrance Joffrey's Coffee and Tea Company",
+    "Epcot Entrance Joffrey's Coffee and Tea Company - All-Day"
+  ],
+  "Epic Eats": [
+    "Epic Eats",
+    "Epic Eats - All-Day"
+  ],
+  "Erin Mckenna's Bakery NYC": [
+    "Erin Mckenna's Bakery NYC",
+    "Erin Mckenna's Bakery NYC - All-Day"
+  ],
+  "Everglazed": [
+    "Everglazed",
+    "Everglazed - All-Day Updated"
+  ],
+  "Evergreens": [
+    "Evergreens",
+    "Evergreens - Dinner"
+  ],
+  "Everything POP Shopping and Dining": [
+    "Everything POP Shopping and Dining",
+    "Everything POP Shopping and Dining - Breakfast",
+    "Everything POP Shopping and Dining - Lunch/Dinner"
+  ],
+  "Express Cafe": [
+    "Express Cafe",
+    "Express Cafe - All-Day"
+  ],
+  "Fairfax Fare": [
+    "Fairfax Fare",
+    "Fairfax Fare - Breakfast",
+    "Fairfax Fare - Lunch/Dinner"
+  ],
+  "Feeding Ground": [
+    "Feeding Ground",
+    "Feeding Ground - All-Day"
+  ],
+  "Festival Favorites": [
+    "Festival Favorites",
+    "Festival Favorites - All-Day"
+  ],
+  "Fife and Drum Tavern": [
+    "Fife and Drum Tavern",
+    "Fife and Drum Tavern - Lunch/Dinner"
+  ],
+  "Flame Tree BBQ - Lunch/Dinner": [
+    "Flame Tree BBQ",
+    "Flame Tree BBQ - Lunch/Dinner Updated"
+  ],
+  "Flying Fish": [
+    "Flying Fish",
+    "Flying Fish - Children's Dinner",
+    "Flying Fish - Dinner"
+  ],
+  "Fountain": [
+    "Fountain",
+    "Fountain - All-Day",
+    "Fountain - Children's Lunch/Dinner",
+    "Fountain - Snacks"
+  ],
+  "Friar's Nook": [
+    "Friar's Nook",
+    "Friar's Nook - Breakfast",
+    "Friar's Nook - Lunch/Dinner"
+  ],
+  "Frontera Cocina": [
+    "Frontera Cocina",
+    "Frontera Cocina - Children's Lunch/Dinner",
+    "Frontera Cocina - Lunch/Dinner"
+  ],
+  "Frontierland Churro Cart": [
+    "Frontierland Churro Cart",
+    "Frontierland Churro Cart - All-Day"
+  ],
+  "Frostbite Freddy's Frozen Freshments": [
+    "Frostbite Freddy's Frozen Freshments",
+    "Frostbite Freddy's Frozen Freshments - Snacks"
+  ],
+  "Frosty the Joe Man": [
+    "Frosty the Joe Man",
+    "Frosty the Joe Man  - Snacks"
+  ],
+  "Fuel": [
+    "Fuel",
+    "Fuel - All-Day"
+  ],
+  "Funnel Cakes": [
+    "Funnel Cakes",
+    "Funnel Cakes - Snacks"
+  ],
+  "GEO-82": [
+    "GEO-82",
+    "GEO-82 - Lunch/Dinner"
+  ],
+  "Garden Gallery": [
+    "Garden Gallery",
+    "Garden Gallery - Breakfast",
+    "Garden Gallery - Dinner"
+  ],
+  "Garden Grill": [
+    "Garden Grill",
+    "Garden Grill - Breakfast",
+    "Garden Grill - Lunch/Dinner"
+  ],
+  "Garden Grove Cafe": [
+    "Garden Grove Cafe",
+    "Garden Grove Cafe - Breakfast",
+    "Garden Grove Cafe - Children's Breakfast",
+    "Garden Grove Cafe - Children's Lunch",
+    "Garden Grove Cafe - Lunch"
+  ],
+  "Garden House": [
+    "Garden House",
+    "Garden House - All-Day"
+  ],
+  "Garden View Tea Room": [
+    "Garden View Tea Room",
+    "Garden View Tea Room - My Disney Girl's Perfectly Princess Tea Party"
+  ],
+  "Garden View Tea Room - Afternoon Tea": [
+    "Garden View Tea Room",
+    "Garden View Tea Room - Afternoon Tea Updated"
+  ],
+  "Gasparilla Island Grill": [
+    "Gasparilla Island Grill",
+    "Gasparilla Island Grill  - All-Day Updated"
+  ],
+  "Gaston's Tavern": [
+    "Gaston's Tavern",
+    "Gaston's Tavern - All-Day"
+  ],
+  "Gelateria Toscana": [
+    "Gelateria Toscana",
+    "Gelateria Toscana - All-Day"
+  ],
+  "Geyser Point Bar and Grill": [
+    "Geyser Point Bar and Grill",
+    "Geyser Point Bar and Grill - Lunch/Dinner"
+  ],
+  "Ghirardelli Soda Fountain and Chocolate Shop": [
+    "Ghirardelli Soda Fountain and Chocolate Shop",
+    "Ghirardelli Soda Fountain and Chocolate Shop - All-Day"
+  ],
+  "Gideon\u2019s Bakehouse": [
+    "Gideon\u2019s Bakehouse",
+    "Gideon\u2019s Bakehouse - All-Day Updated"
+  ],
+  "Go Juice Food Truck - All Day": [
+    "Go Juice Food Truck",
+    "Go Juice Food Truck - All Day"
+  ],
+  "GoJuice": [
+    "GoJuice",
+    "GoJuice - All-Day"
+  ],
+  "Golden Oak Outpost": [
+    "Golden Oak Outpost",
+    "Golden Oak Outpost - Lunch/Dinner"
+  ],
+  "Golf Course Beverage Cart at Lake Buena Vista Golf Course": [
+    "Golf Course Beverage Cart at Lake Buena Vista Golf Course",
+    "Golf Course Beverage Cart at Lake Buena Vista Golf Course - All-Day"
+  ],
+  "Golf Course Beverage Cart at Shades of Green": [
+    "Golf Course Beverage Cart at Shades of Green",
+    "Golf Course Beverage Cart at Shades of Green - All-Day"
+  ],
+  "Good's Food to Go": [
+    "Good's Food to Go",
+    "Good's Food to Go - Breakfast"
+  ],
+  "Good's Food to Go - Lunch/Dinner": [
+    "Good's Food to Go",
+    "Good's Food to Go - Lunch/Dinner Updated"
+  ],
+  "Gran Destino Tower In-Room Dining": [
+    "Gran Destino Tower In-Room Dining",
+    "Gran Destino Tower In-Room Dining - All-Day"
+  ],
+  "Grand Floridian Cafe": [
+    "Grand Floridian Cafe",
+    "Grand Floridian Cafe - Breakfast/Brunch",
+    "Grand Floridian Cafe - Children's Breakfast/Lunch",
+    "Grand Floridian Cafe - Children's Dinner",
+    "Grand Floridian Cafe - Dinner"
+  ],
+  "Grandstand Spirits Pool Bar": [
+    "Grandstand Spirits Pool Bar",
+    "Grandstand Spirits Pool Bar - All-Day"
+  ],
+  "Grounds": [
+    "Grounds",
+    "Grounds - All-Day"
+  ],
+  "Gurgling Suitcase": [
+    "Gurgling Suitcase",
+    "Gurgling Suitcase - All-Day"
+  ],
+  "Haagen-Dazs": [
+    "Haagen-Dazs",
+    "Haagen-Dazs - Snacks"
+  ],
+  "Hammerhead Fred's": [
+    "Hammerhead Fred's",
+    "Hammerhead Fred's - All-Day"
+  ],
+  "Happy Landings": [
+    "Happy Landings",
+    "Happy Landings - Snacks"
+  ],
+  "Harambe Fruit Market": [
+    "Harambe Fruit Market",
+    "Harambe Fruit Market - All-Day"
+  ],
+  "Harambe Market": [
+    "Harambe Market",
+    "Harambe Market - Lunch/Dinner"
+  ],
+  "High 'n Dry": [
+    "High 'n Dry",
+    "High 'n Dry - Snacks"
+  ],
+  "Hollywood Brown Derby": [
+    "Hollywood Brown Derby",
+    "Hollywood Brown Derby - Children's Lunch/Dinner",
+    "Hollywood Brown Derby - Dining with an Imagineer",
+    "Hollywood Brown Derby - Lunch/Dinner"
+  ],
+  "Hollywood Brown Derby Lounge": [
+    "Hollywood Brown Derby Lounge",
+    "Hollywood Brown Derby Lounge - All-Day"
+  ],
+  "Hollywood Hills Theater": [
+    "Hollywood Hills Theater",
+    "Hollywood Hills Theater - Snacks"
+  ],
+  "Hollywood Scoops": [
+    "Hollywood Scoops",
+    "Hollywood Scoops - Snacks"
+  ],
+  "Hollywood and Vine": [
+    "Hollywood and Vine",
+    "Hollywood and Vine - Breakfast",
+    "Hollywood and Vine - Lunch/Dinner"
+  ],
+  "Homecomin'": [
+    "Homecomin'",
+    "Homecomin' - Brunch",
+    "Homecomin' - Children's Lunch/Dinner",
+    "Homecomin' - Lunch/Dinner"
+  ],
+  "House of Blues Restaurant and Bar": [
+    "House of Blues Restaurant and Bar",
+    "House of Blues Restaurant and Bar - Brunch",
+    "House of Blues Restaurant and Bar - Children's Lunch/Dinner",
+    "House of Blues Restaurant and Bar - Lunch/Dinner"
+  ],
+  "Hurricane Hanna's Grill": [
+    "Hurricane Hanna's Grill",
+    "Hurricane Hanna's Grill - All-Day"
+  ],
+  "Hurricane Hanna's Waterside Bar": [
+    "Hurricane Hanna's Waterside Bar",
+    "Hurricane Hanna's Waterside Bar - All-Day"
+  ],
+  "I.C. Expeditions": [
+    "I.C. Expeditions",
+    "I.C. Expeditions - Snacks"
+  ],
+  "Ice Cold Hydraulics": [
+    "Ice Cold Hydraulics",
+    "Ice Cold Hydraulics - All-Day"
+  ],
+  "Ice Cold Snack Stand": [
+    "Ice Cold Snack Stand",
+    "Ice Cold Snack Stand - All-Day"
+  ],
+  "Il Mulino New York Trattoria": [
+    "Il Mulino New York Trattoria",
+    "Il Mulino New York Trattoria - Children's Dinner",
+    "Il Mulino New York Trattoria - Dinner"
+  ],
+  "Intermission Food Court": [
+    "Intermission Food Court",
+    "Intermission Food Court - Breakfast",
+    "Intermission Food Court - Lunch/Dinner"
+  ],
+  "Isle of Java": [
+    "Isle of Java",
+    "Isle of Java - All-Day Updated"
+  ],
+  "Italy Donkey": [
+    "Italy Donkey",
+    "Italy Donkey - Snacks"
+  ],
+  "Jaleo": [
+    "Jaleo",
+    "Jaleo - Children's Lunch/Dinner",
+    "Jaleo - Dinner",
+    "Jaleo - Lunch"
+  ],
+  "Java Bar": [
+    "Java Bar",
+    "Java Bar - All-Day"
+  ],
+  "Jiko - The Cooking Place": [
+    "Jiko",
+    "Jiko - The Cooking Place - Children's Dinner",
+    "Jiko - The Cooking Place - Dinner"
+  ],
+  "Jock Lindsey's Hangar Bar": [
+    "Jock Lindsey's Hangar Bar",
+    "Jock Lindsey's Hangar Bar  - All-Day"
+  ],
+  "Joy of Tea": [
+    "Joy of Tea",
+    "Joy of Tea - All-Day"
   ],
   "Jungle Navigation Co., Ltd. Skipper Canteen": [
+    "Jungle Navigation Co., Ltd. Skipper Canteen",
     "Jungle Navigation Co., Ltd. Skipper Canteen  - Children's Lunch/Dinner",
     "Jungle Navigation Co., Ltd. Skipper Canteen  - Lunch/Dinner",
     "Skipper Canteen"
   ],
-  "Jungle Navigation Co., Ltd. Skipper Canteen  - Lunch/Dinner": [
-    "Jungle Navigation Co., Ltd. Skipper Canteen  - Lunch/Dinner",
-    "Jungle Navigation Co., Ltd. Skipper Canteen"
-  ],
-  "Jungle Navigation Co., Ltd. Skipper Canteen  - Children's Lunch/Dinner": [
-    "Jungle Navigation Co., Ltd. Skipper Canteen  - Children's Lunch/Dinner",
-    "Jungle Navigation Co., Ltd. Skipper Canteen"
-  ],
-  "Sunshine Tree Terrace": [
-    "Sunshine Tree Terrace - All-Day",
-    "Sunshine Tree Terrace"
-  ],
-  "Sunshine Tree Terrace - All-Day": [
-    "Sunshine Tree Terrace - All-Day",
-    "Sunshine Tree Terrace"
-  ],
-  "The Beak and Barrel": [
-    "The Beak and Barrel - All Day",
-    "The Beak and Barrel"
-  ],
-  "The Beak and Barrel - All Day": [
-    "The Beak and Barrel - All Day",
-    "The Beak and Barrel"
-  ],
-  "Tortuga Tavern": [
-    "Tortuga Tavern - Lunch/Dinner",
-    "Tortuga Tavern"
-  ],
-  "Tortuga Tavern - Lunch/Dinner": [
-    "Tortuga Tavern - Lunch/Dinner",
-    "Tortuga Tavern"
-  ],
-  "Be Our Guest": [
-    "Be Our Guest - Children's  Lunch",
-    "Be Our Guest - Children's Dinner",
-    "Be Our Guest"
-  ],
-  "Be Our Guest - Children's  Lunch": [
-    "Be Our Guest - Children's  Lunch",
-    "Be Our Guest"
-  ],
-  "Be Our Guest - Children's Dinner": [
-    "Be Our Guest - Children's Dinner",
-    "Be Our Guest"
-  ],
-  "Be Our Guest - Dinner": [
-    "Be Our Guest - Dinner",
-    "Be Our Guest"
-  ],
-  "Cheshire Cafe - Snacks": [
-    "Cheshire Cafe - Snacks",
-    "Cheshire Cafe"
-  ],
-  "Cinderella's Royal Table - Breakfast": [
-    "Cinderella's Royal Table - Breakfast",
-    "Cinderella's Royal Table"
-  ],
-  "Cinderella's Royal Table - Children's Breakfast": [
-    "Cinderella's Royal Table - Children's Breakfast",
-    "Cinderella's Royal Table"
-  ],
-  "Cinderella's Royal Table - Children's Lunch/Dinner": [
-    "Cinderella's Royal Table - Children's Lunch/Dinner",
-    "Cinderella's Royal Table"
-  ],
-  "Cinderella's Royal Table - Lunch/Dinner": [
-    "Cinderella's Royal Table - Lunch/Dinner",
-    "Cinderella's Royal Table"
-  ],
-  "Diamond Horseshoe - Children's Lunch/Dinner": [
-    "Diamond Horseshoe - Children's Lunch/Dinner",
-    "Diamond Horseshoe"
-  ],
-  "Diamond Horseshoe - Lunch/Dinner": [
-    "Diamond Horseshoe - Lunch/Dinner",
-    "Diamond Horseshoe"
-  ],
-  "Frontierland Churro Cart - All-Day": [
-    "Frontierland Churro Cart - All-Day",
-    "Frontierland Churro Cart"
-  ],
-  "Golden Oak Outpost - Lunch/Dinner": [
-    "Golden Oak Outpost - Lunch/Dinner",
-    "Golden Oak Outpost"
-  ],
-  "Friar's Nook - Breakfast": [
-    "Friar's Nook - Breakfast",
-    "Friar's Nook"
-  ],
-  "Friar's Nook - Lunch/Dinner": [
-    "Friar's Nook - Lunch/Dinner",
-    "Friar's Nook"
-  ],
-  "Gaston's Tavern - All-Day": [
-    "Gaston's Tavern - All-Day",
-    "Gaston's Tavern"
-  ],
-  "Pinocchio Village Haus": [
-    "Pinocchio Village Haus - Lunch/Dinner",
-    "Pinocchio Village Haus"
-  ],
-  "Pinocchio Village Haus - Lunch/Dinner": [
-    "Pinocchio Village Haus - Lunch/Dinner",
-    "Pinocchio Village Haus"
-  ],
-  "Prince Eric Village Market - All-Day": [
-    "Prince Eric Village Market - All-Day",
-    "Prince Eric Village Market"
-  ],
-  "Storybook Treats - Snacks": [
-    "Storybook Treats - Snacks",
-    "Storybook Treats"
-  ],
-  "Pecos Bill Tall Tale Inn and Cafe - Lunch/Dinner": [
-    "Pecos Bill Tall Tale Inn and Cafe - Lunch/Dinner",
-    "Pecos Bill Tall Tale Inn and Cafe"
-  ],
-  "Westward Ho Refreshments - Breakfast": [
-    "Westward Ho Refreshments - Breakfast",
-    "Westward Ho Refreshments"
-  ],
-  "Westward Ho Refreshments - Snacks": [
-    "Westward Ho Refreshments - Snacks",
-    "Westward Ho Refreshments"
-  ],
-  "Columbia Harbour House - Lunch/Dinner": [
-    "Columbia Harbour House - Lunch/Dinner",
-    "Columbia Harbour House"
-  ],
-  "Liberty Square Market - All-Day": [
-    "Liberty Square Market - All-Day",
-    "Liberty Square Market"
-  ],
-  "Liberty Tree Tavern - Children's Lunch/Dinner": [
-    "Liberty Tree Tavern - Children's Lunch/Dinner",
-    "Liberty Tree Tavern"
-  ],
-  "Liberty Tree Tavern - Lunch/Dinner": [
-    "Liberty Tree Tavern - Lunch/Dinner",
-    "Liberty Tree Tavern"
-  ],
-  "Sleepy Hollow - All-Day": [
-    "Sleepy Hollow - All-Day",
-    "Sleepy Hollow"
-  ],
-  "Casey's Corner - Lunch/Dinner": [
-    "Casey's Corner - Lunch/Dinner",
-    "Casey's Corner"
-  ],
-  "Crystal Palace - Breakfast": [
-    "Crystal Palace - Breakfast",
-    "Crystal Palace"
-  ],
-  "Crystal Palace - Lunch/Dinner": [
-    "Crystal Palace - Lunch/Dinner",
-    "Crystal Palace"
-  ],
-  "Main Street Bakery - Starbucks - All-Day": [
-    "Main Street Bakery - Starbucks - All-Day",
-    "Main Street Bakery"
-  ],
-  "Plaza Ice Cream Parlor - Snacks": [
-    "Plaza Ice Cream Parlor - Snacks",
-    "Plaza Ice Cream Parlor"
-  ],
-  "Plaza Restaurant - Children's Lunch/Dinner": [
-    "Plaza Restaurant - Children's Lunch/Dinner",
-    "Plaza Restaurant"
-  ],
-  "Plaza Restaurant - Lunch/Dinner": [
-    "Plaza Restaurant - Lunch/Dinner",
-    "Plaza Restaurant"
-  ],
-  "Tony's Town Square - Children's Lunch/Dinner": [
-    "Tony's Town Square - Children's Lunch/Dinner",
-    "Tony's Town Square"
-  ],
-  "Tony's Town Square - Lunch/Dinner": [
-    "Tony's Town Square - Lunch/Dinner",
-    "Tony's Town Square"
-  ],
-  "TTC Joffrey's Coffee and Tea Company - All-Day": [
-    "TTC Joffrey's Coffee and Tea Company - All-Day",
-    "TTC Joffrey's Coffee and Tea Company"
-  ],
-  "AstroFizz - All-Day": [
-    "AstroFizz - All-Day",
-    "AstroFizz"
-  ],
-  "Auntie Gravity's Galactic Goodies - Snacks": [
-    "Auntie Gravity's Galactic Goodies - Snacks",
-    "Auntie Gravity's Galactic Goodies"
-  ],
-  "Cosmic Ray's Starlight Cafe - Lunch/Dinner": [
-    "Cosmic Ray's Starlight Cafe - Lunch/Dinner",
-    "Cosmic Ray's Starlight Cafe"
-  ],
-  "Energy Bytes - All-Day": [
-    "Energy Bytes - All-Day",
-    "Energy Bytes"
-  ],
-  "Be Our Guest - Lunch": [
-    "Be Our Guest - Lunch",
-    "Be Our Guest"
-  ],
-  "Lunching Pad - Breakfast": [
-    "Lunching Pad - Breakfast",
-    "Lunching Pad"
-  ],
-  "Lunching Pad - Lunch/Dinner": [
-    "Lunching Pad - Lunch/Dinner",
-    "Lunching Pad"
-  ],
-  "Revive Joffrey's Coffee and Tea Company - All-Day": [
-    "Revive Joffrey's Coffee and Tea Company - All-Day",
-    "Revive Joffrey's Coffee and Tea Company"
-  ],
-  "Tomorrowland Terrace - Lunch/Dinner": [
-    "Tomorrowland Terrace - Lunch/Dinner",
-    "Tomorrowland Terrace"
-  ],
-  "Africa Refreshment Outpost - Snacks": [
-    "Africa Refreshment Outpost - Snacks",
-    "Africa Refreshment Outpost"
-  ],
-  "American Adventure Joffrey's Coffee and Tea Company - All-Day": [
-    "American Adventure Joffrey's Coffee and Tea Company - All-Day",
-    "American Adventure Joffrey's Coffee and Tea Company"
-  ],
-  "Block & Hans - Snacks": [
-    "Block & Hans - Snacks",
-    "Block & Hans"
-  ],
-  "Fife and Drum Tavern - Lunch/Dinner": [
-    "Fife and Drum Tavern - Lunch/Dinner",
-    "Fife and Drum Tavern"
-  ],
-  "Funnel Cakes - Snacks": [
-    "Funnel Cakes - Snacks",
-    "Funnel Cakes"
-  ],
-  "Regal Eagle Smokehouse Outdoor Bar - All-Day": [
-    "Regal Eagle Smokehouse Outdoor Bar - All-Day",
-    "Regal Eagle Smokehouse Outdoor Bar"
-  ],
-  "Regal Eagle Smokehouse: Crafts Drafts & Barbecue - Lunch/Dinner": [
-    "Regal Eagle Smokehouse: Crafts Drafts & Barbecue - Lunch/Dinner",
-    "Regal Eagle Smokehouse: Crafts Drafts & Barbecue"
-  ],
-  "Canada Joffrey's Coffee and Tea Company - All-Day Updated": [
-    "Canada Joffrey's Coffee and Tea Company - All-Day Updated",
-    "Canada Joffrey's Coffee and Tea Company"
-  ],
-  "Le Cellier - Children's Lunch/Dinner": [
-    "Le Cellier - Children's Lunch/Dinner",
-    "Le Cellier"
-  ],
-  "Le Cellier - Lunch/Dinner": [
-    "Le Cellier - Lunch/Dinner",
-    "Le Cellier"
-  ],
-  "Joy of Tea - All-Day": [
-    "Joy of Tea - All-Day",
-    "Joy of Tea"
-  ],
-  "Lotus Blossom Cafe - Lunch/Dinner": [
-    "Lotus Blossom Cafe - Lunch/Dinner",
-    "Lotus Blossom Cafe"
-  ],
-  "Nine Dragons Restaurant - Children's Dinner": [
-    "Nine Dragons Restaurant - Children's Dinner",
-    "Nine Dragons Restaurant"
-  ],
-  "Nine Dragons Restaurant - Lunch/Dinner": [
-    "Nine Dragons Restaurant - Lunch/Dinner",
-    "Nine Dragons Restaurant"
-  ],
-  "Boulangerie Patisserie les Halles - All-Day": [
-    "Boulangerie Patisserie les Halles - All-Day",
-    "Boulangerie Patisserie les Halles"
-  ],
-  "Chefs de France - Children's Lunch/Dinner": [
-    "Chefs de France - Children's Lunch/Dinner",
-    "Chefs de France"
-  ],
-  "Chefs de France - Lunch/Dinner": [
-    "Chefs de France - Lunch/Dinner",
-    "Chefs de France"
-  ],
-  "Crepes A Emporter - All-Day": [
-    "Crepes A Emporter - All-Day",
-    "Crepes A Emporter"
-  ],
-  "L'Artisan des Glaces - Snacks": [
-    "L'Artisan des Glaces - Snacks",
-    "L'Artisan des Glaces"
-  ],
-  "La Creperie de Paris - Children's Lunch/Dinner": [
-    "La Creperie de Paris - Children's Lunch/Dinner",
-    "La Creperie de Paris"
-  ],
-  "La Creperie de Paris - Lunch/Dinner": [
-    "La Creperie de Paris - Lunch/Dinner",
-    "La Creperie de Paris"
-  ],
-  "Les Vins de Chefs de France - All-Day": [
-    "Les Vins de Chefs de France - All-Day",
-    "Les Vins de Chefs de France"
-  ],
-  "Monsieur Paul - Dinner": [
-    "Monsieur Paul - Dinner",
-    "Monsieur Paul"
-  ],
-  "Biergarten Restaurant - Lunch/Dinner": [
-    "Biergarten Restaurant - Lunch/Dinner",
-    "Biergarten Restaurant"
-  ],
-  "Sommerfest - Lunch/Dinner": [
-    "Sommerfest - Lunch/Dinner",
-    "Sommerfest"
-  ],
-  "Gelateria Toscana - All-Day": [
-    "Gelateria Toscana - All-Day",
-    "Gelateria Toscana"
-  ],
-  "Italy Donkey - Snacks": [
-    "Italy Donkey - Snacks",
-    "Italy Donkey"
-  ],
-  "Pizza al Taglio - Via Napoli Pizza Window - Lunch/Dinner": [
-    "Pizza al Taglio - Via Napoli Pizza Window - Lunch/Dinner",
-    "Pizza al Taglio"
-  ],
-  "Tutto  Gusto Wine Cellar - Children's Lunch/Dinner": [
-    "Tutto  Gusto Wine Cellar - Children's Lunch/Dinner",
-    "Tutto  Gusto Wine Cellar"
-  ],
-  "Tutto  Gusto Wine Cellar - Lunch/Dinner": [
-    "Tutto  Gusto Wine Cellar - Lunch/Dinner",
-    "Tutto  Gusto Wine Cellar"
-  ],
-  "Tutto Italia Ristorante - Children's Lunch/Dinner": [
-    "Tutto Italia Ristorante - Children's Lunch/Dinner",
-    "Tutto Italia Ristorante"
-  ],
-  "Tutto Italia Ristorante - Lunch/Dinner": [
-    "Tutto Italia Ristorante - Lunch/Dinner",
-    "Tutto Italia Ristorante"
-  ],
-  "Via Napoli Ristorante e Pizzeria - Children's Lunch/Dinner": [
-    "Via Napoli Ristorante e Pizzeria - Children's Lunch/Dinner",
-    "Via Napoli Ristorante e Pizzeria"
-  ],
-  "Via Napoli Ristorante e Pizzeria - Lunch/Dinner": [
-    "Via Napoli Ristorante e Pizzeria - Lunch/Dinner",
-    "Via Napoli Ristorante e Pizzeria"
-  ],
-  "Garden House - All-Day": [
-    "Garden House - All-Day",
-    "Garden House"
-  ],
-  "Kabuki Cafe - All-Day": [
-    "Kabuki Cafe - All-Day",
-    "Kabuki Cafe"
-  ],
-  "Katsura Grill - Lunch/Dinner": [
-    "Katsura Grill - Lunch/Dinner",
-    "Katsura Grill"
-  ],
-  "Shiki-Sai: Sushi Izakaya - Children's Lunch/Dinner": [
-    "Shiki-Sai: Sushi Izakaya - Children's Lunch/Dinner",
-    "Shiki-Sai: Sushi Izakaya"
-  ],
-  "Shiki-Sai: Sushi Izakaya - Lunch/Dinner": [
-    "Shiki-Sai: Sushi Izakaya - Lunch/Dinner",
-    "Shiki-Sai: Sushi Izakaya"
-  ],
-  "Takumi-Tei - Dinner": [
-    "Takumi-Tei - Dinner",
-    "Takumi-Tei"
-  ],
-  "Takumi-Tei - Omakase Tasting": [
-    "Takumi-Tei - Omakase Tasting",
-    "Takumi-Tei"
-  ],
-  "Teppan Edo - Children's Lunch/Dinner": [
-    "Teppan Edo - Children's Lunch/Dinner",
-    "Teppan Edo"
-  ],
-  "Teppan Edo - Lunch/Dinner": [
-    "Teppan Edo - Lunch/Dinner",
-    "Teppan Edo"
-  ],
-  "Choza de Margarita - All-Day": [
-    "Choza de Margarita - All-Day",
-    "Choza de Margarita"
-  ],
-  "La Cantina de San Angel - Lunch/Dinner": [
-    "La Cantina de San Angel - Lunch/Dinner",
-    "La Cantina de San Angel"
-  ],
-  "La Cava del Tequila - All-Day": [
-    "La Cava del Tequila - All-Day",
-    "La Cava del Tequila"
-  ],
-  "La Hacienda de San Angel - Children's Dinner": [
-    "La Hacienda de San Angel - Children's Dinner",
-    "La Hacienda de San Angel"
-  ],
-  "La Hacienda de San Angel - Dinner": [
-    "La Hacienda de San Angel - Dinner",
-    "La Hacienda de San Angel"
-  ],
-  "San Angel Inn Restaurante - Children's Lunch/Dinner": [
-    "San Angel Inn Restaurante - Children's Lunch/Dinner",
-    "San Angel Inn Restaurante"
-  ],
-  "San Angel Inn Restaurante - Lunch/Dinner": [
-    "San Angel Inn Restaurante - Lunch/Dinner",
-    "San Angel Inn Restaurante"
-  ],
-  "Restaurant Marrakesh - Children's Lunch/Dinner": [
-    "Restaurant Marrakesh - Children's Lunch/Dinner",
-    "Restaurant Marrakesh"
-  ],
-  "Restaurant Marrakesh - Dinner": [
-    "Restaurant Marrakesh - Dinner",
-    "Restaurant Marrakesh"
-  ],
-  "Restaurant Marrakesh - Lunch": [
-    "Restaurant Marrakesh - Lunch",
-    "Restaurant Marrakesh"
-  ],
-  "Spice Road Table - Children's Lunch/Dinner": [
-    "Spice Road Table - Children's Lunch/Dinner",
-    "Spice Road Table"
-  ],
-  "Spice Road Table - Lunch/Dinner": [
-    "Spice Road Table - Lunch/Dinner",
-    "Spice Road Table"
-  ],
-  "Tangierine Cafe - Lunch/Dinner": [
-    "Tangierine Cafe - Lunch/Dinner",
-    "Tangierine Cafe"
-  ],
-  "Akershus Royal Banquet Hall - Breakfast": [
-    "Akershus Royal Banquet Hall - Breakfast",
-    "Akershus Royal Banquet Hall"
-  ],
-  "Akershus Royal Banquet Hall - Lunch/Dinner": [
-    "Akershus Royal Banquet Hall - Lunch/Dinner",
-    "Akershus Royal Banquet Hall"
-  ],
-  "Kringla Bakeri Og Kafe - Lunch/Dinner Updated": [
-    "Kringla Bakeri Og Kafe - Lunch/Dinner Updated",
-    "Kringla Bakeri Og Kafe"
-  ],
-  "Promenade Refreshments - Lunch/Dinner": [
-    "Promenade Refreshments - Lunch/Dinner",
-    "Promenade Refreshments"
-  ],
-  "Refreshment Port - Lunch/Dinner": [
-    "Refreshment Port - Lunch/Dinner",
-    "Refreshment Port"
-  ],
-  "Showcase Plaza Joffrey's Coffee and Tea Company - All-Day": [
-    "Showcase Plaza Joffrey's Coffee and Tea Company - All-Day",
-    "Showcase Plaza Joffrey's Coffee and Tea Company"
-  ],
-  "Swirled Showcase - All Day Updated": [
-    "Swirled Showcase - All Day Updated",
-    "Swirled Showcase"
-  ],
-  "Rose and Crown Beer Garden - All-Day": [
-    "Rose and Crown Beer Garden - All-Day",
-    "Rose and Crown Beer Garden"
-  ],
-  "Rose and Crown Dining Room - Children's Lunch/Dinner": [
-    "Rose and Crown Dining Room - Children's Lunch/Dinner",
-    "Rose and Crown Dining Room"
-  ],
-  "Rose and Crown Dining Room - Lunch/Dinner": [
-    "Rose and Crown Dining Room - Lunch/Dinner",
-    "Rose and Crown Dining Room"
-  ],
-  "Rose and Crown Pub - All-Day": [
-    "Rose and Crown Pub - All-Day",
-    "Rose and Crown Pub"
-  ],
-  "Yorkshire County Fish Shop - Lunch/Dinner": [
-    "Yorkshire County Fish Shop - Lunch/Dinner",
-    "Yorkshire County Fish Shop"
-  ],
-  "CommuniCore Hall - All-Day": [
-    "CommuniCore Hall - All-Day",
-    "CommuniCore Hall"
-  ],
-  "Connections Cafe  - All-Day": [
-    "Connections Cafe  - All-Day",
-    "Connections Cafe"
-  ],
-  "Connections Eatery - Lunch/Dinner Updated": [
-    "Connections Eatery - Lunch/Dinner Updated",
-    "Connections Eatery"
-  ],
-  "Epcot Entrance Joffrey's Coffee and Tea Company - All-Day": [
-    "Epcot Entrance Joffrey's Coffee and Tea Company - All-Day",
-    "Epcot Entrance Joffrey's Coffee and Tea Company"
-  ],
-  "Festival Favorites - All-Day": [
-    "Festival Favorites - All-Day",
-    "Festival Favorites"
-  ],
-  "GEO-82 - Lunch/Dinner": [
-    "GEO-82 - Lunch/Dinner",
-    "GEO-82"
-  ],
-  "Refreshment Station  - Snacks": [
-    "Refreshment Station  - Snacks",
-    "Refreshment Station"
-  ],
-  "Space 220 - Children's Lunch/Dinner": [
-    "Space 220 - Children's Lunch/Dinner",
-    "Space 220"
-  ],
-  "Space 220 - Dinner": [
-    "Space 220 - Dinner",
-    "Space 220"
-  ],
-  "Space 220 - Lunch": [
-    "Space 220 - Lunch",
-    "Space 220"
-  ],
-  "Space 220 Lounge - Pub/Lounge": [
-    "Space 220 Lounge - Pub/Lounge",
-    "Space 220 Lounge"
-  ],
-  "Taste Track - Lunch/Dinner": [
-    "Taste Track - Lunch/Dinner",
-    "Taste Track"
-  ],
-  "The Odyssey - All-Day": [
-    "The Odyssey - All-Day",
-    "The Odyssey"
-  ],
-  "World Discovery Joffrey's Coffee and Tea Company - All-Day": [
-    "World Discovery Joffrey's Coffee and Tea Company - All-Day",
-    "World Discovery Joffrey's Coffee and Tea Company"
-  ],
-  "Coral Reef Restaurant - Children's Dinner": [
-    "Coral Reef Restaurant - Children's Dinner",
-    "Coral Reef Restaurant"
-  ],
-  "Coral Reef Restaurant - Dinner": [
-    "Coral Reef Restaurant - Dinner",
-    "Coral Reef Restaurant"
-  ],
-  "Garden Grill - Breakfast": [
-    "Garden Grill - Breakfast",
-    "Garden Grill"
-  ],
-  "Garden Grill - Lunch/Dinner": [
-    "Garden Grill - Lunch/Dinner",
-    "Garden Grill"
-  ],
-  "Sunshine Seasons - All-Day Updated": [
-    "Sunshine Seasons - All-Day Updated",
-    "Sunshine Seasons"
-  ],
-  "Dawa Bar - All-Day": [
-    "Dawa Bar - All-Day",
-    "Dawa Bar"
-  ],
-  "Harambe Fruit Market - All-Day": [
-    "Harambe Fruit Market - All-Day",
-    "Harambe Fruit Market"
-  ],
-  "Harambe Market - Lunch/Dinner": [
-    "Harambe Market - Lunch/Dinner",
-    "Harambe Market"
-  ],
-  "Kusafiri Coffee Shop and Bakery - Breakfast/Brunch": [
+  "KRNR Station": [
+    "KRNR Station",
+    "KRNR Station - Snacks"
+  ],
+  "Kabuki Cafe": [
+    "Kabuki Cafe",
+    "Kabuki Cafe - All-Day"
+  ],
+  "Kat Saka's Kettle": [
+    "Kat Saka's Kettle",
+    "Kat Saka's Kettle - Snacks"
+  ],
+  "Katsura Grill": [
+    "Katsura Grill",
+    "Katsura Grill - Lunch/Dinner"
+  ],
+  "Kimonos": [
+    "Kimonos",
+    "Kimonos - Dinner"
+  ],
+  "Kona Cafe": [
+    "Kona Cafe",
+    "Kona Cafe - Breakfast",
+    "Kona Cafe - Children's Breakfast",
+    "Kona Cafe - Children's Lunch/Dinner",
+    "Kona Cafe - Dinner",
+    "Kona Cafe - Lunch"
+  ],
+  "Kona Island": [
+    "Kona Island",
+    "Kona Island - Breakfast",
+    "Kona Island - Lunch/Dinner"
+  ],
+  "Kringla Bakeri Og Kafe - Lunch/Dinner": [
+    "Kringla Bakeri Og Kafe",
+    "Kringla Bakeri Og Kafe - Lunch/Dinner Updated"
+  ],
+  "Kusafiri Coffee Shop and Bakery": [
+    "Kusafiri Coffee Shop and Bakery",
     "Kusafiri Coffee Shop and Bakery - Breakfast/Brunch",
-    "Kusafiri Coffee Shop and Bakery"
-  ],
-  "Kusafiri Coffee Shop and Bakery - Lunch/Dinner": [
-    "Kusafiri Coffee Shop and Bakery - Lunch/Dinner",
-    "Kusafiri Coffee Shop and Bakery"
-  ],
-  "Mahindi - All-Day": [
-    "Mahindi - All-Day",
-    "Mahindi"
-  ],
-  "Tamu Tamu Refreshments - Breakfast": [
-    "Tamu Tamu Refreshments - Breakfast",
-    "Tamu Tamu Refreshments"
-  ],
-  "Tamu Tamu Refreshments - Snacks": [
-    "Tamu Tamu Refreshments - Snacks",
-    "Tamu Tamu Refreshments"
-  ],
-  "Tusker House Restaurant - Breakfast": [
-    "Tusker House Restaurant - Breakfast",
-    "Tusker House Restaurant"
-  ],
-  "Tusker House Restaurant - Lunch/Dinner": [
-    "Tusker House Restaurant - Lunch/Dinner",
-    "Tusker House Restaurant"
-  ],
-  "Anandapur Ice Cream Truck - Snacks": [
-    "Anandapur Ice Cream Truck - Snacks",
-    "Anandapur Ice Cream Truck"
-  ],
-  "Caravan Road - All-Day Updated": [
-    "Caravan Road - All-Day Updated",
-    "Caravan Road"
-  ],
-  "Drinkwallah - All-Day": [
-    "Drinkwallah - All-Day",
-    "Drinkwallah"
-  ],
-  "Mr. Kamal's - Lunch/Dinner": [
-    "Mr. Kamal's - Lunch/Dinner",
-    "Mr. Kamal's"
-  ],
-  "Quality Beverages - All-Day": [
-    "Quality Beverages - All-Day",
-    "Quality Beverages"
-  ],
-  "Royal Anandapur Joffrey's Coffee and Tea Company - All-Day": [
-    "Royal Anandapur Joffrey's Coffee and Tea Company - All-Day",
-    "Royal Anandapur Joffrey's Coffee and Tea Company"
-  ],
-  "Thirsty River Bar and Trek Snacks - All-Day": [
-    "Thirsty River Bar and Trek Snacks - All-Day",
-    "Thirsty River Bar and Trek Snacks"
-  ],
-  "Warung Outpost - Lunch/Dinner Updated": [
-    "Warung Outpost - Lunch/Dinner Updated",
-    "Warung Outpost"
-  ],
-  "Yak and Yeti Local Food Cafes - Breakfast Updated": [
-    "Yak and Yeti Local Food Cafes - Breakfast Updated",
-    "Yak and Yeti Local Food Cafes"
-  ],
-  "Yak and Yeti Local Food Cafes - Lunch/Dinner Updated": [
-    "Yak and Yeti Local Food Cafes - Lunch/Dinner Updated",
-    "Yak and Yeti Local Food Cafes"
-  ],
-  "Yak and Yeti Restaurant - Children's Lunch/Dinner Updated": [
-    "Yak and Yeti Restaurant - Children's Lunch/Dinner Updated",
-    "Yak and Yeti Restaurant"
-  ],
-  "Yak and Yeti Restaurant - Lunch/Dinner Updated": [
-    "Yak and Yeti Restaurant - Lunch/Dinner Updated",
-    "Yak and Yeti Restaurant"
-  ],
-  "Restaurantosaurus - CLOSED - Lunch/Dinner Updated": [
-    "Restaurantosaurus - CLOSED - Lunch/Dinner Updated",
-    "Restaurantosaurus"
-  ],
-  "Restaurantosaurus - CLOSED - Pub/Lounge": [
-    "Restaurantosaurus - CLOSED - Pub/Lounge",
-    "Restaurantosaurus"
-  ],
-  "Creature Comforts - Starbucks - All-Day": [
-    "Creature Comforts - Starbucks - All-Day",
-    "Creature Comforts"
-  ],
-  "Eight Spoon Cafe - All-Day Updated": [
-    "Eight Spoon Cafe - All-Day Updated",
-    "Eight Spoon Cafe"
-  ],
-  "Feeding Ground - All-Day": [
-    "Feeding Ground - All-Day",
-    "Feeding Ground"
-  ],
-  "Flame Tree BBQ - Lunch/Dinner Updated": [
-    "Flame Tree BBQ - Lunch/Dinner Updated",
-    "Flame Tree BBQ"
-  ],
-  "Isle of Java - All-Day Updated": [
-    "Isle of Java - All-Day Updated",
-    "Isle of Java"
-  ],
-  "Nomad Lounge - Children's Lunch/Dinner": [
-    "Nomad Lounge - Children's Lunch/Dinner",
-    "Nomad Lounge"
-  ],
-  "Nomad Lounge - Pub/Lounge Updated": [
-    "Nomad Lounge - Pub/Lounge Updated",
-    "Nomad Lounge"
-  ],
-  "Pizzafari  - Lunch/Dinner": [
-    "Pizzafari  - Lunch/Dinner",
-    "Pizzafari"
-  ],
-  "Smiling Crocodile - All-Day": [
-    "Smiling Crocodile - All-Day",
-    "Smiling Crocodile"
-  ],
-  "Terra Treats - All-Day": [
-    "Terra Treats - All-Day",
-    "Terra Treats"
-  ],
-  "Tiffins - Children's Lunch/Dinner": [
-    "Tiffins - Children's Lunch/Dinner",
-    "Tiffins"
-  ],
-  "Tiffins - Lunch/Dinner Updated": [
-    "Tiffins - Lunch/Dinner Updated",
-    "Tiffins"
-  ],
-  "Pongu Pongu - Snacks": [
-    "Pongu Pongu - Snacks",
-    "Pongu Pongu"
-  ],
-  "Satu'li Canteen - Breakfast": [
-    "Satu'li Canteen - Breakfast",
-    "Satu'li Canteen"
-  ],
-  "Satu'li Canteen - Lunch/Dinner": [
-    "Satu'li Canteen - Lunch/Dinner",
-    "Satu'li Canteen"
-  ],
-  "Animal Kingdom Entrance Joffrey's Coffee and Tea Company - All-Day": [
-    "Animal Kingdom Entrance Joffrey's Coffee and Tea Company - All-Day",
-    "Animal Kingdom Entrance Joffrey's Coffee and Tea Company"
-  ],
-  "Rainforest Cafe - Breakfast": [
-    "Rainforest Cafe - Breakfast",
-    "Rainforest Cafe"
-  ],
-  "Rainforest Cafe - Children's Breakfast": [
-    "Rainforest Cafe - Children's Breakfast",
-    "Rainforest Cafe"
-  ],
-  "Rainforest Cafe - Children's Lunch/Dinner": [
-    "Rainforest Cafe - Children's Lunch/Dinner",
-    "Rainforest Cafe"
-  ],
-  "Rainforest Cafe - Lunch/Dinner": [
-    "Rainforest Cafe - Lunch/Dinner",
-    "Rainforest Cafe"
-  ],
-  "ABC Commissary - Lunch/Dinner": [
-    "ABC Commissary - Lunch/Dinner",
-    "ABC Commissary"
-  ],
-  "Sci Fi Dine-In Theater - Children's Lunch/Dinner": [
-    "Sci Fi Dine-In Theater - Children's Lunch/Dinner",
-    "Sci Fi Dine-In Theater"
-  ],
-  "Sci Fi Dine-In Theater - Lunch/Dinner": [
-    "Sci Fi Dine-In Theater - Lunch/Dinner",
-    "Sci Fi Dine-In Theater"
-  ],
-  "'50s Prime Time Cafe - Children's Lunch/Dinner": [
-    "'50s Prime Time Cafe - Children's Lunch/Dinner",
-    "'50s Prime Time Cafe"
-  ],
-  "'50s Prime Time Cafe - Lunch/Dinner": [
-    "'50s Prime Time Cafe - Lunch/Dinner",
-    "'50s Prime Time Cafe"
-  ],
-  "Backlot Express - Lunch/Dinner": [
-    "Backlot Express - Lunch/Dinner",
-    "Backlot Express"
-  ],
-  "Dinosaur Gertie's Ice Cream of Extinction - Snacks": [
-    "Dinosaur Gertie's Ice Cream of Extinction - Snacks",
-    "Dinosaur Gertie's Ice Cream of Extinction"
-  ],
-  "Dockside Diner - Lunch/Dinner": [
-    "Dockside Diner - Lunch/Dinner",
-    "Dockside Diner"
-  ],
-  "Epic Eats - All-Day": [
-    "Epic Eats - All-Day",
-    "Epic Eats"
-  ],
-  "Hollywood and Vine - Breakfast": [
-    "Hollywood and Vine - Breakfast",
-    "Hollywood and Vine"
-  ],
-  "Hollywood and Vine - Lunch/Dinner": [
-    "Hollywood and Vine - Lunch/Dinner",
-    "Hollywood and Vine"
-  ],
-  "Oasis Canteen - All-Day": [
-    "Oasis Canteen - All-Day",
-    "Oasis Canteen"
-  ],
-  "Peevy's Polar Pipeline - All-Day": [
-    "Peevy's Polar Pipeline - All-Day",
-    "Peevy's Polar Pipeline"
-  ],
-  "BaseLine Tap House - Snacks": [
-    "BaseLine Tap House - Snacks",
-    "BaseLine Tap House"
-  ],
-  "Ice Cold Hydraulics - All-Day": [
-    "Ice Cold Hydraulics - All-Day",
-    "Ice Cold Hydraulics"
-  ],
-  "Mama Melrose's Ristorante Italiano - Children's Lunch/Dinner": [
-    "Mama Melrose's Ristorante Italiano - Children's Lunch/Dinner",
-    "Mama Melrose's Ristorante Italiano"
-  ],
-  "Mama Melrose's Ristorante Italiano - Lunch/Dinner": [
-    "Mama Melrose's Ristorante Italiano - Lunch/Dinner",
-    "Mama Melrose's Ristorante Italiano"
-  ],
-  "PizzeRizzo - Lunch/Dinner": [
-    "PizzeRizzo - Lunch/Dinner",
-    "PizzeRizzo"
-  ],
-  "Hollywood Brown Derby - Children's Lunch/Dinner": [
-    "Hollywood Brown Derby - Children's Lunch/Dinner",
-    "Hollywood Brown Derby"
-  ],
-  "Hollywood Brown Derby - Dining with an Imagineer": [
-    "Hollywood Brown Derby - Dining with an Imagineer",
-    "Hollywood Brown Derby"
-  ],
-  "Hollywood Brown Derby - Lunch/Dinner": [
-    "Hollywood Brown Derby - Lunch/Dinner",
-    "Hollywood Brown Derby"
-  ],
-  "Hollywood Brown Derby Lounge - All-Day": [
-    "Hollywood Brown Derby Lounge - All-Day",
-    "Hollywood Brown Derby Lounge"
-  ],
-  "Studios Popcorn - Snacks": [
-    "Studios Popcorn - Snacks",
-    "Studios Popcorn"
-  ],
-  "The Trolley Car Cafe - Starbucks - All-Day Updated": [
-    "The Trolley Car Cafe - Starbucks - All-Day Updated",
-    "The Trolley Car Cafe"
-  ],
-  "Ice Cold Snack Stand - All-Day": [
-    "Ice Cold Snack Stand - All-Day",
-    "Ice Cold Snack Stand"
-  ],
-  "Neighborhood Bakery - Snacks": [
-    "Neighborhood Bakery - Snacks",
-    "Neighborhood Bakery"
-  ],
-  "Pixar Place Joffrey's Coffee and Tea Company - All-Day": [
-    "Pixar Place Joffrey's Coffee and Tea Company - All-Day",
-    "Pixar Place Joffrey's Coffee and Tea Company"
-  ],
-  "The Market - All-Day": [
-    "The Market - All-Day",
-    "The Market"
-  ],
-  "Docking Bay 7 Food and Cargo WDW - Lunch/Dinner": [
-    "Docking Bay 7 Food and Cargo WDW - Lunch/Dinner",
-    "Docking Bay 7 Food and Cargo WDW"
-  ],
-  "Kat Saka's Kettle - Snacks": [
-    "Kat Saka's Kettle - Snacks",
-    "Kat Saka's Kettle"
-  ],
-  "Milk Stand - Snacks": [
-    "Milk Stand - Snacks",
-    "Milk Stand"
-  ],
-  "Oga's Cantina - Breakfast": [
-    "Oga's Cantina - Breakfast",
-    "Oga's Cantina"
-  ],
-  "Oga's Cantina - Lunch/Dinner": [
-    "Oga's Cantina - Lunch/Dinner",
-    "Oga's Cantina"
-  ],
-  "Ronto Roasters - All-Day": [
-    "Ronto Roasters - All-Day",
-    "Ronto Roasters"
-  ],
-  "Anaheim Produce - All-Day": [
-    "Anaheim Produce - All-Day",
-    "Anaheim Produce"
-  ],
-  "Catalina Eddie's - Lunch/Dinner": [
-    "Catalina Eddie's - Lunch/Dinner",
-    "Catalina Eddie's"
-  ],
-  "Fairfax Fare - Breakfast": [
-    "Fairfax Fare - Breakfast",
-    "Fairfax Fare"
-  ],
-  "Fairfax Fare - Lunch/Dinner": [
-    "Fairfax Fare - Lunch/Dinner",
-    "Fairfax Fare"
-  ],
-  "Hollywood Hills Theater - Snacks": [
-    "Hollywood Hills Theater - Snacks",
-    "Hollywood Hills Theater"
-  ],
-  "Hollywood Scoops - Snacks": [
-    "Hollywood Scoops - Snacks",
-    "Hollywood Scoops"
-  ],
-  "KRNR Station - Snacks": [
-    "KRNR Station - Snacks",
-    "KRNR Station"
-  ],
-  "Pretzel Palooza - Snacks": [
-    "Pretzel Palooza - Snacks",
-    "Pretzel Palooza"
-  ],
-  "Rosie's All-American Cafe - Lunch/Dinner": [
-    "Rosie's All-American Cafe - Lunch/Dinner",
-    "Rosie's All-American Cafe"
-  ],
-  "Sunshine Day Bar - All-Day": [
-    "Sunshine Day Bar - All-Day",
-    "Sunshine Day Bar"
-  ],
-  "Tower of Terror Joffrey's Coffee and Tea Company - All-Day": [
-    "Tower of Terror Joffrey's Coffee and Tea Company - All-Day",
-    "Tower of Terror Joffrey's Coffee and Tea Company"
-  ],
-  "Popcorn and Snacks - All Day": [
-    "Popcorn and Snacks - All Day",
-    "Popcorn and Snacks"
-  ],
-  "Roundup Rodeo BBQ - Lunch/Dinner": [
-    "Roundup Rodeo BBQ - Lunch/Dinner",
-    "Roundup Rodeo BBQ"
-  ],
-  "Woody's Lunch Box - Breakfast Updated": [
-    "Woody's Lunch Box - Breakfast Updated",
-    "Woody's Lunch Box"
-  ],
-  "Woody's Lunch Box - Lunch/Dinner Updated": [
-    "Woody's Lunch Box - Lunch/Dinner Updated",
-    "Woody's Lunch Box"
-  ],
-  "All Star Pizza Delivery - Dinner": [
-    "All Star Pizza Delivery - Dinner",
-    "All Star Pizza Delivery"
-  ],
-  "Silver Screen Spirits Pool Bar - All-Day": [
-    "Silver Screen Spirits Pool Bar - All-Day",
-    "Silver Screen Spirits Pool Bar"
-  ],
-  "World Premiere Food Court - Breakfast": [
-    "World Premiere Food Court - Breakfast",
-    "World Premiere Food Court"
-  ],
-  "World Premiere Food Court - Lunch/Dinner": [
-    "World Premiere Food Court - Lunch/Dinner",
-    "World Premiere Food Court"
-  ],
-  "Intermission Food Court - Breakfast": [
-    "Intermission Food Court - Breakfast",
-    "Intermission Food Court"
-  ],
-  "Intermission Food Court - Lunch/Dinner": [
-    "Intermission Food Court - Lunch/Dinner",
-    "Intermission Food Court"
-  ],
-  "Singing Spirits Pool Bar - All-Day": [
-    "Singing Spirits Pool Bar - All-Day",
-    "Singing Spirits Pool Bar"
-  ],
-  "End Zone Food Court - Breakfast": [
-    "End Zone Food Court - Breakfast",
-    "End Zone Food Court"
-  ],
-  "End Zone Food Court - Lunch/Dinner": [
-    "End Zone Food Court - Lunch/Dinner",
-    "End Zone Food Court"
-  ],
-  "Grandstand Spirits Pool Bar - All-Day": [
-    "Grandstand Spirits Pool Bar - All-Day",
-    "Grandstand Spirits Pool Bar"
-  ],
-  "Animal Kingdom Lodge In-Room Dining - All-Day": [
-    "Animal Kingdom Lodge In-Room Dining - All-Day",
-    "Animal Kingdom Lodge In-Room Dining"
-  ],
-  "Boma - Flavors of Africa - Breakfast": [
-    "Boma - Flavors of Africa - Breakfast",
-    "Boma"
-  ],
-  "Boma - Flavors of Africa - Dinner": [
-    "Boma - Flavors of Africa - Dinner",
-    "Boma"
-  ],
-  "Jiko - The Cooking Place - Children's Dinner": [
-    "Jiko - The Cooking Place - Children's Dinner",
-    "Jiko"
-  ],
-  "Jiko - The Cooking Place - Dinner": [
-    "Jiko - The Cooking Place - Dinner",
-    "Jiko"
-  ],
-  "Mara - Breakfast": [
-    "Mara - Breakfast",
-    "Mara"
-  ],
-  "Mara - Lunch/Dinner": [
-    "Mara - Lunch/Dinner",
-    "Mara"
-  ],
-  "Uzima Springs Watering Hole - All-Day": [
-    "Uzima Springs Watering Hole - All-Day",
-    "Uzima Springs Watering Hole"
-  ],
-  "Victoria Falls - Pub/Lounge": [
-    "Victoria Falls - Pub/Lounge",
-    "Victoria Falls"
-  ],
-  "Maji Pool Bar - Lunch/Dinner": [
-    "Maji Pool Bar - Lunch/Dinner",
-    "Maji Pool Bar"
-  ],
-  "Sanaa - Breakfast": [
-    "Sanaa - Breakfast",
-    "Sanaa"
-  ],
-  "Sanaa - Children's Lunch/Dinner": [
-    "Sanaa - Children's Lunch/Dinner",
-    "Sanaa"
-  ],
-  "Sanaa - Dinner": [
-    "Sanaa - Dinner",
-    "Sanaa"
-  ],
-  "Sanaa - Lunch": [
-    "Sanaa - Lunch",
-    "Sanaa"
-  ],
-  "Drop Off Bar - All-Day": [
-    "Drop Off Bar - All-Day",
-    "Drop Off Bar"
-  ],
-  "Landscape of Flavors - Breakfast": [
-    "Landscape of Flavors - Breakfast",
-    "Landscape of Flavors"
-  ],
-  "Landscape of Flavors - Lunch/Dinner": [
-    "Landscape of Flavors - Lunch/Dinner",
-    "Landscape of Flavors"
-  ],
-  "Beach Club Marketplace - Breakfast": [
-    "Beach Club Marketplace - Breakfast",
-    "Beach Club Marketplace"
-  ],
-  "Beach Club Marketplace - Lunch/Dinner": [
-    "Beach Club Marketplace - Lunch/Dinner",
-    "Beach Club Marketplace"
-  ],
-  "Beaches and Cream Soda Shop - Children's Lunch/Dinner": [
-    "Beaches and Cream Soda Shop - Children's Lunch/Dinner",
-    "Beaches and Cream Soda Shop"
-  ],
-  "Beaches and Cream Soda Shop - Lunch/Dinner": [
-    "Beaches and Cream Soda Shop - Lunch/Dinner",
-    "Beaches and Cream Soda Shop"
-  ],
-  "Beaches and Cream Soda Shop - Snacks": [
-    "Beaches and Cream Soda Shop - Snacks",
-    "Beaches and Cream Soda Shop"
-  ],
-  "Cape May Cafe - Breakfast": [
-    "Cape May Cafe - Breakfast",
-    "Cape May Cafe"
-  ],
-  "Cape May Cafe - Dinner": [
-    "Cape May Cafe - Dinner",
-    "Cape May Cafe"
-  ],
-  "Hurricane Hanna's Grill - All-Day": [
-    "Hurricane Hanna's Grill - All-Day",
-    "Hurricane Hanna's Grill"
-  ],
-  "Hurricane Hanna's Waterside Bar - All-Day": [
-    "Hurricane Hanna's Waterside Bar - All-Day",
-    "Hurricane Hanna's Waterside Bar"
-  ],
-  "Martha's Vineyard - Pub/Lounge": [
-    "Martha's Vineyard - Pub/Lounge",
-    "Martha's Vineyard"
-  ],
-  "Yacht and Beach Club In-Room Dining - All-Day": [
-    "Yacht and Beach Club In-Room Dining - All-Day",
-    "Yacht and Beach Club In-Room Dining"
-  ],
-  "AbracadaBar - Pub/Lounge": [
-    "AbracadaBar - Pub/Lounge",
-    "AbracadaBar"
-  ],
-  "Belle Vue Lounge - Breakfast": [
-    "Belle Vue Lounge - Breakfast",
-    "Belle Vue Lounge"
-  ],
-  "Blue Ribbon Corn Dogs - All-Day": [
-    "Blue Ribbon Corn Dogs - All-Day",
-    "Blue Ribbon Corn Dogs"
-  ],
-  "BoardWalk Ice Cream - All-Day": [
-    "BoardWalk Ice Cream - All-Day",
-    "BoardWalk Ice Cream"
-  ],
-  "Boardwalk Joe's - Snacks": [
-    "Boardwalk Joe's - Snacks",
-    "Boardwalk Joe's"
-  ],
-  "Boardwalk Pizza Window - Take-Out": [
-    "Boardwalk Pizza Window - Take-Out",
-    "Boardwalk Pizza Window"
-  ],
-  "Boardwalk Resort In-Room Dining - All-Day": [
-    "Boardwalk Resort In-Room Dining - All-Day",
-    "Boardwalk Resort In-Room Dining"
-  ],
-  "Boardwalk Snacks - Snacks": [
-    "Boardwalk Snacks - Snacks",
-    "Boardwalk Snacks"
-  ],
-  "Carousel Coffee - All-Day": [
-    "Carousel Coffee - All-Day",
-    "Carousel Coffee"
-  ],
-  "Flying Fish - Children's Dinner": [
-    "Flying Fish - Children's Dinner",
-    "Flying Fish"
-  ],
-  "Flying Fish - Dinner": [
-    "Flying Fish - Dinner",
-    "Flying Fish"
-  ],
-  "Leaping Horse Libations - All-Day": [
-    "Leaping Horse Libations - All-Day",
-    "Leaping Horse Libations"
-  ],
-  "The BoardWalk Deli - Breakfast": [
-    "The BoardWalk Deli - Breakfast",
-    "The BoardWalk Deli"
-  ],
-  "The BoardWalk Deli - Lunch/Dinner Updated": [
-    "The BoardWalk Deli - Lunch/Dinner Updated",
-    "The BoardWalk Deli"
-  ],
-  "The Cake Bake Shop by Gwendolyn Rogers - Afternoon Tea": [
-    "The Cake Bake Shop by Gwendolyn Rogers - Afternoon Tea",
-    "The Cake Bake Shop by Gwendolyn Rogers"
-  ],
-  "The Cake Bake Shop by Gwendolyn Rogers - Breakfast": [
-    "The Cake Bake Shop by Gwendolyn Rogers - Breakfast",
-    "The Cake Bake Shop by Gwendolyn Rogers"
-  ],
-  "The Cake Bake Shop by Gwendolyn Rogers - Children's Breakfast": [
-    "The Cake Bake Shop by Gwendolyn Rogers - Children's Breakfast",
-    "The Cake Bake Shop by Gwendolyn Rogers"
-  ],
-  "The Cake Bake Shop by Gwendolyn Rogers - Children's Lunch/Dinner": [
-    "The Cake Bake Shop by Gwendolyn Rogers - Children's Lunch/Dinner",
-    "The Cake Bake Shop by Gwendolyn Rogers"
-  ],
-  "The Cake Bake Shop by Gwendolyn Rogers - Lunch/Dinner Updated": [
-    "The Cake Bake Shop by Gwendolyn Rogers - Lunch/Dinner Updated",
-    "The Cake Bake Shop by Gwendolyn Rogers"
-  ],
-  "Trattoria al Forno - Breakfast": [
-    "Trattoria al Forno - Breakfast",
-    "Trattoria al Forno"
-  ],
-  "Trattoria al Forno - Children's Breakfast": [
-    "Trattoria al Forno - Children's Breakfast",
-    "Trattoria al Forno"
-  ],
-  "Trattoria al Forno - Children's Dinner": [
-    "Trattoria al Forno - Children's Dinner",
-    "Trattoria al Forno"
-  ],
-  "Trattoria al Forno - Dinner": [
-    "Trattoria al Forno - Dinner",
-    "Trattoria al Forno"
-  ],
-  "Banana Cabana - All-Day": [
-    "Banana Cabana - All-Day",
-    "Banana Cabana"
-  ],
-  "Caribbean Skyliner Joffrey's Coffee and Tea Company - All-Day": [
-    "Caribbean Skyliner Joffrey's Coffee and Tea Company - All-Day",
-    "Caribbean Skyliner Joffrey's Coffee and Tea Company"
-  ],
-  "Centertown Market - Breakfast": [
-    "Centertown Market - Breakfast",
-    "Centertown Market"
-  ],
-  "Centertown Market - Lunch/Dinner": [
-    "Centertown Market - Lunch/Dinner",
-    "Centertown Market"
-  ],
-  "Sebastian's Bistro - Children's Lunch/Dinner": [
-    "Sebastian's Bistro - Children's Lunch/Dinner",
-    "Sebastian's Bistro"
-  ],
-  "Sebastian's Bistro - Dinner": [
-    "Sebastian's Bistro - Dinner",
-    "Sebastian's Bistro"
-  ],
-  "Spyglass Grill - Breakfast": [
-    "Spyglass Grill - Breakfast",
-    "Spyglass Grill"
-  ],
-  "Spyglass Grill - Lunch/Dinner": [
-    "Spyglass Grill - Lunch/Dinner",
-    "Spyglass Grill"
-  ],
-  "California Grill - Children's Dinner": [
-    "California Grill - Children's Dinner",
-    "California Grill"
-  ],
-  "California Grill - Dinner": [
-    "California Grill - Dinner",
-    "California Grill"
-  ],
-  "California Grill Lounge - Pub/Lounge": [
-    "California Grill Lounge - Pub/Lounge",
-    "California Grill Lounge"
-  ],
-  "Chef Mickey's  - Breakfast": [
-    "Chef Mickey's  - Breakfast",
-    "Chef Mickey's"
-  ],
-  "Chef Mickey's  - Dinner": [
-    "Chef Mickey's  - Dinner",
-    "Chef Mickey's"
-  ],
-  "Contempo Cafe - Breakfast": [
-    "Contempo Cafe - Breakfast",
-    "Contempo Cafe"
-  ],
-  "Contempo Cafe - Lunch/Dinner": [
-    "Contempo Cafe - Lunch/Dinner",
-    "Contempo Cafe"
-  ],
-  "Contemporary Grounds Joffrey's Coffee and Tea Company - All-Day": [
-    "Contemporary Grounds Joffrey's Coffee and Tea Company - All-Day",
-    "Contemporary Grounds Joffrey's Coffee and Tea Company"
-  ],
-  "Contemporary Resort In-Room Dining - All-Day": [
-    "Contemporary Resort In-Room Dining - All-Day",
-    "Contemporary Resort In-Room Dining"
-  ],
-  "Outer Rim - Pub/Lounge": [
-    "Outer Rim - Pub/Lounge",
-    "Outer Rim"
-  ],
-  "Sand Bar - All-Day": [
-    "Sand Bar - All-Day",
-    "Sand Bar"
-  ],
-  "Steakhouse 71 - Breakfast": [
-    "Steakhouse 71 - Breakfast",
-    "Steakhouse 71"
-  ],
-  "Steakhouse 71 - Dinner": [
-    "Steakhouse 71 - Dinner",
-    "Steakhouse 71"
-  ],
-  "Steakhouse 71 - Lunch": [
-    "Steakhouse 71 - Lunch",
-    "Steakhouse 71"
-  ],
-  "Steakhouse 71 Lounge - Pub/Lounge": [
-    "Steakhouse 71 Lounge - Pub/Lounge",
-    "Steakhouse 71 Lounge"
-  ],
-  "Cove Pool Bar - Lunch": [
-    "Cove Pool Bar - Lunch",
-    "Cove Pool Bar"
-  ],
-  "Top of The World Lounge - A Villains Lair - Snacks": [
-    "Top of The World Lounge - A Villains Lair - Snacks",
-    "Top of The World Lounge"
-  ],
-  "Barcelona Lounge - Breakfast": [
-    "Barcelona Lounge - Breakfast",
-    "Barcelona Lounge"
-  ],
-  "Barcelona Lounge - Pub/Lounge": [
-    "Barcelona Lounge - Pub/Lounge",
-    "Barcelona Lounge"
-  ],
-  "Cafe Rix - All-Day": [
-    "Cafe Rix - All-Day",
-    "Cafe Rix"
-  ],
-  "Coronado Springs In-Room Dining - All-Day": [
-    "Coronado Springs In-Room Dining - All-Day",
-    "Coronado Springs In-Room Dining"
-  ],
-  "Dahlia Lounge - Pub/Lounge": [
-    "Dahlia Lounge - Pub/Lounge",
-    "Dahlia Lounge"
-  ],
-  "El Mercado de Coronado - Breakfast": [
-    "El Mercado de Coronado - Breakfast",
-    "El Mercado de Coronado"
-  ],
-  "El Mercado de Coronado - Lunch/Dinner": [
-    "El Mercado de Coronado - Lunch/Dinner",
-    "El Mercado de Coronado"
-  ],
-  "Gran Destino Tower In-Room Dining - All-Day": [
-    "Gran Destino Tower In-Room Dining - All-Day",
-    "Gran Destino Tower In-Room Dining"
-  ],
-  "Laguna Bar - All-Day": [
-    "Laguna Bar - All-Day",
-    "Laguna Bar"
-  ],
-  "Maya Grill - Children's Dinner": [
-    "Maya Grill - Children's Dinner",
-    "Maya Grill"
-  ],
-  "Maya Grill - Dinner": [
-    "Maya Grill - Dinner",
-    "Maya Grill"
-  ],
-  "Rix Sports Bar & Grill - Breakfast": [
-    "Rix Sports Bar & Grill - Breakfast",
-    "Rix Sports Bar & Grill"
-  ],
-  "Rix Sports Bar & Grill - Children's Lunch/Dinner": [
-    "Rix Sports Bar & Grill - Children's Lunch/Dinner",
-    "Rix Sports Bar & Grill"
-  ],
-  "Rix Sports Bar & Grill - Lunch/Dinner": [
-    "Rix Sports Bar & Grill - Lunch/Dinner",
-    "Rix Sports Bar & Grill"
-  ],
-  "Siesta's Cantina - Lunch/Dinner": [
-    "Siesta's Cantina - Lunch/Dinner",
-    "Siesta's Cantina"
-  ],
-  "Three Bridges Bar and Grill - Children's Dinner": [
-    "Three Bridges Bar and Grill - Children's Dinner",
-    "Three Bridges Bar and Grill"
-  ],
-  "Three Bridges Bar and Grill - Dinner": [
-    "Three Bridges Bar and Grill - Dinner",
-    "Three Bridges Bar and Grill"
-  ],
-  "Toledo -- Tapas, Steak, & Seafood - Children's Dinner": [
-    "Toledo -- Tapas, Steak, & Seafood - Children's Dinner",
-    "Toledo -- Tapas, Steak, & Seafood"
-  ],
-  "Toledo -- Tapas, Steak, & Seafood - Dinner": [
-    "Toledo -- Tapas, Steak, & Seafood - Dinner",
-    "Toledo -- Tapas, Steak, & Seafood"
-  ],
-  "Bar Riva - All-Day": [
-    "Bar Riva - All-Day",
-    "Bar Riva"
-  ],
-  "Le Petit Cafe - Breakfast": [
-    "Le Petit Cafe - Breakfast",
-    "Le Petit Cafe"
-  ],
-  "Le Petit Cafe - Pub/Lounge": [
-    "Le Petit Cafe - Pub/Lounge",
-    "Le Petit Cafe"
-  ],
-  "Primo Piatto - Breakfast": [
-    "Primo Piatto - Breakfast",
-    "Primo Piatto"
-  ],
-  "Primo Piatto - Lunch/Dinner": [
-    "Primo Piatto - Lunch/Dinner",
-    "Primo Piatto"
-  ],
-  "Topolino's Terrace -- Flavors of the Riviera - Breakfast": [
-    "Topolino's Terrace -- Flavors of the Riviera - Breakfast",
-    "Topolino's Terrace -- Flavors of the Riviera"
-  ],
-  "Topolino's Terrace -- Flavors of the Riviera - Children's Breakfast": [
-    "Topolino's Terrace -- Flavors of the Riviera - Children's Breakfast",
-    "Topolino's Terrace -- Flavors of the Riviera"
-  ],
-  "Topolino's Terrace -- Flavors of the Riviera - Children's Dinner": [
-    "Topolino's Terrace -- Flavors of the Riviera - Children's Dinner",
-    "Topolino's Terrace -- Flavors of the Riviera"
-  ],
-  "Topolino's Terrace -- Flavors of the Riviera - Dinner": [
-    "Topolino's Terrace -- Flavors of the Riviera - Dinner",
-    "Topolino's Terrace -- Flavors of the Riviera"
-  ],
-  "Vivoli il Gelato Riviera Cart - Snacks": [
-    "Vivoli il Gelato Riviera Cart - Snacks",
-    "Vivoli il Gelato Riviera Cart"
-  ],
-  "Bourbon Steak - Dinner": [
-    "Bourbon Steak - Dinner",
-    "Bourbon Steak"
-  ],
-  "Cabana Bar and Beach Club - Lunch/Dinner": [
-    "Cabana Bar and Beach Club - Lunch/Dinner",
-    "Cabana Bar and Beach Club"
-  ],
-  "Fountain - All-Day": [
-    "Fountain - All-Day",
-    "Fountain"
-  ],
-  "Fountain - Children's Lunch/Dinner": [
-    "Fountain - Children's Lunch/Dinner",
-    "Fountain"
-  ],
-  "Fountain - Snacks": [
-    "Fountain - Snacks",
-    "Fountain"
-  ],
-  "Fuel - All-Day": [
-    "Fuel - All-Day",
-    "Fuel"
-  ],
-  "Lagoon - Dinner": [
+    "Kusafiri Coffee Shop and Bakery - Lunch/Dinner"
+  ],
+  "L'Artisan des Glaces": [
+    "L'Artisan des Glaces",
+    "L'Artisan des Glaces - Snacks"
+  ],
+  "La Cantina de San Angel": [
+    "La Cantina de San Angel",
+    "La Cantina de San Angel - Lunch/Dinner"
+  ],
+  "La Cava del Tequila": [
+    "La Cava del Tequila",
+    "La Cava del Tequila - All-Day"
+  ],
+  "La Creperie de Paris": [
+    "La Creperie de Paris",
+    "La Creperie de Paris - Children's Lunch/Dinner",
+    "La Creperie de Paris - Lunch/Dinner"
+  ],
+  "La Hacienda de San Angel": [
+    "La Hacienda de San Angel",
+    "La Hacienda de San Angel - Children's Dinner",
+    "La Hacienda de San Angel - Dinner"
+  ],
+  "Lagoon": [
+    "Lagoon",
     "Lagoon - Dinner",
-    "Lagoon"
+    "Lagoon - Lunch"
   ],
-  "Lagoon - Lunch": [
-    "Lagoon - Lunch",
-    "Lagoon"
+  "Laguna Bar": [
+    "Laguna Bar",
+    "Laguna Bar - All-Day"
   ],
-  "Phins - Pub/Lounge": [
-    "Phins - Pub/Lounge",
-    "Phins"
+  "Landscape of Flavors": [
+    "Landscape of Flavors",
+    "Landscape of Flavors - Breakfast",
+    "Landscape of Flavors - Lunch/Dinner"
   ],
-  "Rosa Mexicano - Breakfast": [
-    "Rosa Mexicano - Breakfast",
-    "Rosa Mexicano"
+  "Le Cellier": [
+    "Le Cellier",
+    "Le Cellier - Children's Lunch/Dinner",
+    "Le Cellier - Lunch/Dinner"
   ],
-  "Rosa Mexicano - Children's Breakfast": [
-    "Rosa Mexicano - Children's Breakfast",
-    "Rosa Mexicano"
+  "Le Petit Cafe": [
+    "Le Petit Cafe",
+    "Le Petit Cafe - Breakfast",
+    "Le Petit Cafe - Pub/Lounge"
   ],
-  "Rosa Mexicano - Children's Lunch/Dinner": [
-    "Rosa Mexicano - Children's Lunch/Dinner",
-    "Rosa Mexicano"
+  "Leaning Palms": [
+    "Leaning Palms",
+    "Leaning Palms - Lunch"
   ],
-  "Rosa Mexicano - Dinner": [
-    "Rosa Mexicano - Dinner",
-    "Rosa Mexicano"
+  "Leaping Horse Libations": [
+    "Leaping Horse Libations",
+    "Leaping Horse Libations - All-Day"
   ],
-  "Rosa Mexicano - Lunch": [
-    "Rosa Mexicano - Lunch",
-    "Rosa Mexicano"
+  "Les Vins de Chefs de France": [
+    "Les Vins de Chefs de France",
+    "Les Vins de Chefs de France - All-Day"
   ],
-  "Shula's Steak House - Children's Dinner": [
-    "Shula's Steak House - Children's Dinner",
-    "Shula's Steak House"
+  "Let's Go Slurpin'": [
+    "Let's Go Slurpin'",
+    "Let's Go Slurpin' - All-Day"
   ],
-  "Shula's Steak House - Dinner": [
-    "Shula's Steak House - Dinner",
-    "Shula's Steak House"
+  "Liberty Square Market": [
+    "Liberty Square Market",
+    "Liberty Square Market - All-Day"
   ],
-  "Todd English' bluezoo Lounge - Dinner": [
-    "Todd English' bluezoo Lounge - Dinner",
-    "Todd English' bluezoo Lounge"
+  "Liberty Tree Tavern": [
+    "Liberty Tree Tavern",
+    "Liberty Tree Tavern - Children's Lunch/Dinner",
+    "Liberty Tree Tavern - Lunch/Dinner"
   ],
-  "Todd English's bluezoo - Children's Dinner": [
-    "Todd English's bluezoo - Children's Dinner",
-    "Todd English's bluezoo"
+  "Local Green Orlando Food Truck": [
+    "Local Green Orlando Food Truck",
+    "Local Green Orlando Food Truck - Dinner"
   ],
-  "Todd English's bluezoo - Dinner": [
-    "Todd English's bluezoo - Dinner",
-    "Todd English's bluezoo"
+  "Lottawatta Lodge": [
+    "Lottawatta Lodge",
+    "Lottawatta Lodge - All-Day"
   ],
-  "Chuck Wagon Fresh Fixins Food Truck - Lunch/Dinner": [
-    "Chuck Wagon Fresh Fixins Food Truck - Lunch/Dinner",
-    "Chuck Wagon Fresh Fixins Food Truck"
+  "Lotus Blossom Cafe": [
+    "Lotus Blossom Cafe",
+    "Lotus Blossom Cafe - Lunch/Dinner"
   ],
-  "Crockett's Tavern - Pub/Lounge": [
-    "Crockett's Tavern - Pub/Lounge",
-    "Crockett's Tavern"
+  "Lowtide Lou's": [
+    "Lowtide Lou's",
+    "Lowtide Lou's - Lunch"
   ],
-  "Meadow Snack Bar - Snacks": [
-    "Meadow Snack Bar - Snacks",
-    "Meadow Snack Bar"
+  "Lunching Pad": [
+    "Lunching Pad",
+    "Lunching Pad - Breakfast",
+    "Lunching Pad - Lunch/Dinner"
   ],
-  "Pioneer Hall: Hoop Dee Doo Musical Revue - Hoop Dee Doo Musical Revue": [
-    "Pioneer Hall: Hoop Dee Doo Musical Revue - Hoop Dee Doo Musical Revue",
-    "Pioneer Hall: Hoop Dee Doo Musical Revue"
+  "Mahindi": [
+    "Mahindi",
+    "Mahindi - All-Day"
   ],
-  "Trail's End Quick Service Restaurant - Breakfast": [
-    "Trail's End Quick Service Restaurant - Breakfast",
-    "Trail's End Quick Service Restaurant"
+  "Main Street Bakery - Starbucks": [
+    "Main Street Bakery",
+    "Main Street Bakery - Starbucks - All-Day"
   ],
-  "Trail's End Quick Service Restaurant - Lunch/Dinner": [
-    "Trail's End Quick Service Restaurant - Lunch/Dinner",
-    "Trail's End Quick Service Restaurant"
+  "Maji Pool Bar": [
+    "Maji Pool Bar",
+    "Maji Pool Bar - Lunch/Dinner"
   ],
-  "1900 Park Fare - Breakfast": [
-    "1900 Park Fare - Breakfast",
-    "1900 Park Fare"
+  "Mama Melrose's Ristorante Italiano": [
+    "Mama Melrose's Ristorante Italiano",
+    "Mama Melrose's Ristorante Italiano - Children's Lunch/Dinner",
+    "Mama Melrose's Ristorante Italiano - Lunch/Dinner"
   ],
-  "1900 Park Fare - Dinner": [
-    "1900 Park Fare - Dinner",
-    "1900 Park Fare"
+  "Mangino's": [
+    "Mangino's",
+    "Mangino's - Children's Dinner",
+    "Mangino's - Dinner"
   ],
-  "Beaches Pool Bar and Grill - All-Day": [
-    "Beaches Pool Bar and Grill - All-Day",
-    "Beaches Pool Bar and Grill"
+  "Mara": [
+    "Mara",
+    "Mara - Breakfast",
+    "Mara - Lunch/Dinner"
   ],
-  "Citricos - Children's Dinner": [
-    "Citricos - Children's Dinner",
-    "Citricos"
+  "Mardi Grogs": [
+    "Mardi Grogs",
+    "Mardi Grogs - Lunch/Dinner"
   ],
-  "Citricos - Dinner": [
-    "Citricos - Dinner",
-    "Citricos"
+  "Maria and Enzo's Ristorante": [
+    "Maria and Enzo's Ristorante",
+    "Maria and Enzo's Ristorante - Brunch",
+    "Maria and Enzo's Ristorante - Children's Lunch/Dinner",
+    "Maria and Enzo's Ristorante - Dinner",
+    "Maria and Enzo's Ristorante - Lunch"
   ],
-  "Courtyard Pool Bar - All-Day": [
-    "Courtyard Pool Bar - All-Day",
-    "Courtyard Pool Bar"
+  "Marketplace Joffrey's Handcrafted Smoothies": [
+    "Marketplace Joffrey's Handcrafted Smoothies",
+    "Marketplace Joffrey's Handcrafted Smoothies - All-Day"
   ],
-  "Enchanted Rose - Pub/Lounge": [
-    "Enchanted Rose - Pub/Lounge",
-    "Enchanted Rose"
+  "Marketplace Snacks": [
+    "Marketplace Snacks",
+    "Marketplace Snacks - Snacks"
   ],
-  "Garden View Tea Room - Afternoon Tea Updated": [
-    "Garden View Tea Room - Afternoon Tea Updated",
-    "Garden View Tea Room"
+  "Martha's Vineyard": [
+    "Martha's Vineyard",
+    "Martha's Vineyard - Pub/Lounge"
   ],
-  "Garden View Tea Room - My Disney Girl's Perfectly Princess Tea Party": [
-    "Garden View Tea Room - My Disney Girl's Perfectly Princess Tea Party",
-    "Garden View Tea Room"
+  "Maya Grill": [
+    "Maya Grill",
+    "Maya Grill - Children's Dinner",
+    "Maya Grill - Dinner"
   ],
-  "Gasparilla Island Grill  - All-Day Updated": [
-    "Gasparilla Island Grill  - All-Day Updated",
-    "Gasparilla Island Grill"
+  "Meadow Snack Bar": [
+    "Meadow Snack Bar",
+    "Meadow Snack Bar - Snacks"
   ],
-  "Grand Floridian Cafe - Breakfast/Brunch": [
-    "Grand Floridian Cafe - Breakfast/Brunch",
-    "Grand Floridian Cafe"
+  "Milk Stand": [
+    "Milk Stand",
+    "Milk Stand - Snacks"
   ],
-  "Grand Floridian Cafe - Children's Breakfast/Lunch": [
-    "Grand Floridian Cafe - Children's Breakfast/Lunch",
-    "Grand Floridian Cafe"
+  "Monsieur Paul": [
+    "Monsieur Paul",
+    "Monsieur Paul - Dinner"
   ],
-  "Grand Floridian Cafe - Children's Dinner": [
-    "Grand Floridian Cafe - Children's Dinner",
-    "Grand Floridian Cafe"
+  "Morimoto Asia": [
+    "Morimoto Asia",
+    "Morimoto Asia - Children's Lunch/Dinner",
+    "Morimoto Asia - Lunch/Dinner"
   ],
-  "Grand Floridian Cafe - Dinner": [
-    "Grand Floridian Cafe - Dinner",
-    "Grand Floridian Cafe"
+  "Morimoto Street Food": [
+    "Morimoto Street Food",
+    "Morimoto Street Food - Lunch/Dinner"
   ],
-  "Narcoossee's - Children's Dinner": [
+  "Mr. Kamal's": [
+    "Mr. Kamal's",
+    "Mr. Kamal's - Lunch/Dinner"
+  ],
+  "Muddy Rivers": [
+    "Muddy Rivers",
+    "Muddy Rivers - Lunch/Dinner"
+  ],
+  "Narcoossee's": [
+    "Narcoossee's",
     "Narcoossee's - Children's Dinner",
-    "Narcoossee's"
+    "Narcoossee's - Dinner"
   ],
-  "Narcoossee's - Dinner": [
-    "Narcoossee's - Dinner",
-    "Narcoossee's"
+  "Neighborhood Bakery": [
+    "Neighborhood Bakery",
+    "Neighborhood Bakery - Snacks"
   ],
-  "The Perch - All Day": [
-    "The Perch - All Day",
-    "The Perch"
+  "Nine Dragons Restaurant": [
+    "Nine Dragons Restaurant",
+    "Nine Dragons Restaurant - Children's Dinner",
+    "Nine Dragons Restaurant - Lunch/Dinner"
   ],
-  "Victoria and Albert's - Dinner": [
-    "Victoria and Albert's - Dinner",
-    "Victoria and Albert's"
+  "Nomad Lounge": [
+    "Nomad Lounge",
+    "Nomad Lounge - Children's Lunch/Dinner"
   ],
-  "Good's Food to Go - Breakfast": [
-    "Good's Food to Go - Breakfast",
-    "Good's Food to Go"
+  "Nomad Lounge - Pub/Lounge": [
+    "Nomad Lounge",
+    "Nomad Lounge - Pub/Lounge Updated"
   ],
-  "Good's Food to Go - Lunch/Dinner Updated": [
-    "Good's Food to Go - Lunch/Dinner Updated",
-    "Good's Food to Go"
+  "Oasis Bar and Grill": [
+    "Oasis Bar and Grill",
+    "Oasis Bar and Grill - All-Day"
   ],
-  "Gurgling Suitcase - All-Day": [
-    "Gurgling Suitcase - All-Day",
-    "Gurgling Suitcase"
+  "Oasis Canteen": [
+    "Oasis Canteen",
+    "Oasis Canteen - All-Day"
   ],
-  "Olivia's Cafe - Brunch": [
+  "Oga's Cantina": [
+    "Oga's Cantina",
+    "Oga's Cantina - Breakfast",
+    "Oga's Cantina - Lunch/Dinner"
+  ],
+  "Olivia's Cafe": [
+    "Olivia's Cafe",
     "Olivia's Cafe - Brunch",
-    "Olivia's Cafe"
+    "Olivia's Cafe - Children's Dinner",
+    "Olivia's Cafe - Dinner"
   ],
   "Olivia's Cafe - Children's Brunch": [
-    "Olivia's Cafe - Children's Brunch",
-    "Olivia's Cafe"
-  ],
-  "Olivia's Cafe - Children's Dinner": [
-    "Olivia's Cafe - Children's Dinner",
-    "Olivia's Cafe"
-  ],
-  "Olivia's Cafe - Dinner": [
-    "Olivia's Cafe - Dinner",
-    "Olivia's Cafe"
-  ],
-  "Turtle Shack - All-Day": [
-    "Turtle Shack - All-Day",
-    "Turtle Shack"
-  ],
-  "'Ohana - Breakfast": [
-    "'Ohana - Breakfast",
-    "'Ohana"
-  ],
-  "'Ohana - Dinner": [
-    "'Ohana - Dinner",
-    "'Ohana"
-  ],
-  "Barefoot Pool Bar - All-Day": [
-    "Barefoot Pool Bar - All-Day",
-    "Barefoot Pool Bar"
-  ],
-  "Capt. Cook's  - Breakfast": [
-    "Capt. Cook's  - Breakfast",
-    "Capt. Cook's"
-  ],
-  "Capt. Cook's  - Lunch/Dinner": [
-    "Capt. Cook's  - Lunch/Dinner",
-    "Capt. Cook's"
-  ],
-  "Kona Cafe - Breakfast": [
-    "Kona Cafe - Breakfast",
-    "Kona Cafe"
-  ],
-  "Kona Cafe - Children's Breakfast": [
-    "Kona Cafe - Children's Breakfast",
-    "Kona Cafe"
-  ],
-  "Kona Cafe - Children's Lunch/Dinner": [
-    "Kona Cafe - Children's Lunch/Dinner",
-    "Kona Cafe"
-  ],
-  "Kona Cafe - Dinner": [
-    "Kona Cafe - Dinner",
-    "Kona Cafe"
-  ],
-  "Kona Cafe - Lunch": [
-    "Kona Cafe - Lunch",
-    "Kona Cafe"
-  ],
-  "Kona Island - Breakfast": [
-    "Kona Island - Breakfast",
-    "Kona Island"
-  ],
-  "Kona Island - Lunch/Dinner": [
-    "Kona Island - Lunch/Dinner",
-    "Kona Island"
-  ],
-  "Oasis Bar and Grill - All-Day": [
-    "Oasis Bar and Grill - All-Day",
-    "Oasis Bar and Grill"
-  ],
-  "Pineapple Lanai - Snacks": [
-    "Pineapple Lanai - Snacks",
-    "Pineapple Lanai"
-  ],
-  "Polynesian Resort In-Room Dining - All-Day": [
-    "Polynesian Resort In-Room Dining - All-Day",
-    "Polynesian Resort In-Room Dining"
-  ],
-  "Tambu Lounge - Snacks": [
-    "Tambu Lounge - Snacks",
-    "Tambu Lounge"
-  ],
-  "Trader Sam's Grog Grotto - All-Day": [
-    "Trader Sam's Grog Grotto - All-Day",
-    "Trader Sam's Grog Grotto"
-  ],
-  "Wailulu Bar and Grill - Breakfast/Brunch": [
-    "Wailulu Bar and Grill - Breakfast/Brunch",
-    "Wailulu Bar and Grill"
-  ],
-  "Wailulu Bar and Grill - Lunch/Dinner": [
-    "Wailulu Bar and Grill - Lunch/Dinner",
-    "Wailulu Bar and Grill"
-  ],
-  "Everything POP Shopping and Dining - Breakfast": [
-    "Everything POP Shopping and Dining - Breakfast",
-    "Everything POP Shopping and Dining"
-  ],
-  "Everything POP Shopping and Dining - Lunch/Dinner": [
-    "Everything POP Shopping and Dining - Lunch/Dinner",
-    "Everything POP Shopping and Dining"
-  ],
-  "Petals Pool Bar - All-Day": [
-    "Petals Pool Bar - All-Day",
-    "Petals Pool Bar"
-  ],
-  "Mardi Grogs - Lunch/Dinner": [
-    "Mardi Grogs - Lunch/Dinner",
-    "Mardi Grogs"
-  ],
-  "Sassagoula Floatworks and Food Factory - Breakfast": [
-    "Sassagoula Floatworks and Food Factory - Breakfast",
-    "Sassagoula Floatworks and Food Factory"
-  ],
-  "Sassagoula Floatworks and Food Factory - Lunch/Dinner": [
-    "Sassagoula Floatworks and Food Factory - Lunch/Dinner",
-    "Sassagoula Floatworks and Food Factory"
-  ],
-  "Scat Cat's Club Cafe - All-Day Updated": [
-    "Scat Cat's Club Cafe - All-Day Updated",
-    "Scat Cat's Club Cafe"
-  ],
-  "Scat Cat's Club Lounge - Pub/Lounge Updated": [
-    "Scat Cat's Club Lounge - Pub/Lounge Updated",
-    "Scat Cat's Club Lounge"
-  ],
-  "Boatwright's Dining Hall - Children's Dinner": [
-    "Boatwright's Dining Hall - Children's Dinner",
-    "Boatwright's Dining Hall"
-  ],
-  "Boatwright's Dining Hall - Dinner": [
-    "Boatwright's Dining Hall - Dinner",
-    "Boatwright's Dining Hall"
-  ],
-  "Muddy Rivers - Lunch/Dinner": [
-    "Muddy Rivers - Lunch/Dinner",
-    "Muddy Rivers"
-  ],
-  "River Roost Lounge - Snacks": [
-    "River Roost Lounge - Snacks",
-    "River Roost Lounge"
-  ],
-  "Riverside Mill Food Court - Breakfast": [
-    "Riverside Mill Food Court - Breakfast",
-    "Riverside Mill Food Court"
-  ],
-  "Riverside Mill Food Court - Lunch/Dinner": [
-    "Riverside Mill Food Court - Lunch/Dinner",
-    "Riverside Mill Food Court"
-  ],
-  "Artist's Palette - Breakfast": [
-    "Artist's Palette - Breakfast",
-    "Artist's Palette"
-  ],
-  "Artist's Palette - Lunch/Dinner": [
-    "Artist's Palette - Lunch/Dinner",
-    "Artist's Palette"
-  ],
-  "Backstretch Pool Bar - All-Day": [
-    "Backstretch Pool Bar - All-Day",
-    "Backstretch Pool Bar"
-  ],
-  "Chip 'n' Dale's Cafe at Lake Buena Vista Golf Course - All-Day": [
-    "Chip 'n' Dale's Cafe at Lake Buena Vista Golf Course - All-Day",
-    "Chip 'n' Dale's Cafe at Lake Buena Vista Golf Course"
-  ],
-  "Golf Course Beverage Cart at Lake Buena Vista Golf Course - All-Day": [
-    "Golf Course Beverage Cart at Lake Buena Vista Golf Course - All-Day",
-    "Golf Course Beverage Cart at Lake Buena Vista Golf Course"
-  ],
-  "On The Rocks Pool Bar - All-Day": [
-    "On The Rocks Pool Bar - All-Day",
-    "On The Rocks Pool Bar"
-  ],
-  "Paddock Grill - All-Day": [
-    "Paddock Grill - All-Day",
-    "Paddock Grill"
-  ],
-  "Turf Club Bar and Grill - Children's Dinner": [
-    "Turf Club Bar and Grill - Children's Dinner",
-    "Turf Club Bar and Grill"
-  ],
-  "Turf Club Bar and Grill - Dinner": [
-    "Turf Club Bar and Grill - Dinner",
-    "Turf Club Bar and Grill"
-  ],
-  "Turf Club Lounge - Pub/Lounge": [
-    "Turf Club Lounge - Pub/Lounge",
-    "Turf Club Lounge"
-  ],
-  "Chip 'n' Dale's Deli - All-Day": [
-    "Chip 'n' Dale's Deli - All-Day",
-    "Chip 'n' Dale's Deli"
-  ],
-  "Evergreens - Dinner": [
-    "Evergreens - Dinner",
-    "Evergreens"
-  ],
-  "Express Cafe - All-Day": [
-    "Express Cafe - All-Day",
-    "Express Cafe"
-  ],
-  "Garden Gallery - Breakfast": [
-    "Garden Gallery - Breakfast",
-    "Garden Gallery"
-  ],
-  "Garden Gallery - Dinner": [
-    "Garden Gallery - Dinner",
-    "Garden Gallery"
-  ],
-  "Golf Course Beverage Cart at Shades of Green - All-Day": [
-    "Golf Course Beverage Cart at Shades of Green - All-Day",
-    "Golf Course Beverage Cart at Shades of Green"
-  ],
-  "Mangino's - Children's Dinner": [
-    "Mangino's - Children's Dinner",
-    "Mangino's"
-  ],
-  "Mangino's - Dinner": [
-    "Mangino's - Dinner",
-    "Mangino's"
-  ],
-  "Amare - Breakfast": [
-    "Amare - Breakfast",
-    "Amare"
-  ],
-  "Amare - Dinner": [
-    "Amare - Dinner",
-    "Amare"
-  ],
-  "Amare - Lunch": [
-    "Amare - Lunch",
-    "Amare"
-  ],
-  "Grounds - All-Day": [
-    "Grounds - All-Day",
-    "Grounds"
-  ],
-  "Stir - Pub/Lounge": [
-    "Stir - Pub/Lounge",
-    "Stir"
-  ],
-  "Tangerine - Pub/Lounge": [
-    "Tangerine - Pub/Lounge",
-    "Tangerine"
-  ],
-  "Chill - All-Day": [
-    "Chill - All-Day",
-    "Chill"
-  ],
-  "Garden Grove Cafe - Breakfast": [
-    "Garden Grove Cafe - Breakfast",
-    "Garden Grove Cafe"
-  ],
-  "Garden Grove Cafe - Children's Breakfast": [
-    "Garden Grove Cafe - Children's Breakfast",
-    "Garden Grove Cafe"
-  ],
-  "Garden Grove Cafe - Children's Lunch": [
-    "Garden Grove Cafe - Children's Lunch",
-    "Garden Grove Cafe"
-  ],
-  "Garden Grove Cafe - Lunch": [
-    "Garden Grove Cafe - Lunch",
-    "Garden Grove Cafe"
-  ],
-  "Il Mulino New York Trattoria - Children's Dinner": [
-    "Il Mulino New York Trattoria - Children's Dinner",
-    "Il Mulino New York Trattoria"
-  ],
-  "Il Mulino New York Trattoria - Dinner": [
-    "Il Mulino New York Trattoria - Dinner",
-    "Il Mulino New York Trattoria"
-  ],
-  "Java Bar - All-Day": [
-    "Java Bar - All-Day",
-    "Java Bar"
-  ],
-  "Kimonos - Dinner": [
-    "Kimonos - Dinner",
-    "Kimonos"
-  ],
-  "Splash Pool Bar and Grill - All-Day": [
-    "Splash Pool Bar and Grill - All-Day",
-    "Splash Pool Bar and Grill"
-  ],
-  "Artist Point - Children's Dinner": [
-    "Artist Point - Children's Dinner",
-    "Artist Point"
-  ],
-  "Artist Point - Dinner": [
-    "Artist Point - Dinner",
-    "Artist Point"
-  ],
-  "Geyser Point Bar and Grill - Lunch/Dinner": [
-    "Geyser Point Bar and Grill - Lunch/Dinner",
-    "Geyser Point Bar and Grill"
-  ],
-  "Roaring Fork - Breakfast": [
-    "Roaring Fork - Breakfast",
-    "Roaring Fork"
-  ],
-  "Roaring Fork - Lunch/Dinner": [
-    "Roaring Fork - Lunch/Dinner",
-    "Roaring Fork"
-  ],
-  "Territory Lounge - Pub/Lounge": [
-    "Territory Lounge - Pub/Lounge",
-    "Territory Lounge"
-  ],
-  "Whispering Canyon Cafe - Breakfast/Lunch": [
-    "Whispering Canyon Cafe - Breakfast/Lunch",
-    "Whispering Canyon Cafe"
-  ],
-  "Whispering Canyon Cafe - Children's Breakfast/Lunch": [
-    "Whispering Canyon Cafe - Children's Breakfast/Lunch",
-    "Whispering Canyon Cafe"
-  ],
-  "Whispering Canyon Cafe - Children's Dinner": [
-    "Whispering Canyon Cafe - Children's Dinner",
-    "Whispering Canyon Cafe"
-  ],
-  "Whispering Canyon Cafe - Dinner": [
-    "Whispering Canyon Cafe - Dinner",
-    "Whispering Canyon Cafe"
-  ],
-  "Wilderness Lodge In-Room Dining - All-Day": [
-    "Wilderness Lodge In-Room Dining - All-Day",
-    "Wilderness Lodge In-Room Dining"
-  ],
-  "Ale and Compass Lounge - Snacks": [
-    "Ale and Compass Lounge - Snacks",
-    "Ale and Compass Lounge"
-  ],
-  "Ale and Compass Restaurant - Breakfast/Lunch": [
-    "Ale and Compass Restaurant - Breakfast/Lunch",
-    "Ale and Compass Restaurant"
-  ],
-  "Ale and Compass Restaurant - Children's Breakfast/Lunch": [
-    "Ale and Compass Restaurant - Children's Breakfast/Lunch",
-    "Ale and Compass Restaurant"
-  ],
-  "Ale and Compass Restaurant - Children's Dinner": [
-    "Ale and Compass Restaurant - Children's Dinner",
-    "Ale and Compass Restaurant"
-  ],
-  "Ale and Compass Restaurant - Dinner": [
-    "Ale and Compass Restaurant - Dinner",
-    "Ale and Compass Restaurant"
-  ],
-  "Crew's Cup Lounge - All-Day": [
-    "Crew's Cup Lounge - All-Day",
-    "Crew's Cup Lounge"
-  ],
-  "Crew's Cup Lounge - Children's Lunch/Dinner": [
-    "Crew's Cup Lounge - Children's Lunch/Dinner",
-    "Crew's Cup Lounge"
-  ],
-  "The Market at Ale and Compass - All-Day": [
-    "The Market at Ale and Compass - All-Day",
-    "The Market at Ale and Compass"
-  ],
-  "Yachtsman Steakhouse - Children's Dinner": [
-    "Yachtsman Steakhouse - Children's Dinner",
-    "Yachtsman Steakhouse"
-  ],
-  "Yachtsman Steakhouse - Dinner": [
-    "Yachtsman Steakhouse - Dinner",
-    "Yachtsman Steakhouse"
-  ],
-  "Cookes of Dublin - Lunch/Dinner": [
-    "Cookes of Dublin - Lunch/Dinner",
-    "Cookes of Dublin"
-  ],
-  "Enzo's Hideaway Tunnel Bar - Children's Lunch/Dinner": [
-    "Enzo's Hideaway Tunnel Bar - Children's Lunch/Dinner",
-    "Enzo's Hideaway Tunnel Bar"
-  ],
-  "Enzo's Hideaway Tunnel Bar - Dinner": [
-    "Enzo's Hideaway Tunnel Bar - Dinner",
-    "Enzo's Hideaway Tunnel Bar"
-  ],
-  "Enzo's Hideaway Tunnel Bar - Lunch": [
-    "Enzo's Hideaway Tunnel Bar - Lunch",
-    "Enzo's Hideaway Tunnel Bar"
-  ],
-  "Enzo's Hideaway Tunnel Bar - Special Meals": [
-    "Enzo's Hideaway Tunnel Bar - Special Meals",
-    "Enzo's Hideaway Tunnel Bar"
-  ],
-  "Erin Mckenna's Bakery NYC - All-Day": [
-    "Erin Mckenna's Bakery NYC - All-Day",
-    "Erin Mckenna's Bakery NYC"
-  ],
-  "Gideon’s Bakehouse - All-Day Updated": [
-    "Gideon’s Bakehouse - All-Day Updated",
-    "Gideon’s Bakehouse"
-  ],
-  "Homecomin' - Brunch": [
-    "Homecomin' - Brunch",
-    "Homecomin'"
-  ],
-  "Homecomin' - Children's Lunch/Dinner": [
-    "Homecomin' - Children's Lunch/Dinner",
-    "Homecomin'"
-  ],
-  "Homecomin' - Lunch/Dinner": [
-    "Homecomin' - Lunch/Dinner",
-    "Homecomin'"
-  ],
-  "Jock Lindsey's Hangar Bar  - All-Day": [
-    "Jock Lindsey's Hangar Bar  - All-Day",
-    "Jock Lindsey's Hangar Bar"
-  ],
-  "Maria and Enzo's Ristorante - Brunch": [
-    "Maria and Enzo's Ristorante - Brunch",
-    "Maria and Enzo's Ristorante"
-  ],
-  "Maria and Enzo's Ristorante - Children's Lunch/Dinner": [
-    "Maria and Enzo's Ristorante - Children's Lunch/Dinner",
-    "Maria and Enzo's Ristorante"
-  ],
-  "Maria and Enzo's Ristorante - Dinner": [
-    "Maria and Enzo's Ristorante - Dinner",
-    "Maria and Enzo's Ristorante"
-  ],
-  "Maria and Enzo's Ristorante - Lunch": [
-    "Maria and Enzo's Ristorante - Lunch",
-    "Maria and Enzo's Ristorante"
-  ],
-  "Morimoto Asia - Children's Lunch/Dinner": [
-    "Morimoto Asia - Children's Lunch/Dinner",
-    "Morimoto Asia"
-  ],
-  "Morimoto Asia - Lunch/Dinner": [
-    "Morimoto Asia - Lunch/Dinner",
-    "Morimoto Asia"
-  ],
-  "Morimoto Street Food - Lunch/Dinner": [
-    "Morimoto Street Food - Lunch/Dinner",
-    "Morimoto Street Food"
-  ],
-  "Paddlefish - Brunch": [
+    "Olivia's Cafe",
+    "Olivia's Cafe - Children's Brunch"
+  ],
+  "On The Rocks Pool Bar": [
+    "On The Rocks Pool Bar",
+    "On The Rocks Pool Bar - All-Day"
+  ],
+  "Outer Rim": [
+    "Outer Rim",
+    "Outer Rim - Pub/Lounge"
+  ],
+  "Paddlefish": [
+    "Paddlefish",
     "Paddlefish - Brunch",
-    "Paddlefish"
-  ],
-  "Paddlefish - Children's Lunch/Dinner": [
     "Paddlefish - Children's Lunch/Dinner",
-    "Paddlefish"
-  ],
-  "Paddlefish - Dinner": [
     "Paddlefish - Dinner",
-    "Paddlefish"
+    "Paddlefish - Lunch"
   ],
-  "Paddlefish - Lunch": [
-    "Paddlefish - Lunch",
-    "Paddlefish"
+  "Paddock Grill": [
+    "Paddock Grill",
+    "Paddock Grill - All-Day"
   ],
-  "Paddy's Bar - Pub/Lounge": [
-    "Paddy's Bar - Pub/Lounge",
-    "Paddy's Bar"
+  "Paddy's Bar": [
+    "Paddy's Bar",
+    "Paddy's Bar - Pub/Lounge"
   ],
-  "Paradiso 37, Taste of the Americas - Children's Lunch/Dinner": [
+  "Paradiso 37, Taste of the Americas": [
+    "Paradiso 37, Taste of the Americas",
     "Paradiso 37, Taste of the Americas - Children's Lunch/Dinner",
-    "Paradiso 37, Taste of the Americas"
+    "Paradiso 37, Taste of the Americas - Lunch/Dinner"
   ],
-  "Paradiso 37, Taste of the Americas - Lunch/Dinner": [
-    "Paradiso 37, Taste of the Americas - Lunch/Dinner",
-    "Paradiso 37, Taste of the Americas"
+  "Pecos Bill Tall Tale Inn and Cafe": [
+    "Pecos Bill Tall Tale Inn and Cafe",
+    "Pecos Bill Tall Tale Inn and Cafe - Lunch/Dinner"
   ],
-  "Pizza Ponte - All-Day": [
-    "Pizza Ponte - All-Day",
-    "Pizza Ponte"
+  "Peevy's Polar Pipeline": [
+    "Peevy's Polar Pipeline",
+    "Peevy's Polar Pipeline - All-Day"
   ],
-  "Raglan Road - Breakfast": [
+  "Pepe": [
+    "Pepe",
+    "Pepe - Lunch/Dinner"
+  ],
+  "Petals Pool Bar": [
+    "Petals Pool Bar",
+    "Petals Pool Bar - All-Day"
+  ],
+  "Phins": [
+    "Phins",
+    "Phins - Pub/Lounge"
+  ],
+  "Pineapple Lanai": [
+    "Pineapple Lanai",
+    "Pineapple Lanai - Snacks"
+  ],
+  "Pinocchio Village Haus": [
+    "Pinocchio Village Haus",
+    "Pinocchio Village Haus - Lunch/Dinner"
+  ],
+  "Pioneer Hall: Hoop Dee Doo Musical Revue": [
+    "Pioneer Hall: Hoop Dee Doo Musical Revue",
+    "Pioneer Hall: Hoop Dee Doo Musical Revue - Hoop Dee Doo Musical Revue"
+  ],
+  "Pixar Place Joffrey's Coffee and Tea Company": [
+    "Pixar Place Joffrey's Coffee and Tea Company",
+    "Pixar Place Joffrey's Coffee and Tea Company - All-Day"
+  ],
+  "Pizza Ponte": [
+    "Pizza Ponte",
+    "Pizza Ponte - All-Day"
+  ],
+  "Pizza al Taglio - Via Napoli Pizza Window": [
+    "Pizza al Taglio",
+    "Pizza al Taglio - Via Napoli Pizza Window - Lunch/Dinner"
+  ],
+  "Pizzafari": [
+    "Pizzafari",
+    "Pizzafari  - Lunch/Dinner"
+  ],
+  "PizzeRizzo": [
+    "PizzeRizzo",
+    "PizzeRizzo - Lunch/Dinner"
+  ],
+  "Planet Hollywood Observatory": [
+    "Planet Hollywood Observatory",
+    "Planet Hollywood Observatory - Children's Lunch/Dinner",
+    "Planet Hollywood Observatory - Lunch/Dinner"
+  ],
+  "Plaza Ice Cream Parlor": [
+    "Plaza Ice Cream Parlor",
+    "Plaza Ice Cream Parlor - Snacks"
+  ],
+  "Plaza Restaurant": [
+    "Plaza Restaurant",
+    "Plaza Restaurant - Children's Lunch/Dinner",
+    "Plaza Restaurant - Lunch/Dinner"
+  ],
+  "Polar Pub": [
+    "Polar Pub",
+    "Polar Pub - All-Day"
+  ],
+  "Polite Pig": [
+    "Polite Pig",
+    "Polite Pig - All-Day"
+  ],
+  "Polynesian Resort In-Room Dining": [
+    "Polynesian Resort In-Room Dining",
+    "Polynesian Resort In-Room Dining - All-Day"
+  ],
+  "Pongu Pongu": [
+    "Pongu Pongu",
+    "Pongu Pongu - Snacks"
+  ],
+  "Popcorn Cart": [
+    "Popcorn Cart",
+    "Popcorn Cart - Snacks"
+  ],
+  "Popcorn and Snacks - All Day": [
+    "Popcorn and Snacks",
+    "Popcorn and Snacks - All Day"
+  ],
+  "Pretzel Palooza": [
+    "Pretzel Palooza",
+    "Pretzel Palooza - Snacks"
+  ],
+  "Primo Piatto": [
+    "Primo Piatto",
+    "Primo Piatto - Breakfast",
+    "Primo Piatto - Lunch/Dinner"
+  ],
+  "Prince Eric Village Market": [
+    "Prince Eric Village Market",
+    "Prince Eric Village Market - All-Day"
+  ],
+  "Promenade Refreshments": [
+    "Promenade Refreshments",
+    "Promenade Refreshments - Lunch/Dinner"
+  ],
+  "Quality Beverages": [
+    "Quality Beverages",
+    "Quality Beverages - All-Day"
+  ],
+  "Raglan Road": [
+    "Raglan Road",
     "Raglan Road - Breakfast",
-    "Raglan Road"
-  ],
-  "Raglan Road - Brunch": [
     "Raglan Road - Brunch",
-    "Raglan Road"
-  ],
-  "Raglan Road - Children's Lunch/Dinner": [
     "Raglan Road - Children's Lunch/Dinner",
-    "Raglan Road"
+    "Raglan Road - Lunch/Dinner"
   ],
-  "Raglan Road - Lunch/Dinner": [
-    "Raglan Road - Lunch/Dinner",
-    "Raglan Road"
+  "Rainforest Cafe": [
+    "Rainforest Cafe",
+    "Rainforest Cafe - Breakfast",
+    "Rainforest Cafe - Children's Breakfast",
+    "Rainforest Cafe - Children's Lunch/Dinner",
+    "Rainforest Cafe - Lunch/Dinner"
   ],
-  "STK Orlando - Brunch": [
+  "Refreshment Port": [
+    "Refreshment Port",
+    "Refreshment Port - Lunch/Dinner"
+  ],
+  "Refreshment Station": [
+    "Refreshment Station",
+    "Refreshment Station  - Snacks"
+  ],
+  "Regal Eagle Smokehouse Outdoor Bar": [
+    "Regal Eagle Smokehouse Outdoor Bar",
+    "Regal Eagle Smokehouse Outdoor Bar - All-Day"
+  ],
+  "Regal Eagle Smokehouse: Crafts Drafts & Barbecue": [
+    "Regal Eagle Smokehouse: Crafts Drafts & Barbecue",
+    "Regal Eagle Smokehouse: Crafts Drafts & Barbecue - Lunch/Dinner"
+  ],
+  "Restaurant Marrakesh": [
+    "Restaurant Marrakesh",
+    "Restaurant Marrakesh - Children's Lunch/Dinner",
+    "Restaurant Marrakesh - Dinner",
+    "Restaurant Marrakesh - Lunch"
+  ],
+  "Restaurantosaurus - CLOSED": [
+    "Restaurantosaurus",
+    "Restaurantosaurus - CLOSED - Pub/Lounge"
+  ],
+  "Restaurantosaurus - CLOSED - Lunch/Dinner": [
+    "Restaurantosaurus",
+    "Restaurantosaurus - CLOSED - Lunch/Dinner Updated"
+  ],
+  "Revive Joffrey's Coffee and Tea Company": [
+    "Revive Joffrey's Coffee and Tea Company",
+    "Revive Joffrey's Coffee and Tea Company - All-Day"
+  ],
+  "River Roost Lounge": [
+    "River Roost Lounge",
+    "River Roost Lounge - Snacks"
+  ],
+  "Riverside Mill Food Court": [
+    "Riverside Mill Food Court",
+    "Riverside Mill Food Court - Breakfast",
+    "Riverside Mill Food Court - Lunch/Dinner"
+  ],
+  "Rix Sports Bar & Grill": [
+    "Rix Sports Bar & Grill",
+    "Rix Sports Bar & Grill - Breakfast",
+    "Rix Sports Bar & Grill - Children's Lunch/Dinner",
+    "Rix Sports Bar & Grill - Lunch/Dinner"
+  ],
+  "Roaring Fork": [
+    "Roaring Fork",
+    "Roaring Fork - Breakfast",
+    "Roaring Fork - Lunch/Dinner"
+  ],
+  "Ronto Roasters": [
+    "Ronto Roasters",
+    "Ronto Roasters - All-Day"
+  ],
+  "Rosa Mexicano": [
+    "Rosa Mexicano",
+    "Rosa Mexicano - Breakfast",
+    "Rosa Mexicano - Children's Breakfast",
+    "Rosa Mexicano - Children's Lunch/Dinner",
+    "Rosa Mexicano - Dinner",
+    "Rosa Mexicano - Lunch"
+  ],
+  "Rose and Crown Beer Garden": [
+    "Rose and Crown Beer Garden",
+    "Rose and Crown Beer Garden - All-Day"
+  ],
+  "Rose and Crown Dining Room": [
+    "Rose and Crown Dining Room",
+    "Rose and Crown Dining Room - Children's Lunch/Dinner",
+    "Rose and Crown Dining Room - Lunch/Dinner"
+  ],
+  "Rose and Crown Pub": [
+    "Rose and Crown Pub",
+    "Rose and Crown Pub - All-Day"
+  ],
+  "Rosie's All-American Cafe": [
+    "Rosie's All-American Cafe",
+    "Rosie's All-American Cafe - Lunch/Dinner"
+  ],
+  "Roundup Rodeo BBQ": [
+    "Roundup Rodeo BBQ",
+    "Roundup Rodeo BBQ - Lunch/Dinner"
+  ],
+  "Royal Anandapur Joffrey's Coffee and Tea Company": [
+    "Royal Anandapur Joffrey's Coffee and Tea Company",
+    "Royal Anandapur Joffrey's Coffee and Tea Company - All-Day"
+  ],
+  "STK Orlando": [
+    "STK Orlando",
     "STK Orlando - Brunch",
-    "STK Orlando"
-  ],
-  "STK Orlando - Children's Lunch/Dinner": [
     "STK Orlando - Children's Lunch/Dinner",
-    "STK Orlando"
-  ],
-  "STK Orlando - Dinner": [
     "STK Orlando - Dinner",
-    "STK Orlando"
+    "STK Orlando - Lunch"
   ],
-  "STK Orlando - Lunch": [
-    "STK Orlando - Lunch",
-    "STK Orlando"
+  "Salt & Straw": [
+    "Salt & Straw",
+    "Salt & Straw - All-Day Updated"
   ],
-  "Terralina Crafted Italian - Brunch": [
-    "Terralina Crafted Italian - Brunch",
-    "Terralina Crafted Italian"
+  "San Angel Inn Restaurante": [
+    "San Angel Inn Restaurante",
+    "San Angel Inn Restaurante - Children's Lunch/Dinner",
+    "San Angel Inn Restaurante - Lunch/Dinner"
   ],
-  "Terralina Crafted Italian - Children's Lunch/Dinner": [
-    "Terralina Crafted Italian - Children's Lunch/Dinner",
-    "Terralina Crafted Italian"
+  "Sanaa": [
+    "Sanaa",
+    "Sanaa - Breakfast",
+    "Sanaa - Children's Lunch/Dinner",
+    "Sanaa - Dinner",
+    "Sanaa - Lunch"
   ],
-  "Terralina Crafted Italian - Lunch/Dinner": [
-    "Terralina Crafted Italian - Lunch/Dinner",
-    "Terralina Crafted Italian"
+  "Sand Bar": [
+    "Sand Bar",
+    "Sand Bar - All-Day"
   ],
-  "The Basket at Wine Bar George - All-Day": [
-    "The Basket at Wine Bar George - All-Day",
-    "The Basket at Wine Bar George"
+  "Sassagoula Floatworks and Food Factory": [
+    "Sassagoula Floatworks and Food Factory",
+    "Sassagoula Floatworks and Food Factory - Breakfast",
+    "Sassagoula Floatworks and Food Factory - Lunch/Dinner"
   ],
-  "The BOATHOUSE - Brunch": [
-    "The BOATHOUSE - Brunch",
-    "The BOATHOUSE"
+  "Satu'li Canteen": [
+    "Satu'li Canteen",
+    "Satu'li Canteen - Breakfast",
+    "Satu'li Canteen - Lunch/Dinner"
   ],
-  "The BOATHOUSE - Children's Lunch/Dinner": [
-    "The BOATHOUSE - Children's Lunch/Dinner",
-    "The BOATHOUSE"
+  "Scat Cat's Club Cafe": [
+    "Scat Cat's Club Cafe",
+    "Scat Cat's Club Cafe - All-Day Updated"
   ],
-  "The BOATHOUSE - Lunch/Dinner": [
-    "The BOATHOUSE - Lunch/Dinner",
-    "The BOATHOUSE"
+  "Scat Cat's Club Lounge - Pub/Lounge": [
+    "Scat Cat's Club Lounge",
+    "Scat Cat's Club Lounge - Pub/Lounge Updated"
   ],
-  "The Edison - Children's Lunch/Dinner": [
-    "The Edison - Children's Lunch/Dinner",
-    "The Edison"
+  "Sci Fi Dine-In Theater": [
+    "Sci Fi Dine-In Theater",
+    "Sci Fi Dine-In Theater - Children's Lunch/Dinner",
+    "Sci Fi Dine-In Theater - Lunch/Dinner"
   ],
-  "The Edison - Dinner": [
-    "The Edison - Dinner",
-    "The Edison"
+  "Sebastian's Bistro": [
+    "Sebastian's Bistro",
+    "Sebastian's Bistro - Children's Lunch/Dinner",
+    "Sebastian's Bistro - Dinner"
   ],
-  "The Edison - Lunch": [
-    "The Edison - Lunch",
-    "The Edison"
+  "Shiki-Sai: Sushi Izakaya": [
+    "Shiki-Sai: Sushi Izakaya",
+    "Shiki-Sai: Sushi Izakaya - Children's Lunch/Dinner",
+    "Shiki-Sai: Sushi Izakaya - Lunch/Dinner"
   ],
-  "The Landing Joffrey's Coffee and Tea Company - All-Day": [
-    "The Landing Joffrey's Coffee and Tea Company - All-Day",
-    "The Landing Joffrey's Coffee and Tea Company"
+  "Showcase Plaza Joffrey's Coffee and Tea Company": [
+    "Showcase Plaza Joffrey's Coffee and Tea Company",
+    "Showcase Plaza Joffrey's Coffee and Tea Company - All-Day"
   ],
-  "Vivoli Gelateria - Snacks Updated": [
-    "Vivoli Gelateria - Snacks Updated",
-    "Vivoli Gelateria"
+  "Shula's Steak House": [
+    "Shula's Steak House",
+    "Shula's Steak House - Children's Dinner",
+    "Shula's Steak House - Dinner"
   ],
-  "Wine Bar George - Brunch": [
-    "Wine Bar George - Brunch",
-    "Wine Bar George"
+  "Siesta's Cantina": [
+    "Siesta's Cantina",
+    "Siesta's Cantina - Lunch/Dinner"
   ],
-  "Wine Bar George - Children's Lunch/Dinner": [
-    "Wine Bar George - Children's Lunch/Dinner",
-    "Wine Bar George"
+  "Silver Screen Spirits Pool Bar": [
+    "Silver Screen Spirits Pool Bar",
+    "Silver Screen Spirits Pool Bar - All-Day"
   ],
-  "Wine Bar George - Lunch/Dinner Updated": [
-    "Wine Bar George - Lunch/Dinner Updated",
-    "Wine Bar George"
+  "Singing Spirits Pool Bar": [
+    "Singing Spirits Pool Bar",
+    "Singing Spirits Pool Bar - All-Day"
   ],
-  "B.B. Wolf's Sausage Co. - Take-Out": [
-    "B.B. Wolf's Sausage Co. - Take-Out",
-    "B.B. Wolf's Sausage Co."
+  "Sleepy Hollow": [
+    "Sleepy Hollow",
+    "Sleepy Hollow - All-Day"
   ],
-  "Dockside Margaritas - All-Day": [
-    "Dockside Margaritas - All-Day",
-    "Dockside Margaritas"
+  "Smiling Crocodile": [
+    "Smiling Crocodile",
+    "Smiling Crocodile - All-Day"
   ],
-  "Earl of Sandwich - All-Day": [
-    "Earl of Sandwich - All-Day",
-    "Earl of Sandwich"
+  "Snack Cart": [
+    "Snack Cart",
+    "Snack Cart - Snacks"
   ],
-  "EET by Maneet Chauhan - Children's Lunch/Dinner": [
-    "EET by Maneet Chauhan - Children's Lunch/Dinner",
-    "EET by Maneet Chauhan"
+  "Snack Hut": [
+    "Snack Hut",
+    "Snack Hut - Snacks"
   ],
-  "EET by Maneet Chauhan - Lunch/Dinner": [
-    "EET by Maneet Chauhan - Lunch/Dinner",
-    "EET by Maneet Chauhan"
+  "Snack Shack": [
+    "Snack Shack",
+    "Snack Shack - Lunch"
   ],
-  "Ghirardelli Soda Fountain and Chocolate Shop - All-Day": [
-    "Ghirardelli Soda Fountain and Chocolate Shop - All-Day",
-    "Ghirardelli Soda Fountain and Chocolate Shop"
+  "Sommerfest": [
+    "Sommerfest",
+    "Sommerfest - Lunch/Dinner"
   ],
-  "Marketplace Joffrey's Handcrafted Smoothies - All-Day": [
-    "Marketplace Joffrey's Handcrafted Smoothies - All-Day",
-    "Marketplace Joffrey's Handcrafted Smoothies"
+  "Space 220": [
+    "Space 220",
+    "Space 220 - Children's Lunch/Dinner",
+    "Space 220 - Dinner",
+    "Space 220 - Lunch"
   ],
-  "Marketplace Snacks - Snacks": [
-    "Marketplace Snacks - Snacks",
-    "Marketplace Snacks"
+  "Space 220 Lounge": [
+    "Space 220 Lounge",
+    "Space 220 Lounge - Pub/Lounge"
   ],
-  "Starbucks - Marketplace - All-Day": [
-    "Starbucks - Marketplace - All-Day",
-    "Starbucks"
+  "Spice Road Table": [
+    "Spice Road Table",
+    "Spice Road Table - Children's Lunch/Dinner",
+    "Spice Road Table - Lunch/Dinner"
   ],
-  "Sunshine Churros Cart - Snacks": [
-    "Sunshine Churros Cart - Snacks",
-    "Sunshine Churros Cart"
+  "Splash Pool Bar and Grill": [
+    "Splash Pool Bar and Grill",
+    "Splash Pool Bar and Grill - All-Day"
   ],
-  "Swirls on the Water - All-Day": [
-    "Swirls on the Water - All-Day",
-    "Swirls on the Water"
-  ],
-  "T-Rex - Children's Lunch/Dinner": [
-    "T-Rex - Children's Lunch/Dinner",
-    "T-Rex"
-  ],
-  "T-Rex - Lunch/Dinner": [
-    "T-Rex - Lunch/Dinner",
-    "T-Rex"
-  ],
-  "Wetzel's Pretzels - Snacks Updated": [
-    "Wetzel's Pretzels - Snacks Updated",
-    "Wetzel's Pretzels"
-  ],
-  "4R Cantina Barbacoa Food Truck - Lunch/Dinner": [
-    "4R Cantina Barbacoa Food Truck - Lunch/Dinner",
-    "4R Cantina Barbacoa Food Truck"
-  ],
-  "AMC Fork and Screen Theatres - Lunch/Dinner": [
-    "AMC Fork and Screen Theatres - Lunch/Dinner",
-    "AMC Fork and Screen Theatres"
-  ],
-  "Cilantro Urban Eatery - All-Day": [
-    "Cilantro Urban Eatery - All-Day",
-    "Cilantro Urban Eatery"
-  ],
-  "City Works Eatery and Pour House - Brunch": [
-    "City Works Eatery and Pour House - Brunch",
-    "City Works Eatery and Pour House"
-  ],
-  "City Works Eatery and Pour House - Children's Lunch/Dinner": [
-    "City Works Eatery and Pour House - Children's Lunch/Dinner",
-    "City Works Eatery and Pour House"
-  ],
-  "City Works Eatery and Pour House - Lunch/Dinner": [
-    "City Works Eatery and Pour House - Lunch/Dinner",
-    "City Works Eatery and Pour House"
-  ],
-  "Cookie Bar - All-Day": [
-    "Cookie Bar - All-Day",
-    "Cookie Bar"
-  ],
-  "Everglazed - All-Day Updated": [
-    "Everglazed - All-Day Updated",
-    "Everglazed"
-  ],
-  "Go Juice Food Truck - All Day": [
-    "Go Juice Food Truck - All Day",
-    "Go Juice Food Truck"
-  ],
-  "GoJuice - All-Day": [
-    "GoJuice - All-Day",
-    "GoJuice"
-  ],
-  "Haagen-Dazs - Snacks": [
-    "Haagen-Dazs - Snacks",
-    "Haagen-Dazs"
-  ],
-  "House of Blues Restaurant and Bar - Brunch": [
-    "House of Blues Restaurant and Bar - Brunch",
-    "House of Blues Restaurant and Bar"
-  ],
-  "House of Blues Restaurant and Bar - Children's Lunch/Dinner": [
-    "House of Blues Restaurant and Bar - Children's Lunch/Dinner",
-    "House of Blues Restaurant and Bar"
-  ],
-  "House of Blues Restaurant and Bar - Lunch/Dinner": [
-    "House of Blues Restaurant and Bar - Lunch/Dinner",
-    "House of Blues Restaurant and Bar"
-  ],
-  "Jaleo - Children's Lunch/Dinner": [
-    "Jaleo - Children's Lunch/Dinner",
-    "Jaleo"
-  ],
-  "Jaleo - Dinner": [
-    "Jaleo - Dinner",
-    "Jaleo"
-  ],
-  "Jaleo - Lunch": [
-    "Jaleo - Lunch",
-    "Jaleo"
-  ],
-  "Local Green Orlando Food Truck - Dinner": [
-    "Local Green Orlando Food Truck - Dinner",
-    "Local Green Orlando Food Truck"
-  ],
-  "Pepe - Lunch/Dinner": [
-    "Pepe - Lunch/Dinner",
-    "Pepe"
-  ],
-  "Salt & Straw - All-Day Updated": [
-    "Salt & Straw - All-Day Updated",
-    "Salt & Straw"
-  ],
-  "Splitsville Luxury Lanes - All-Day": [
+  "Splitsville Luxury Lanes": [
+    "Splitsville Luxury Lanes",
     "Splitsville Luxury Lanes - All-Day",
-    "Splitsville Luxury Lanes"
+    "Splitsville Luxury Lanes - Children's Lunch/Dinner"
   ],
-  "Splitsville Luxury Lanes - Children's Lunch/Dinner": [
-    "Splitsville Luxury Lanes - Children's Lunch/Dinner",
-    "Splitsville Luxury Lanes"
+  "Spyglass Grill": [
+    "Spyglass Grill",
+    "Spyglass Grill - Breakfast",
+    "Spyglass Grill - Lunch/Dinner"
   ],
-  "Starbucks - West Side - All-Day": [
-    "Starbucks - West Side - All-Day",
-    "Starbucks"
+  "Starbucks - Marketplace": [
+    "Starbucks",
+    "Starbucks - Marketplace - All-Day"
   ],
-  "Summer House on the Lake - Breakfast": [
+  "Starbucks - West Side": [
+    "Starbucks",
+    "Starbucks - West Side - All-Day"
+  ],
+  "Steakhouse 71": [
+    "Steakhouse 71",
+    "Steakhouse 71 - Breakfast",
+    "Steakhouse 71 - Dinner",
+    "Steakhouse 71 - Lunch"
+  ],
+  "Steakhouse 71 Lounge": [
+    "Steakhouse 71 Lounge",
+    "Steakhouse 71 Lounge - Pub/Lounge"
+  ],
+  "Stir": [
+    "Stir",
+    "Stir - Pub/Lounge"
+  ],
+  "Storybook Treats": [
+    "Storybook Treats",
+    "Storybook Treats - Snacks"
+  ],
+  "Studios Popcorn": [
+    "Studios Popcorn",
+    "Studios Popcorn - Snacks"
+  ],
+  "Summer House on the Lake": [
+    "Summer House on the Lake",
     "Summer House on the Lake - Breakfast",
-    "Summer House on the Lake"
-  ],
-  "Summer House on the Lake - Brunch": [
     "Summer House on the Lake - Brunch",
-    "Summer House on the Lake"
+    "Summer House on the Lake - Children's Lunch/Dinner",
+    "Summer House on the Lake - Lunch/Dinner"
   ],
   "Summer House on the Lake - Children's Brunch": [
-    "Summer House on the Lake - Children's Brunch",
-    "Summer House on the Lake"
+    "Summer House on the Lake",
+    "Summer House on the Lake - Children's Brunch"
   ],
-  "Summer House on the Lake - Children's Lunch/Dinner": [
-    "Summer House on the Lake - Children's Lunch/Dinner",
-    "Summer House on the Lake"
+  "Sunshine Churros Cart": [
+    "Sunshine Churros Cart",
+    "Sunshine Churros Cart - Snacks"
   ],
-  "Summer House on the Lake - Lunch/Dinner": [
-    "Summer House on the Lake - Lunch/Dinner",
-    "Summer House on the Lake"
+  "Sunshine Day Bar": [
+    "Sunshine Day Bar",
+    "Sunshine Day Bar - All-Day"
   ],
-  "The Smokehouse - Children's Lunch/Dinner": [
+  "Sunshine Seasons": [
+    "Sunshine Seasons",
+    "Sunshine Seasons - All-Day Updated"
+  ],
+  "Sunshine Tree Terrace": [
+    "Sunshine Tree Terrace",
+    "Sunshine Tree Terrace - All-Day"
+  ],
+  "Surf Doggies": [
+    "Surf Doggies",
+    "Surf Doggies - Snacks"
+  ],
+  "Swirled Showcase - All Day": [
+    "Swirled Showcase",
+    "Swirled Showcase - All Day Updated"
+  ],
+  "Swirls on the Water": [
+    "Swirls on the Water",
+    "Swirls on the Water - All-Day"
+  ],
+  "T-Rex": [
+    "T-Rex",
+    "T-Rex - Children's Lunch/Dinner",
+    "T-Rex - Lunch/Dinner"
+  ],
+  "TTC Joffrey's Coffee and Tea Company": [
+    "TTC Joffrey's Coffee and Tea Company",
+    "TTC Joffrey's Coffee and Tea Company - All-Day"
+  ],
+  "Takumi-Tei": [
+    "Takumi-Tei",
+    "Takumi-Tei - Dinner",
+    "Takumi-Tei - Omakase Tasting"
+  ],
+  "Tambu Lounge": [
+    "Tambu Lounge",
+    "Tambu Lounge - Snacks"
+  ],
+  "Tamu Tamu Refreshments": [
+    "Tamu Tamu Refreshments",
+    "Tamu Tamu Refreshments - Breakfast",
+    "Tamu Tamu Refreshments - Snacks"
+  ],
+  "Tangerine": [
+    "Tangerine",
+    "Tangerine - Pub/Lounge"
+  ],
+  "Tangierine Cafe": [
+    "Tangierine Cafe",
+    "Tangierine Cafe - Lunch/Dinner"
+  ],
+  "Taste Track": [
+    "Taste Track",
+    "Taste Track - Lunch/Dinner"
+  ],
+  "Teppan Edo": [
+    "Teppan Edo",
+    "Teppan Edo - Children's Lunch/Dinner",
+    "Teppan Edo - Lunch/Dinner"
+  ],
+  "Terra Treats": [
+    "Terra Treats",
+    "Terra Treats - All-Day"
+  ],
+  "Terralina Crafted Italian": [
+    "Terralina Crafted Italian",
+    "Terralina Crafted Italian - Brunch",
+    "Terralina Crafted Italian - Children's Lunch/Dinner",
+    "Terralina Crafted Italian - Lunch/Dinner"
+  ],
+  "Territory Lounge": [
+    "Territory Lounge",
+    "Territory Lounge - Pub/Lounge"
+  ],
+  "The BOATHOUSE": [
+    "The BOATHOUSE",
+    "The BOATHOUSE - Brunch",
+    "The BOATHOUSE - Children's Lunch/Dinner",
+    "The BOATHOUSE - Lunch/Dinner"
+  ],
+  "The Basket at Wine Bar George": [
+    "The Basket at Wine Bar George",
+    "The Basket at Wine Bar George - All-Day"
+  ],
+  "The Beak and Barrel": [
+    "The Beak and Barrel",
+    "The Beak and Barrel - All Day"
+  ],
+  "The Beak and Barrel - All Day": [
+    "The Beak and Barrel",
+    "The Beak and Barrel - All Day"
+  ],
+  "The BoardWalk Deli": [
+    "The BoardWalk Deli",
+    "The BoardWalk Deli - Breakfast"
+  ],
+  "The BoardWalk Deli - Lunch/Dinner": [
+    "The BoardWalk Deli",
+    "The BoardWalk Deli - Lunch/Dinner Updated"
+  ],
+  "The Cake Bake Shop by Gwendolyn Rogers": [
+    "The Cake Bake Shop by Gwendolyn Rogers",
+    "The Cake Bake Shop by Gwendolyn Rogers - Afternoon Tea",
+    "The Cake Bake Shop by Gwendolyn Rogers - Breakfast",
+    "The Cake Bake Shop by Gwendolyn Rogers - Children's Breakfast",
+    "The Cake Bake Shop by Gwendolyn Rogers - Children's Lunch/Dinner"
+  ],
+  "The Cake Bake Shop by Gwendolyn Rogers - Lunch/Dinner": [
+    "The Cake Bake Shop by Gwendolyn Rogers",
+    "The Cake Bake Shop by Gwendolyn Rogers - Lunch/Dinner Updated"
+  ],
+  "The Daily Poutine Gourmet Frites": [
+    "The Daily Poutine Gourmet Frites",
+    "The Daily Poutine Gourmet Frites - Snacks"
+  ],
+  "The Edison": [
+    "The Edison",
+    "The Edison - Children's Lunch/Dinner",
+    "The Edison - Dinner",
+    "The Edison - Lunch"
+  ],
+  "The Landing Joffrey's Coffee and Tea Company": [
+    "The Landing Joffrey's Coffee and Tea Company",
+    "The Landing Joffrey's Coffee and Tea Company - All-Day"
+  ],
+  "The Market": [
+    "The Market",
+    "The Market - All-Day"
+  ],
+  "The Market at Ale and Compass": [
+    "The Market at Ale and Compass",
+    "The Market at Ale and Compass - All-Day"
+  ],
+  "The Odyssey": [
+    "The Odyssey",
+    "The Odyssey - All-Day"
+  ],
+  "The Perch - All Day": [
+    "The Perch",
+    "The Perch - All Day"
+  ],
+  "The Smokehouse": [
+    "The Smokehouse",
     "The Smokehouse - Children's Lunch/Dinner",
-    "The Smokehouse"
+    "The Smokehouse - Lunch/Dinner"
   ],
-  "The Smokehouse - Lunch/Dinner": [
-    "The Smokehouse - Lunch/Dinner",
-    "The Smokehouse"
+  "The Trolley Car Cafe - Starbucks": [
+    "The Trolley Car Cafe",
+    "The Trolley Car Cafe - Starbucks - All-Day Updated"
+  ],
+  "Thirsty River Bar and Trek Snacks": [
+    "Thirsty River Bar and Trek Snacks",
+    "Thirsty River Bar and Trek Snacks - All-Day"
+  ],
+  "Three Bridges Bar and Grill": [
+    "Three Bridges Bar and Grill",
+    "Three Bridges Bar and Grill - Children's Dinner",
+    "Three Bridges Bar and Grill - Dinner"
+  ],
+  "Tiffins": [
+    "Tiffins",
+    "Tiffins - Children's Lunch/Dinner"
+  ],
+  "Tiffins - Lunch/Dinner": [
+    "Tiffins",
+    "Tiffins - Lunch/Dinner Updated"
+  ],
+  "Todd English' bluezoo Lounge": [
+    "Todd English' bluezoo Lounge",
+    "Todd English' bluezoo Lounge - Dinner"
+  ],
+  "Todd English's bluezoo": [
+    "Todd English's bluezoo",
+    "Todd English's bluezoo - Children's Dinner",
+    "Todd English's bluezoo - Dinner"
+  ],
+  "Toledo -- Tapas, Steak, & Seafood": [
+    "Toledo -- Tapas, Steak, & Seafood",
+    "Toledo -- Tapas, Steak, & Seafood - Children's Dinner",
+    "Toledo -- Tapas, Steak, & Seafood - Dinner"
+  ],
+  "Tomorrowland Terrace": [
+    "Tomorrowland Terrace",
+    "Tomorrowland Terrace - Lunch/Dinner"
+  ],
+  "Tony's Town Square": [
+    "Tony's Town Square",
+    "Tony's Town Square - Children's Lunch/Dinner",
+    "Tony's Town Square - Lunch/Dinner"
+  ],
+  "Top of The World Lounge - A Villains Lair": [
+    "Top of The World Lounge",
+    "Top of The World Lounge - A Villains Lair - Snacks"
+  ],
+  "Topolino's Terrace -- Flavors of the Riviera": [
+    "Topolino's Terrace -- Flavors of the Riviera",
+    "Topolino's Terrace -- Flavors of the Riviera - Breakfast",
+    "Topolino's Terrace -- Flavors of the Riviera - Children's Breakfast",
+    "Topolino's Terrace -- Flavors of the Riviera - Children's Dinner",
+    "Topolino's Terrace -- Flavors of the Riviera - Dinner"
+  ],
+  "Tortuga Tavern": [
+    "Tortuga Tavern",
+    "Tortuga Tavern - Lunch/Dinner"
+  ],
+  "Tower of Terror Joffrey's Coffee and Tea Company": [
+    "Tower of Terror Joffrey's Coffee and Tea Company",
+    "Tower of Terror Joffrey's Coffee and Tea Company - All-Day"
+  ],
+  "Trader Sam's Grog Grotto": [
+    "Trader Sam's Grog Grotto",
+    "Trader Sam's Grog Grotto - All-Day"
+  ],
+  "Trail's End Quick Service Restaurant": [
+    "Trail's End Quick Service Restaurant",
+    "Trail's End Quick Service Restaurant - Breakfast",
+    "Trail's End Quick Service Restaurant - Lunch/Dinner"
+  ],
+  "Trattoria al Forno": [
+    "Trattoria al Forno",
+    "Trattoria al Forno - Breakfast",
+    "Trattoria al Forno - Children's Breakfast",
+    "Trattoria al Forno - Children's Dinner",
+    "Trattoria al Forno - Dinner"
+  ],
+  "Turf Club Bar and Grill": [
+    "Turf Club Bar and Grill",
+    "Turf Club Bar and Grill - Children's Dinner",
+    "Turf Club Bar and Grill - Dinner"
+  ],
+  "Turf Club Lounge": [
+    "Turf Club Lounge",
+    "Turf Club Lounge - Pub/Lounge"
+  ],
+  "Turtle Shack": [
+    "Turtle Shack",
+    "Turtle Shack - All-Day"
+  ],
+  "Tusker House Restaurant": [
+    "Tusker House Restaurant",
+    "Tusker House Restaurant - Breakfast",
+    "Tusker House Restaurant - Lunch/Dinner"
+  ],
+  "Tutto  Gusto Wine Cellar": [
+    "Tutto  Gusto Wine Cellar",
+    "Tutto  Gusto Wine Cellar - Children's Lunch/Dinner",
+    "Tutto  Gusto Wine Cellar - Lunch/Dinner"
+  ],
+  "Tutto Italia Ristorante": [
+    "Tutto Italia Ristorante",
+    "Tutto Italia Ristorante - Children's Lunch/Dinner",
+    "Tutto Italia Ristorante - Lunch/Dinner"
+  ],
+  "Typhoon Mini Donuts": [
+    "Typhoon Mini Donuts",
+    "Typhoon Mini Donuts - Snacks"
+  ],
+  "Typhoon Tilly's": [
+    "Typhoon Tilly's",
+    "Typhoon Tilly's - Lunch"
+  ],
+  "Uzima Springs Watering Hole": [
+    "Uzima Springs Watering Hole",
+    "Uzima Springs Watering Hole - All-Day"
+  ],
+  "Via Napoli Ristorante e Pizzeria": [
+    "Via Napoli Ristorante e Pizzeria",
+    "Via Napoli Ristorante e Pizzeria - Children's Lunch/Dinner",
+    "Via Napoli Ristorante e Pizzeria - Lunch/Dinner"
+  ],
+  "Victoria Falls": [
+    "Victoria Falls",
+    "Victoria Falls - Pub/Lounge"
+  ],
+  "Victoria and Albert's": [
+    "Victoria and Albert's",
+    "Victoria and Albert's - Dinner"
+  ],
+  "Vivoli Gelateria - Snacks": [
+    "Vivoli Gelateria",
+    "Vivoli Gelateria - Snacks Updated"
+  ],
+  "Vivoli il Gelato Riviera Cart": [
+    "Vivoli il Gelato Riviera Cart",
+    "Vivoli il Gelato Riviera Cart - Snacks"
+  ],
+  "Wailulu Bar and Grill": [
+    "Wailulu Bar and Grill",
+    "Wailulu Bar and Grill - Breakfast/Brunch",
+    "Wailulu Bar and Grill - Lunch/Dinner"
+  ],
+  "Warming Hut": [
+    "Warming Hut",
+    "Warming Hut - All-Day"
+  ],
+  "Warung Outpost - Lunch/Dinner": [
+    "Warung Outpost",
+    "Warung Outpost - Lunch/Dinner Updated"
+  ],
+  "Westward Ho Refreshments": [
+    "Westward Ho Refreshments",
+    "Westward Ho Refreshments - Breakfast",
+    "Westward Ho Refreshments - Snacks"
+  ],
+  "Wetzel's Pretzels": [
+    "Wetzel's Pretzels",
+    "Wetzel's Pretzels - Snacks"
   ],
   "Wetzel's Pretzels - Snacks": [
-    "Wetzel's Pretzels - Snacks",
-    "Wetzel's Pretzels"
+    "Wetzel's Pretzels",
+    "Wetzel's Pretzels - Snacks Updated"
   ],
-  "YeSake - Snacks": [
-    "YeSake - Snacks",
-    "YeSake"
+  "Whispering Canyon Cafe": [
+    "Whispering Canyon Cafe",
+    "Whispering Canyon Cafe - Children's Breakfast/Lunch",
+    "Whispering Canyon Cafe - Children's Dinner",
+    "Whispering Canyon Cafe - Dinner"
   ],
-  "Amorette's Patisserie - Snacks": [
-    "Amorette's Patisserie - Snacks",
-    "Amorette's Patisserie"
+  "Whispering Canyon Cafe - Breakfast/Lunch": [
+    "Whispering Canyon Cafe",
+    "Whispering Canyon Cafe - Breakfast/Lunch"
   ],
-  "Blaze Fast-Fire'd Pizza - Lunch/Dinner": [
-    "Blaze Fast-Fire'd Pizza - Lunch/Dinner",
-    "Blaze Fast-Fire'd Pizza"
+  "Wilderness Lodge In-Room Dining": [
+    "Wilderness Lodge In-Room Dining",
+    "Wilderness Lodge In-Room Dining - All-Day"
   ],
-  "Chicken Guy - Lunch/Dinner": [
-    "Chicken Guy - Lunch/Dinner",
-    "Chicken Guy"
+  "Wine Bar George": [
+    "Wine Bar George",
+    "Wine Bar George - Brunch",
+    "Wine Bar George - Children's Lunch/Dinner"
   ],
-  "Coca-Cola Store Rooftop Beverage Bar - All-Day": [
-    "Coca-Cola Store Rooftop Beverage Bar - All-Day",
-    "Coca-Cola Store Rooftop Beverage Bar"
+  "Wine Bar George - Lunch/Dinner": [
+    "Wine Bar George",
+    "Wine Bar George - Lunch/Dinner Updated"
   ],
-  "D-Luxe Burger - Lunch/Dinner": [
-    "D-Luxe Burger - Lunch/Dinner",
-    "D-Luxe Burger"
-  ],
-  "Frontera Cocina - Children's Lunch/Dinner": [
-    "Frontera Cocina - Children's Lunch/Dinner",
-    "Frontera Cocina"
-  ],
-  "Frontera Cocina - Lunch/Dinner": [
-    "Frontera Cocina - Lunch/Dinner",
-    "Frontera Cocina"
-  ],
-  "Planet Hollywood Observatory - Children's Lunch/Dinner": [
-    "Planet Hollywood Observatory - Children's Lunch/Dinner",
-    "Planet Hollywood Observatory"
-  ],
-  "Planet Hollywood Observatory - Lunch/Dinner": [
-    "Planet Hollywood Observatory - Lunch/Dinner",
-    "Planet Hollywood Observatory"
-  ],
-  "Polite Pig - All-Day": [
-    "Polite Pig - All-Day",
-    "Polite Pig"
-  ],
-  "The Daily Poutine Gourmet Frites - Snacks": [
-    "The Daily Poutine Gourmet Frites - Snacks",
-    "The Daily Poutine Gourmet Frites"
-  ],
-  "Wolfgang Puck Bar & Grill - Brunch": [
+  "Wolfgang Puck Bar & Grill": [
+    "Wolfgang Puck Bar & Grill",
     "Wolfgang Puck Bar & Grill - Brunch",
-    "Wolfgang Puck Bar & Grill"
-  ],
-  "Wolfgang Puck Bar & Grill - Children's Lunch/Dinner": [
     "Wolfgang Puck Bar & Grill - Children's Lunch/Dinner",
-    "Wolfgang Puck Bar & Grill"
-  ],
-  "Wolfgang Puck Bar & Grill - Dinner": [
     "Wolfgang Puck Bar & Grill - Dinner",
-    "Wolfgang Puck Bar & Grill"
+    "Wolfgang Puck Bar & Grill - Lunch"
   ],
-  "Wolfgang Puck Bar & Grill - Lunch": [
-    "Wolfgang Puck Bar & Grill - Lunch",
-    "Wolfgang Puck Bar & Grill"
+  "Woody's Lunch Box - Breakfast": [
+    "Woody's Lunch Box",
+    "Woody's Lunch Box - Breakfast Updated"
   ],
-  "Arctic Expedition - Snacks": [
-    "Arctic Expedition - Snacks",
-    "Arctic Expedition"
+  "Woody's Lunch Box - Lunch/Dinner": [
+    "Woody's Lunch Box",
+    "Woody's Lunch Box - Lunch/Dinner Updated"
   ],
-  "Avalunch - All-Day": [
-    "Avalunch - All-Day",
-    "Avalunch"
+  "World Discovery Joffrey's Coffee and Tea Company": [
+    "World Discovery Joffrey's Coffee and Tea Company",
+    "World Discovery Joffrey's Coffee and Tea Company - All-Day"
   ],
-  "Blizzard Beach Mini Donut Hut - Snacks": [
-    "Blizzard Beach Mini Donut Hut - Snacks",
-    "Blizzard Beach Mini Donut Hut"
+  "World Premiere Food Court": [
+    "World Premiere Food Court",
+    "World Premiere Food Court - Breakfast",
+    "World Premiere Food Court - Lunch/Dinner"
   ],
-  "Cooling Hut - All-Day": [
-    "Cooling Hut - All-Day",
-    "Cooling Hut"
+  "Yacht and Beach Club In-Room Dining": [
+    "Yacht and Beach Club In-Room Dining",
+    "Yacht and Beach Club In-Room Dining - All-Day"
   ],
-  "Frostbite Freddy's Frozen Freshments - Snacks": [
-    "Frostbite Freddy's Frozen Freshments - Snacks",
-    "Frostbite Freddy's Frozen Freshments"
+  "Yachtsman Steakhouse": [
+    "Yachtsman Steakhouse",
+    "Yachtsman Steakhouse - Children's Dinner",
+    "Yachtsman Steakhouse - Dinner"
   ],
-  "Frosty the Joe Man  - Snacks": [
-    "Frosty the Joe Man  - Snacks",
-    "Frosty the Joe Man"
+  "Yak and Yeti Local Food Cafes - Breakfast": [
+    "Yak and Yeti Local Food Cafes",
+    "Yak and Yeti Local Food Cafes - Breakfast Updated"
   ],
-  "I.C. Expeditions - Snacks": [
-    "I.C. Expeditions - Snacks",
-    "I.C. Expeditions"
+  "Yak and Yeti Local Food Cafes - Lunch/Dinner": [
+    "Yak and Yeti Local Food Cafes",
+    "Yak and Yeti Local Food Cafes - Lunch/Dinner Updated"
   ],
-  "Lottawatta Lodge - All-Day": [
-    "Lottawatta Lodge - All-Day",
-    "Lottawatta Lodge"
+  "Yak and Yeti Restaurant - Children's Lunch/Dinner": [
+    "Yak and Yeti Restaurant",
+    "Yak and Yeti Restaurant - Children's Lunch/Dinner Updated"
   ],
-  "Polar Pub - All-Day": [
-    "Polar Pub - All-Day",
-    "Polar Pub"
+  "Yak and Yeti Restaurant - Lunch/Dinner": [
+    "Yak and Yeti Restaurant",
+    "Yak and Yeti Restaurant - Lunch/Dinner Updated"
   ],
-  "Snack Cart - Snacks": [
-    "Snack Cart - Snacks",
-    "Snack Cart"
+  "YeSake": [
+    "YeSake",
+    "YeSake - Snacks"
   ],
-  "Warming Hut - All-Day": [
-    "Warming Hut - All-Day",
-    "Warming Hut"
-  ],
-  "Amity Outpost - Lunch": [
-    "Amity Outpost - Lunch",
-    "Amity Outpost"
-  ],
-  "Arctic Dots - Snacks": [
-    "Arctic Dots - Snacks",
-    "Arctic Dots"
-  ],
-  "Coffee Hut - Snacks": [
-    "Coffee Hut - Snacks",
-    "Coffee Hut"
-  ],
-  "Hammerhead Fred's - All-Day": [
-    "Hammerhead Fred's - All-Day",
-    "Hammerhead Fred's"
-  ],
-  "Happy Landings - Snacks": [
-    "Happy Landings - Snacks",
-    "Happy Landings"
-  ],
-  "High 'n Dry - Snacks": [
-    "High 'n Dry - Snacks",
-    "High 'n Dry"
-  ],
-  "Leaning Palms - Lunch": [
-    "Leaning Palms - Lunch",
-    "Leaning Palms"
-  ],
-  "Let's Go Slurpin' - All-Day": [
-    "Let's Go Slurpin' - All-Day",
-    "Let's Go Slurpin'"
-  ],
-  "Lowtide Lou's - Lunch": [
-    "Lowtide Lou's - Lunch",
-    "Lowtide Lou's"
-  ],
-  "Popcorn Cart - Snacks": [
-    "Popcorn Cart - Snacks",
-    "Popcorn Cart"
-  ],
-  "Snack Hut - Snacks": [
-    "Snack Hut - Snacks",
-    "Snack Hut"
-  ],
-  "Snack Shack - Lunch": [
-    "Snack Shack - Lunch",
-    "Snack Shack"
-  ],
-  "Surf Doggies - Snacks": [
-    "Surf Doggies - Snacks",
-    "Surf Doggies"
-  ],
-  "Typhoon Mini Donuts - Snacks": [
-    "Typhoon Mini Donuts - Snacks",
-    "Typhoon Mini Donuts"
-  ],
-  "Typhoon Tilly's - Lunch": [
-    "Typhoon Tilly's - Lunch",
-    "Typhoon Tilly's"
+  "Yorkshire County Fish Shop": [
+    "Yorkshire County Fish Shop",
+    "Yorkshire County Fish Shop - Lunch/Dinner"
   ]
 }
