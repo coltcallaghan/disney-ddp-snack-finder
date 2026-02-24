@@ -235,10 +235,24 @@ function App() {
     if (!dataLoaded) loadData();
   }, [dataLoaded]);
 
-  // Only show non-empty, non-null, non-undefined filter values
-  const availableCategories = useMemo(() => getUnique(snacks.map(s => s.category).filter(Boolean)), [snacks]);
-  const availableParks = useMemo(() => getUnique(snacks.map(s => s.park).filter(Boolean)), [snacks]);
-  // Dining plan filter now a checkbox, so no need for availableDiningPlans
+  // Dependent filter logic - show only items available based on selected filters
+  const availableParks = useMemo(() => {
+    const filtered = snacks.filter(s => {
+      const matchesCategory = !selectedCategory || s.category === selectedCategory;
+      const matchesDiningPlan = selectedDiningPlan === '' || (selectedDiningPlan === 'Included' && s.isDDPSnack === 'true');
+      return matchesCategory && matchesDiningPlan;
+    });
+    return getUnique(filtered.map(s => s.park).filter(Boolean));
+  }, [snacks, selectedCategory, selectedDiningPlan]);
+
+  const availableCategories = useMemo(() => {
+    const filtered = snacks.filter(s => {
+      const matchesPark = !selectedPark || s.park === selectedPark;
+      const matchesDiningPlan = selectedDiningPlan === '' || (selectedDiningPlan === 'Included' && s.isDDPSnack === 'true');
+      return matchesPark && matchesDiningPlan;
+    });
+    return getUnique(filtered.map(s => s.category).filter(Boolean));
+  }, [snacks, selectedPark, selectedDiningPlan]);
 
   // Preprocess and index aliases and locations for fast lookup
   const aliases: Record<string, string[]> = useMemo(() => aliasesDataRaw as Record<string, string[]>, []);
@@ -452,9 +466,17 @@ function App() {
           aria-label="Filter by park"
         >
           <option value="">All Parks</option>
-          {availableParks.filter(Boolean).map((park, idx) => (
-            <option key={park || idx} value={park}>{park}</option>
-          ))}
+          {availableParks.filter(Boolean).map((park, idx) => {
+            const count = snacks.filter(s => {
+              const matchesPark = s.park === park;
+              const matchesCategory = !selectedCategory || s.category === selectedCategory;
+              const matchesDiningPlan = selectedDiningPlan === '' || (selectedDiningPlan === 'Included' && s.isDDPSnack === 'true');
+              return matchesPark && matchesCategory && matchesDiningPlan;
+            }).length;
+            return (
+              <option key={park || idx} value={park}>{park} ({count})</option>
+            );
+          })}
         </select>
 
         <select
@@ -464,9 +486,17 @@ function App() {
           aria-label="Filter by category"
         >
           <option value="">All Types</option>
-          {availableCategories.filter(Boolean).map((cat, idx) => (
-            <option key={cat || idx} value={cat}>{cat}</option>
-          ))}
+          {availableCategories.filter(Boolean).map((cat, idx) => {
+            const count = snacks.filter(s => {
+              const matchesCategory = s.category === cat;
+              const matchesPark = !selectedPark || s.park === selectedPark;
+              const matchesDiningPlan = selectedDiningPlan === '' || (selectedDiningPlan === 'Included' && s.isDDPSnack === 'true');
+              return matchesCategory && matchesPark && matchesDiningPlan;
+            }).length;
+            return (
+              <option key={cat || idx} value={cat}>{cat} ({count})</option>
+            );
+          })}
         </select>
 
         <div style={{ marginLeft: 'auto', display: 'flex', gap: '8px', alignItems: 'center' }}>
