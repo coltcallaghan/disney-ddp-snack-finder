@@ -1,4 +1,4 @@
-import { useState, useMemo, useEffect, useCallback } from 'react'
+import { useState, useMemo, useEffect, useCallback, useRef } from 'react'
 import { InfoModal } from './components/InfoModal';
 import './App.css'
 
@@ -8,6 +8,9 @@ import { getCanonicalLocationName } from './restaurantAliasUtils';
 import { getDirectionsUrl } from './mapLinkUtils';
 import { parseCSV } from './csvUtils';
 import type { SnackItem } from './csvUtils';
+import { supabase, isSupabaseAvailable } from './supabaseClient';
+import { getFavorites, addFavorite, removeFavorite as _removeFavoriteDB, logSearch as logSearchDB, signOut as _supabaseSignOut, getCurrentUser } from './supabaseUtils';
+import type { User } from '@supabase/supabase-js';
 
 
 function getUnique(arr: string[]): string[] {
@@ -44,6 +47,15 @@ function App() {
   const [dataLoaded, setDataLoaded] = useState(false);
   const [showInfo, setShowInfo] = useState(false);
 
+  // Auth and favorites state
+  const [currentUser, setCurrentUser] = useState<User | null>(null);
+  const [_showAuthModal, _setShowAuthModal] = useState(false);
+  const [_pendingFavoriteKey, _setPendingFavoriteKey] = useState<string | null>(null);
+  const [_favoritedIds, _setFavoritedIds] = useState<Set<string>>(new Set());
+
+  // Search debounce timer
+  const searchDebounceRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+
   // Request device GPS location on mount
   const requestGPS = useCallback(() => {
     if (!navigator.geolocation) {
@@ -76,44 +88,121 @@ function App() {
     requestGPS();
   }, [requestGPS]);
 
-  // Load data immediately on mount
-  const loadData = () => {
-    fetch('/data_aligned_with_ids.csv')
-      .then(res => {
-        if (!res.ok) throw new Error('Failed to fetch data.csv');
-        return res.text();
-      })
-      .then(text => {
-        const parsed = parseCSV(text);
-        const normalized = parsed.map((row: any) => {
-          let restaurant = row.RESTAURANT || row.restaurant || '';
-          let item = row.ITEM || row.item || '';
-          if (!restaurant && item && /Aloha Isle|Snacks|Egg Roll Wagon|Canteen|Terrace|Trolley|Market|Refreshment|Stand|Bakery|Cafe|Bar|Grill|Diner|Dock|Inn|Cantina|House|Lounge|Pub|Truck|Cart|Kiosk|Corner|Plaza|Pavilion|Palace|Bites|Beverages|Cones|Treats|Sweets|Churros|Popcorn|Ice Cream|Pizza|Sandwich|Saloon|Sundaes|Waffles|Wings|Wurst|Wok|Wok/i.test(item)) {
-            restaurant = item;
-            item = '';
-          }
-          return {
-            ID: row.ID || row.id || row.Id || '',
-            item,
-            restaurant,
-            category: row.CATEGORY || row.category || '',
-            diningPlan: row['DINING PLAN'] || row.diningPlan || row.diningplan || '',
-            location: row.LOCATION || row.location || '',
-            park: (row['DISNEY PARK'] || row.DISNEY_PARK || row.PARK || row.park ||
-              (['Magic Kingdom','EPCOT','Animal Kingdom','Hollywood Studios','Typhoon Lagoon','Blizzard Beach'].includes(row.LOCATION) ? row.LOCATION : '')
-            ),
-            description: row.DESCRIPTION || row.description || '',
-            price: row.PRICE || row.price || '',
-            isDDPSnack: row.IS_DDP_SNACK || row.isDDPSnack || '',
-          };
-        });
+  // Auth state listener
+  useEffect(() => {
+    if (!isSupabaseAvailable()) return;
+
+    // Set initial user
+    getCurrentUser().then(user => setCurrentUser(user));
+
+    // Subscribe to auth changes
+    const { data: { subscription } } = supabase.auth.onAuthStateChange((_event, session) => {
+      setCurrentUser(session?.user ?? null);
+    });
+
+    return () => {
+      subscription?.unsubscribe();
+    };
+  }, []);
+
+  // Load favorites when user logs in
+  useEffect(() => {
+    if (!currentUser) {
+      _setFavoritedIds(new Set());
+      return;
+    }
+
+    getFavorites().then(favs => {
+      const keys = new Set(
+        favs.map((f: any) => `${f.restaurant_name}|||${f.item_name}`)
+      );
+      _setFavoritedIds(keys);
+    });
+  }, [currentUser]);
+
+  // Handle pending favorite after sign-in
+  useEffect(() => {
+    if (!currentUser || !_pendingFavoriteKey) return;
+
+    const [restaurant, item] = _pendingFavoriteKey.split('|||');
+    addFavorite(restaurant, item).then(() => {
+      _setFavoritedIds((prev: Set<string>) => new Set(prev).add(_pendingFavoriteKey!));
+      _setPendingFavoriteKey(null);
+    });
+  }, [currentUser, _pendingFavoriteKey]);
+
+  // Load data from Supabase or fall back to CSV
+  const loadData = async () => {
+    try {
+      // Try Supabase first
+      if (isSupabaseAvailable()) {
+        const { data, error } = await supabase
+          .from('snacks')
+          .select('id, item_name, restaurant_name, category, dining_plan, location, park, description, price, is_ddp_snack, average_rating, total_reviews, most_recent_availability');
+
+        if (error) throw new Error(error.message);
+        if (!data) throw new Error('No data returned from Supabase');
+
+        // Map Supabase rows to SnackItem
+        const normalized: SnackItem[] = data.map((row: any) => ({
+          ID: row.id.toString(),
+          item: row.item_name ?? '',
+          restaurant: row.restaurant_name ?? '',
+          category: row.category ?? '',
+          diningPlan: row.dining_plan ?? '',
+          location: row.location ?? '',
+          park: row.park ?? '',
+          description: row.description ?? '',
+          price: row.price ?? '',
+          isDDPSnack: row.is_ddp_snack ? 'true' : 'false',
+          average_rating: row.average_rating ?? null,
+          total_reviews: row.total_reviews ?? null,
+          most_recent_availability: row.most_recent_availability ?? null,
+        }));
+
         setSnacks(normalized);
         setDataLoaded(true);
-      })
-      .catch(err => {
-        console.error('Error loading data.csv:', err);
-        setSnacks([]);
+        return;
+      }
+    } catch (err) {
+      console.warn('Supabase unavailable, falling back to CSV:', err);
+    }
+
+    // Fallback to CSV if Supabase fails or is not configured
+    try {
+      const res = await fetch('/data_aligned_with_ids.csv');
+      if (!res.ok) throw new Error('Failed to fetch data.csv');
+      const text = await res.text();
+      const parsed = parseCSV(text);
+      const normalized = parsed.map((row: any) => {
+        let restaurant = row.RESTAURANT || row.restaurant || '';
+        let item = row.ITEM || row.item || '';
+        if (!restaurant && item && /Aloha Isle|Snacks|Egg Roll Wagon|Canteen|Terrace|Trolley|Market|Refreshment|Stand|Bakery|Cafe|Bar|Grill|Diner|Dock|Inn|Cantina|House|Lounge|Pub|Truck|Cart|Kiosk|Corner|Plaza|Pavilion|Palace|Bites|Beverages|Cones|Treats|Sweets|Churros|Popcorn|Ice Cream|Pizza|Sandwich|Saloon|Sundaes|Waffles|Wings|Wurst|Wok|Wok/i.test(item)) {
+          restaurant = item;
+          item = '';
+        }
+        return {
+          ID: row.ID || row.id || row.Id || '',
+          item,
+          restaurant,
+          category: row.CATEGORY || row.category || '',
+          diningPlan: row['DINING PLAN'] || row.diningPlan || row.diningplan || '',
+          location: row.LOCATION || row.location || '',
+          park: (row['DISNEY PARK'] || row.DISNEY_PARK || row.PARK || row.park ||
+            (['Magic Kingdom','EPCOT','Animal Kingdom','Hollywood Studios','Typhoon Lagoon','Blizzard Beach'].includes(row.LOCATION) ? row.LOCATION : '')
+          ),
+          description: row.DESCRIPTION || row.description || '',
+          price: row.PRICE || row.price || '',
+          isDDPSnack: row.IS_DDP_SNACK || row.isDDPSnack || '',
+        };
       });
+      setSnacks(normalized);
+      setDataLoaded(true);
+    } catch (err) {
+      console.error('Error loading CSV fallback:', err);
+      setSnacks([]);
+      setDataLoaded(true);
+    }
   };
 
   // Load data on mount
@@ -188,6 +277,25 @@ function App() {
       ...withoutLoc
     ];
   }, [snacks, selectedLand, selectedCategory, selectedPark, selectedDiningPlan, searchQuery, userLocation, aliases, locationMap]);
+
+  // Log searches with debounce
+  useEffect(() => {
+    if (!searchQuery) return;
+
+    if (searchDebounceRef.current) {
+      clearTimeout(searchDebounceRef.current);
+    }
+
+    searchDebounceRef.current = setTimeout(() => {
+      logSearchDB(searchQuery, filteredSnacks.length);
+    }, 500);
+
+    return () => {
+      if (searchDebounceRef.current) {
+        clearTimeout(searchDebounceRef.current);
+      }
+    };
+  }, [searchQuery, filteredSnacks.length]);
 
   // Attach lat/lng to each snack if available
   function normalizeName(name: string) {

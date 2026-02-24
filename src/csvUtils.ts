@@ -15,6 +15,9 @@ export interface SnackItem {
   lat?: number; // optional latitude for geolocation
   lng?: number; // optional longitude for geolocation
   distance?: number | null; // distance in meters (optional)
+  average_rating?: number | null; // average rating from Supabase
+  total_reviews?: number | null; // total reviews from Supabase
+  most_recent_availability?: boolean | null; // most recent availability from Supabase
 }
 
 export function parseCSV(csvText: string): SnackItem[] {
