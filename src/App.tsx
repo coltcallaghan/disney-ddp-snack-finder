@@ -139,7 +139,8 @@ function App() {
       if (isSupabaseAvailable()) {
         const { data, error } = await supabase
           .from('snacks')
-          .select('id, item_name, restaurant_name, category, dining_plan, location, park, description, price, is_ddp_snack, average_rating, total_reviews, most_recent_availability');
+          .select('id, item_name, restaurant_name, category, dining_plan, location, park, description, price, is_ddp_snack, average_rating, total_reviews, most_recent_availability', { count: 'exact' })
+          .range(0, 25000); // Fetch all rows (Supabase default limit is 1000)
 
         if (error) throw new Error(error.message);
         if (!data) throw new Error('No data returned from Supabase');
