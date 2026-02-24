@@ -753,6 +753,32 @@ function App() {
           </div>
         )}
       </main>
+
+      {/* Footer */}
+      <footer style={{
+        backgroundColor: 'var(--bg-secondary)',
+        borderTop: '1px solid var(--border-color)',
+        padding: '32px 24px',
+        marginTop: '48px',
+        color: 'var(--text-muted)',
+        fontSize: '0.85rem',
+        lineHeight: '1.6',
+      }}>
+        <div style={{
+          maxWidth: '1200px',
+          margin: '0 auto',
+        }}>
+          <p style={{ margin: '0 0 16px 0' }}>
+            <strong>Disclaimer:</strong> This is not an official Disney product. Disney DDP Snack Finder is a fan-made tool created by <strong>Colt Callaghan</strong> for the Doherty's trip to Disney World.
+          </p>
+          <p style={{ margin: '0 0 16px 0' }}>
+            Welcome to the adventure: <strong>Steve, Nuala, Aoife, Josh, Joe, Callum, and Aidan</strong> ✨
+          </p>
+          <p style={{ margin: '0', fontSize: '0.8rem', color: 'var(--text-muted)' }}>
+            All Disney characters and properties are trademarks of The Walt Disney Company. This tool is for informational purposes only.
+          </p>
+        </div>
+      </footer>
     </div>
   );
 }
