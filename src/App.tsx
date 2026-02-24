@@ -54,6 +54,10 @@ function App() {
   const [pendingFavoriteKey, setPendingFavoriteKey] = useState<string | null>(null);
   const [favoritedIds, setFavoritedIds] = useState<Set<string>>(new Set());
 
+  // Pagination state
+  const [currentPage, setCurrentPage] = useState(1);
+  const [itemsPerPage, setItemsPerPage] = useState(20);
+
   // Search debounce timer
   const searchDebounceRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
@@ -137,13 +141,32 @@ function App() {
     try {
       // Try Supabase first
       if (isSupabaseAvailable()) {
-        const { data, error } = await supabase
-          .from('snacks')
-          .select('id, item_name, restaurant_name, category, dining_plan, location, park, description, price, is_ddp_snack, average_rating, total_reviews, most_recent_availability', { count: 'exact' })
-          .range(0, 25000); // Fetch all rows (Supabase default limit is 1000)
+        // Supabase has a 1000-row default limit, so we need to paginate
+        let allData: any[] = [];
+        let page = 0;
+        const pageSize = 1000;
+        let hasMore = true;
 
-        if (error) throw new Error(error.message);
-        if (!data) throw new Error('No data returned from Supabase');
+        while (hasMore) {
+          const { data, error } = await supabase
+            .from('snacks')
+            .select('id, item_name, restaurant_name, category, dining_plan, location, park, description, price, is_ddp_snack, average_rating, total_reviews, most_recent_availability')
+            .range(page * pageSize, (page + 1) * pageSize - 1);
+
+          if (error) throw new Error(error.message);
+          if (!data || data.length === 0) {
+            hasMore = false;
+          } else {
+            allData = allData.concat(data);
+            if (data.length < pageSize) {
+              hasMore = false;
+            }
+            page++;
+          }
+        }
+
+        if (allData.length === 0) throw new Error('No data returned from Supabase');
+        const data = allData;
 
         // Map Supabase rows to SnackItem
         const normalized: SnackItem[] = data.map((row: any) => ({
@@ -279,6 +302,11 @@ function App() {
       ...withoutLoc
     ];
   }, [snacks, selectedLand, selectedCategory, selectedPark, selectedDiningPlan, searchQuery, userLocation, aliases, locationMap]);
+
+  // Reset pagination when filters change
+  useEffect(() => {
+    setCurrentPage(1);
+  }, [searchQuery, selectedPark, selectedCategory, selectedDiningPlan, selectedLand]);
 
   // Log searches with debounce
   useEffect(() => {
@@ -441,20 +469,38 @@ function App() {
           ))}
         </select>
 
-        {(searchQuery || selectedPark || selectedCategory || selectedDiningPlan !== 'Included') && (
-          <button
-            className="clear-filters-btn"
-            onClick={() => {
-              setSearchQuery('');
-              setSelectedPark('');
-              setSelectedCategory('');
-              setSelectedDiningPlan('Included');
-              setSelectedLand('');
+        <div style={{ marginLeft: 'auto', display: 'flex', gap: '8px', alignItems: 'center' }}>
+          {(searchQuery || selectedPark || selectedCategory || selectedDiningPlan !== 'Included') && (
+            <button
+              className="clear-filters-btn"
+              onClick={() => {
+                setSearchQuery('');
+                setSelectedPark('');
+                setSelectedCategory('');
+                setSelectedDiningPlan('Included');
+                setSelectedLand('');
+              }}
+            >
+              Clear
+            </button>
+          )}
+
+          <select
+            className="compact-select"
+            value={itemsPerPage}
+            onChange={e => {
+              setItemsPerPage(parseInt(e.target.value));
+              setCurrentPage(1);
             }}
+            aria-label="Items per page"
+            style={{ width: 'auto' }}
           >
-            Clear
-          </button>
-        )}
+            <option value={20}>20 per page</option>
+            <option value={100}>100 per page</option>
+            <option value={250}>250 per page</option>
+            <option value={500}>500 per page</option>
+          </select>
+        </div>
       </div>
 
       {/* ---- RESULTS ---- */}
@@ -476,8 +522,9 @@ function App() {
             ))}
           </div>
         ) : filteredSnacks.length > 0 ? (
-          <div className="locations-grid">
-            {filteredSnacks.map((snack, idx) => {
+          <>
+            <div className="locations-grid">
+              {filteredSnacks.slice((currentPage - 1) * itemsPerPage, currentPage * itemsPerPage).map((snack, idx) => {
               let canonicalName = getCanonicalLocationName(snack.restaurant);
               let allAliases: string[] = [];
               if (canonicalName && aliases[canonicalName]) {
@@ -611,7 +658,31 @@ function App() {
                 </div>
               );
             })}
-          </div>
+            </div>
+
+            {/* Pagination controls */}
+            {filteredSnacks.length > itemsPerPage && (
+              <div className="pagination">
+                <button
+                  className="pagination-btn"
+                  onClick={() => setCurrentPage(p => Math.max(1, p - 1))}
+                  disabled={currentPage === 1}
+                >
+                  ← Previous
+                </button>
+                <span className="pagination-info">
+                  Page {currentPage} of {Math.ceil(filteredSnacks.length / itemsPerPage)}
+                </span>
+                <button
+                  className="pagination-btn"
+                  onClick={() => setCurrentPage(p => Math.min(Math.ceil(filteredSnacks.length / itemsPerPage), p + 1))}
+                  disabled={currentPage === Math.ceil(filteredSnacks.length / itemsPerPage)}
+                >
+                  Next →
+                </button>
+              </div>
+            )}
+          </>
         ) : (
           <div className="no-results">
             <p>No snacks found. Try adjusting your filters.</p>
