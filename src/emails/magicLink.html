@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Magic Link</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', sans-serif;
+      line-height: 1.6;
+      color: #333;
+      margin: 0;
+      padding: 0;
+      background-color: #f5f5f5;
+    }
+
+    .container {
+      max-width: 600px;
+      margin: 0 auto;
+      background-color: #ffffff;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .header {
+      background: linear-gradient(135deg, #ff6b35 0%, #cc3f1f 100%);
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    .header h1 {
+      color: #ffffff;
+      font-size: 28px;
+      margin: 0;
+      font-weight: 700;
+    }
+
+    .header p {
+      color: rgba(255, 255, 255, 0.9);
+      font-size: 16px;
+      margin: 8px 0 0 0;
+    }
+
+    .content {
+      padding: 40px 30px;
+    }
+
+    .greeting {
+      font-size: 18px;
+      font-weight: 600;
+      color: #333;
+      margin: 0 0 16px 0;
+    }
+
+    .content p {
+      margin: 0 0 16px 0;
+      font-size: 15px;
+      color: #555;
+    }
+
+    .cta-button {
+      display: inline-block;
+      background: linear-gradient(135deg, #ff6b35 0%, #cc3f1f 100%);
+      color: #ffffff;
+      padding: 14px 32px;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: 600;
+      margin: 24px 0;
+      font-size: 16px;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+
+    .cta-button:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(255, 107, 53, 0.3);
+    }
+
+    .timer {
+      background-color: #fff3e0;
+      border-left: 4px solid #ff6b35;
+      padding: 16px;
+      margin: 24px 0;
+      border-radius: 4px;
+    }
+
+    .timer-label {
+      font-size: 12px;
+      color: #e65100;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      font-weight: 600;
+      margin-bottom: 8px;
+    }
+
+    .timer-text {
+      font-size: 15px;
+      color: #e65100;
+      font-weight: 600;
+    }
+
+    .divider {
+      border: none;
+      border-top: 1px solid #e5e5e5;
+      margin: 32px 0;
+    }
+
+    .security-badge {
+      background-color: #e8f5e9;
+      border: 1px solid #4caf50;
+      border-radius: 6px;
+      padding: 12px 16px;
+      margin: 24px 0;
+      font-size: 13px;
+      color: #2e7d32;
+    }
+
+    .quick-tips {
+      background-color: #f0f7ff;
+      border-radius: 6px;
+      padding: 16px;
+      margin: 20px 0;
+    }
+
+    .quick-tips h3 {
+      margin: 0 0 12px 0;
+      font-size: 14px;
+      color: #0066cc;
+      font-weight: 600;
+    }
+
+    .quick-tips ul {
+      margin: 0;
+      padding-left: 20px;
+      font-size: 13px;
+      color: #555;
+    }
+
+    .quick-tips li {
+      margin: 8px 0;
+    }
+
+    .footer {
+      background-color: #f9f9f9;
+      padding: 30px;
+      text-align: center;
+      border-top: 1px solid #e5e5e5;
+      font-size: 13px;
+      color: #777;
+    }
+
+    .footer a {
+      color: #ff6b35;
+      text-decoration: none;
+    }
+
+    .footer-links {
+      margin-top: 16px;
+    }
+
+    .footer-links a {
+      margin: 0 12px;
+    }
+
+    @media (max-width: 600px) {
+      .container {
+        border-radius: 0;
+      }
+
+      .content {
+        padding: 24px 16px;
+      }
+
+      .header {
+        padding: 32px 16px;
+      }
+
+      .header h1 {
+        font-size: 24px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- Header -->
+    <div class="header">
+      <h1>🎫 Sign In Instantly</h1>
+      <p>Your Magic Link is Ready</p>
+    </div>
+
+    <!-- Main Content -->
+    <div class="content">
+      <p class="greeting">Your Disney DDP Snack Finder adventure awaits! ✨</p>
+
+      <p>Click the button below to sign in instantly — no password needed:</p>
+
+      <div style="text-align: center;">
+        <a href="{{ .TokenHash }}" class="cta-button">Sign In Now</a>
+      </div>
+
+      <div class="timer">
+        <div class="timer-label">⏰ Link Expires In</div>
+        <div class="timer-text">24 Hours</div>
+      </div>
+
+      <p style="font-size: 13px; color: #999;">Or copy and paste this link:</p>
+      <p style="word-break: break-all; font-size: 12px; color: #666; font-family: 'Courier New', monospace;">{{ .TokenHash }}</p>
+
+      <div class="divider"></div>
+
+      <div class="quick-tips">
+        <h3>🚀 Quick Tips to Get Started</h3>
+        <ul>
+          <li><strong>Enable GPS:</strong> Let the app find snacks near you automatically</li>
+          <li><strong>Filter by Park:</strong> See only snacks available in your current park</li>
+          <li><strong>Heart Your Favorites:</strong> Save snacks to find them again later</li>
+          <li><strong>Check Distance:</strong> Snacks sorted by how close they are to you</li>
+        </ul>
+      </div>
+
+      <div class="security-badge">
+        <strong>🔒 Never share this link</strong> — this magic link is personal and unique to your account. Don't forward it to anyone else.
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+      <p style="margin: 0;">© 2026 Disney DDP Snack Finder. All rights reserved.</p>
+
+      <div class="footer-links">
+        <a href="{{ .SiteURL }}">Visit App</a> •
+        <a href="{{ .SiteURL }}/docs">Help</a> •
+        <a href="mailto:support@disneysnackfinder.com">Support</a>
+      </div>
+
+      <p style="margin: 16px 0 0 0; font-size: 12px;">
+        If you didn't request this link, you can safely ignore this email.
+      </p>
+    </div>
+  </div>
+</body>
+</html>
