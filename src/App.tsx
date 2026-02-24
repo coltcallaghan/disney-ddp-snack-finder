@@ -44,6 +44,7 @@ function App() {
   const [selectedLand, setSelectedLand] = useState('');
   const [selectedCategory, setSelectedCategory] = useState('');
   const [selectedPark, setSelectedPark] = useState('');
+  const [selectedRestaurant, setSelectedRestaurant] = useState('');
   const [selectedDiningPlan, setSelectedDiningPlan] = useState('Included'); // Default to DDP-only
   const [snacks, setSnacks] = useState<SnackItem[]>([]);
   const [dataLoaded, setDataLoaded] = useState(false);
@@ -267,6 +268,16 @@ function App() {
     return getUnique(filtered.map(s => s.category).filter(Boolean));
   }, [snacks, selectedPark, selectedDiningPlan]);
 
+  const availableRestaurants = useMemo(() => {
+    const filtered = snacks.filter(s => {
+      const matchesPark = !selectedPark || s.park === selectedPark;
+      const matchesCategory = !selectedCategory || s.category === selectedCategory;
+      const matchesDiningPlan = selectedDiningPlan === '' || (selectedDiningPlan === 'Included' && s.isDDPSnack === 'true');
+      return matchesPark && matchesCategory && matchesDiningPlan;
+    });
+    return getUnique(filtered.map(s => s.restaurant).filter(Boolean));
+  }, [snacks, selectedPark, selectedCategory, selectedDiningPlan]);
+
   // Preprocess and index aliases and locations for fast lookup
   const aliases: Record<string, string[]> = useMemo(() => aliasesDataRaw as Record<string, string[]>, []);
   const locationMap: Record<string, { lat: number; lng: number }> = useMemo(() => {
@@ -284,12 +295,13 @@ function App() {
       const matchesLand = !selectedLand || s.location === selectedLand;
       const matchesCategory = !selectedCategory || s.category === selectedCategory;
       const matchesPark = !selectedPark || s.park === selectedPark;
+      const matchesRestaurant = !selectedRestaurant || s.restaurant === selectedRestaurant;
       const matchesDiningPlan =
         selectedDiningPlan === '' || (selectedDiningPlan === 'Included' && s.isDDPSnack === 'true');
       const matchesQuery = !searchQuery ||
         (s.restaurant && s.restaurant.toLowerCase().includes(searchQuery.toLowerCase())) ||
         (s.item && s.item.toLowerCase().includes(searchQuery.toLowerCase()));
-      return matchesLand && matchesCategory && matchesPark && matchesDiningPlan && matchesQuery;
+      return matchesLand && matchesCategory && matchesPark && matchesRestaurant && matchesDiningPlan && matchesQuery;
     });
 
     // Attach lat/lng and distance if available
@@ -328,12 +340,12 @@ function App() {
       ...withLoc.map(w => w.snack),
       ...withoutLoc
     ];
-  }, [snacks, selectedLand, selectedCategory, selectedPark, selectedDiningPlan, searchQuery, userLocation, aliases, locationMap]);
+  }, [snacks, selectedLand, selectedCategory, selectedPark, selectedRestaurant, selectedDiningPlan, searchQuery, userLocation, aliases, locationMap]);
 
   // Reset pagination when filters change
   useEffect(() => {
     setCurrentPage(1);
-  }, [searchQuery, selectedPark, selectedCategory, selectedDiningPlan, selectedLand]);
+  }, [searchQuery, selectedPark, selectedCategory, selectedRestaurant, selectedDiningPlan, selectedLand]);
 
   // Log searches with debounce
   useEffect(() => {
@@ -525,14 +537,36 @@ function App() {
           })}
         </select>
 
+        <select
+          className="compact-select"
+          value={selectedRestaurant}
+          onChange={e => setSelectedRestaurant(e.target.value)}
+          aria-label="Filter by restaurant"
+        >
+          <option value="">All Restaurants</option>
+          {availableRestaurants.filter(Boolean).map((restaurant, idx) => {
+            const count = snacks.filter(s => {
+              const matchesRestaurant = s.restaurant === restaurant;
+              const matchesPark = !selectedPark || s.park === selectedPark;
+              const matchesCategory = !selectedCategory || s.category === selectedCategory;
+              const matchesDiningPlan = selectedDiningPlan === '' || (selectedDiningPlan === 'Included' && s.isDDPSnack === 'true');
+              return matchesRestaurant && matchesPark && matchesCategory && matchesDiningPlan;
+            }).length;
+            return (
+              <option key={restaurant || idx} value={restaurant}>{restaurant} ({count})</option>
+            );
+          })}
+        </select>
+
         <div style={{ marginLeft: 'auto', display: 'flex', gap: '8px', alignItems: 'center' }}>
-          {(searchQuery || selectedPark || selectedCategory || selectedDiningPlan !== 'Included') && (
+          {(searchQuery || selectedPark || selectedCategory || selectedRestaurant || selectedDiningPlan !== 'Included') && (
             <button
               className="clear-filters-btn"
               onClick={() => {
                 setSearchQuery('');
                 setSelectedPark('');
                 setSelectedCategory('');
+                setSelectedRestaurant('');
                 setSelectedDiningPlan('Included');
                 setSelectedLand('');
               }}
