@@ -58,7 +58,7 @@ async function seedSnacks() {
     console.log('🌱 Starting snack data seed...');
 
     // Read CSV file
-    const csvPath = path.join(process.cwd(), 'public', 'data.csv');
+    const csvPath = path.join(process.cwd(), 'public', 'data_aligned_with_ids.csv');
     const csvData = fs.readFileSync(csvPath, 'utf-8');
 
     // Parse CSV
@@ -93,20 +93,23 @@ async function seedSnacks() {
     const snacksToInsert: SnackToInsert[] = parsed.data
       .filter((row: SnackRow) => {
         if (!row.ITEM || !row.RESTAURANT) return false;
-        const key = `${row.RESTAURANT}|||${row.ITEM}`;
+        const item = (row.ITEM || '').trim();
+        const restaurant = (row.RESTAURANT || '').trim();
+        if (!item || !restaurant) return false;
+        const key = `${restaurant}|||${item}`;
         if (seen.has(key)) return false; // Skip duplicate
         seen.add(key);
         return true;
       })
       .map((row: SnackRow) => ({
-        item_name: row.ITEM.trim(),
-        restaurant_name: row.RESTAURANT.trim(),
-        category: row.CATEGORY?.trim() || null,
-        dining_plan: row['DINING PLAN']?.trim() || null,
-        location: row.LOCATION?.trim() || null,
-        park: row['DISNEY PARK']?.trim() || null,
-        description: row.DESCRIPTION?.trim() || null,
-        price: row.PRICE?.trim() || null,
+        item_name: (row.ITEM || '').trim(),
+        restaurant_name: (row.RESTAURANT || '').trim(),
+        category: (row.CATEGORY || '').trim() || null,
+        dining_plan: (row['DINING PLAN'] || '').trim() || null,
+        location: (row.LOCATION || '').trim() || null,
+        park: (row['DISNEY PARK'] || '').trim() || null,
+        description: (row.DESCRIPTION || '').trim() || null,
+        price: (row.PRICE || '').trim() || null,
         is_ddp_snack: row.IS_DDP_SNACK === 'true',
       }));
 
