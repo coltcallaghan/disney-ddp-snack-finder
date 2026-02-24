@@ -3,6 +3,21 @@ import fs from 'fs';
 import path from 'path';
 import Papa from 'papaparse';
 
+// Load .env.local manually since tsx doesn't auto-load it
+const envPath = path.join(process.cwd(), '.env.local');
+if (fs.existsSync(envPath)) {
+  const envContent = fs.readFileSync(envPath, 'utf-8');
+  envContent.split('\n').forEach((line) => {
+    const [key, ...valueParts] = line.split('=');
+    if (key && valueParts.length > 0) {
+      const value = valueParts.join('=').trim();
+      if (!process.env[key.trim()]) {
+        process.env[key.trim()] = value;
+      }
+    }
+  });
+}
+
 const supabaseUrl = process.env.VITE_SUPABASE_URL;
 const supabaseAnonKey = process.env.VITE_SUPABASE_ANON_KEY;
 
@@ -27,7 +42,6 @@ interface SnackRow {
 }
 
 interface SnackToInsert {
-  id: number;
   item_name: string;
   restaurant_name: string;
   category: string | null;
@@ -61,19 +75,40 @@ async function seedSnacks() {
 
     console.log(`📋 Found ${parsed.data.length} snacks in CSV`);
 
+    // Clear existing snacks data
+    console.log('🧹 Clearing existing snacks...');
+    const { error: deleteError } = await supabase
+      .from('snacks')
+      .delete()
+      .neq('id', -1); // Delete all rows
+
+    if (deleteError) {
+      console.error('⚠️  Warning: Could not clear existing snacks:', deleteError.message);
+    } else {
+      console.log('✅ Cleared existing snacks');
+    }
+
     // Transform data
-    const snacksToInsert: SnackToInsert[] = parsed.data.map((row) => ({
-      id: parseInt(row.ID, 10),
-      item_name: row.ITEM.trim(),
-      restaurant_name: row.RESTAURANT.trim(),
-      category: row.CATEGORY?.trim() || null,
-      dining_plan: row['DINING PLAN']?.trim() || null,
-      location: row.LOCATION?.trim() || null,
-      park: row['DISNEY PARK']?.trim() || null,
-      description: row.DESCRIPTION?.trim() || null,
-      price: row.PRICE?.trim() || null,
-      is_ddp_snack: row.IS_DDP_SNACK === 'true',
-    }));
+    const seen = new Set<string>();
+    const snacksToInsert: SnackToInsert[] = parsed.data
+      .filter((row: SnackRow) => {
+        if (!row.ITEM || !row.RESTAURANT) return false;
+        const key = `${row.RESTAURANT}|||${row.ITEM}`;
+        if (seen.has(key)) return false; // Skip duplicate
+        seen.add(key);
+        return true;
+      })
+      .map((row: SnackRow) => ({
+        item_name: row.ITEM.trim(),
+        restaurant_name: row.RESTAURANT.trim(),
+        category: row.CATEGORY?.trim() || null,
+        dining_plan: row['DINING PLAN']?.trim() || null,
+        location: row.LOCATION?.trim() || null,
+        park: row['DISNEY PARK']?.trim() || null,
+        description: row.DESCRIPTION?.trim() || null,
+        price: row.PRICE?.trim() || null,
+        is_ddp_snack: row.IS_DDP_SNACK === 'true',
+      }));
 
     // Insert in batches of 100
     const batchSize = 100;
@@ -82,7 +117,7 @@ async function seedSnacks() {
 
       const { error } = await supabase
         .from('snacks')
-        .upsert(batch, { onConflict: 'restaurant_name,item_name' });
+        .insert(batch);
 
       if (error) {
         console.error(`❌ Error inserting batch ${Math.floor(i / batchSize) + 1}:`, error);
@@ -92,27 +127,18 @@ async function seedSnacks() {
       console.log(`✅ Inserted ${Math.min(i + batchSize, snacksToInsert.length)}/${snacksToInsert.length} snacks`);
     }
 
-    // Get stats
-    const { data: stats, error: statsError } = await supabase
+    // Get DDP count
+    const { count: ddpCount, error: ddpError } = await supabase
       .from('snacks')
-      .select('COUNT(*)', { count: 'exact' });
+      .select('*', { count: 'exact' })
+      .eq('is_ddp_snack', true);
 
-    if (statsError) {
-      console.error('❌ Error getting stats:', statsError);
-    } else {
-      console.log(`\n✅ Seed complete! ${snacksToInsert.length} snacks loaded to Supabase`);
+    console.log(`\n✅ Seed complete! ${snacksToInsert.length} snacks loaded to Supabase`);
 
-      // Get DDP count
-      const { count: ddpCount, error: ddpError } = await supabase
-        .from('snacks')
-        .select('*', { count: 'exact' })
-        .eq('is_ddp_snack', true);
-
-      if (!ddpError && ddpCount !== null) {
-        console.log(`   • Total snacks: ${snacksToInsert.length}`);
-        console.log(`   • DDP snacks: ${ddpCount}`);
-        console.log(`   • Other items: ${snacksToInsert.length - ddpCount}`);
-      }
+    if (!ddpError && ddpCount !== null) {
+      console.log(`   • Total snacks: ${snacksToInsert.length}`);
+      console.log(`   • DDP snacks: ${ddpCount}`);
+      console.log(`   • Other items: ${snacksToInsert.length - ddpCount}`);
     }
 
     console.log('\n🎉 Done!');

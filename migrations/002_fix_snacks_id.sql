@@ -1,9 +1,11 @@
--- Migration: 002_create_snacks_table.sql
--- Created: 2026-02-24
--- Description: Create snacks table to store menu items with aggregated stats
+-- Fix snacks table to use auto-generated ID
+-- Drop and recreate the table with correct ID column
 
--- 1. Snacks Table
-CREATE TABLE IF NOT EXISTS snacks (
+-- Drop existing table
+DROP TABLE IF EXISTS snacks CASCADE;
+
+-- Create snacks table with auto-generated ID
+CREATE TABLE snacks (
   id BIGINT PRIMARY KEY GENERATED ALWAYS AS IDENTITY,
   item_name TEXT NOT NULL,
   restaurant_name TEXT NOT NULL,
@@ -25,13 +27,13 @@ CREATE TABLE IF NOT EXISTS snacks (
 );
 
 -- Create indexes for fast queries
-CREATE INDEX IF NOT EXISTS idx_snacks_restaurant ON snacks(restaurant_name);
-CREATE INDEX IF NOT EXISTS idx_snacks_item ON snacks(item_name);
-CREATE INDEX IF NOT EXISTS idx_snacks_category ON snacks(category);
-CREATE INDEX IF NOT EXISTS idx_snacks_park ON snacks(park);
-CREATE INDEX IF NOT EXISTS idx_snacks_ddp ON snacks(is_ddp_snack);
-CREATE INDEX IF NOT EXISTS idx_snacks_rating ON snacks(average_rating DESC);
-CREATE INDEX IF NOT EXISTS idx_snacks_restaurant_item ON snacks(restaurant_name, item_name);
+CREATE INDEX idx_snacks_restaurant ON snacks(restaurant_name);
+CREATE INDEX idx_snacks_item ON snacks(item_name);
+CREATE INDEX idx_snacks_category ON snacks(category);
+CREATE INDEX idx_snacks_park ON snacks(park);
+CREATE INDEX idx_snacks_ddp ON snacks(is_ddp_snack);
+CREATE INDEX idx_snacks_rating ON snacks(average_rating DESC);
+CREATE INDEX idx_snacks_restaurant_item ON snacks(restaurant_name, item_name);
 
 -- Enable RLS (public can view all snacks)
 ALTER TABLE snacks ENABLE ROW LEVEL SECURITY;
