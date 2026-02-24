@@ -1,5 +1,5 @@
 // Utility to map a restaurant name from the CSV to a canonical location name using aliases
-import aliases from '../restaurant_aliases.json';
+import aliases from '../../data/locations/restaurant_aliases.json';
 
 export function getCanonicalLocationName(restaurantName: string) {
   if (!restaurantName) return null;

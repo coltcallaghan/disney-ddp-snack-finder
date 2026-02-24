@@ -1,5 +1,5 @@
 import React from 'react';
-import type { Land } from '../disneyFoodTypes';
+import type { Land } from '../types/disneyFoodTypes';
 import { LocationCard } from './LocationCard';
 
 interface LandSectionProps {

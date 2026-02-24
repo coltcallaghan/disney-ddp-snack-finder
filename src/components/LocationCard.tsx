@@ -1,5 +1,5 @@
 import React from 'react';
-import type { Location } from '../disneyFoodTypes';
+import type { Location } from '../types/disneyFoodTypes';
 
 interface LocationCardProps {
   location: Location;

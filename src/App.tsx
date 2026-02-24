@@ -3,14 +3,14 @@ import { InfoModal } from './components/InfoModal';
 import { AuthModal } from './components/AuthModal';
 import './App.css'
 
-import restaurantLocationsRaw from '../restaurant_locations.json';
-import aliasesDataRaw from '../restaurant_aliases.json';
-import { getCanonicalLocationName } from './restaurantAliasUtils';
-import { getDirectionsUrl } from './mapLinkUtils';
-import { parseCSV } from './csvUtils';
-import type { SnackItem } from './csvUtils';
-import { supabase, isSupabaseAvailable } from './supabaseClient';
-import { getFavorites, addFavorite, removeFavorite as removeFavoriteDB, logSearch as logSearchDB, signOut as supabaseSignOut, getCurrentUser } from './supabaseUtils';
+import restaurantLocationsRaw from '../data/locations/restaurant_locations.json';
+import aliasesDataRaw from '../data/locations/restaurant_aliases.json';
+import { getCanonicalLocationName } from './utils/restaurantAliasUtils';
+import { getDirectionsUrl } from './utils/mapLinkUtils';
+import { parseCSV } from './utils/csvUtils';
+import type { SnackItem } from './utils/csvUtils';
+import { supabase, isSupabaseAvailable } from './services/supabaseClient';
+import { getFavorites, addFavorite, removeFavorite as removeFavoriteDB, logSearch as logSearchDB, signOut as supabaseSignOut, getCurrentUser } from './services/supabaseUtils';
 import type { User } from '@supabase/supabase-js';
 
 

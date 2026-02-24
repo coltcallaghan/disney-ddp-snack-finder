@@ -1034,3 +1034,50 @@
 .user-btn:hover {
   background: rgba(255, 255, 255, 0.28);
 }
+
+/* =========================================
+   Pagination Controls
+   ========================================= */
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--spacing-md);
+  margin-top: var(--spacing-xl);
+  padding: var(--spacing-lg);
+  border-top: 1px solid var(--border-light);
+}
+
+.pagination-info {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--text-secondary);
+  min-width: 200px;
+  text-align: center;
+}
+
+.pagination-btn {
+  padding: var(--spacing-sm) var(--spacing-md);
+  background: var(--disney-blue);
+  color: #fff;
+  border: none;
+  border-radius: var(--radius-md);
+  font-size: 0.9rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all var(--transition-fast);
+  min-width: 120px;
+}
+
+.pagination-btn:hover:not(:disabled) {
+  background: var(--disney-blue-dark);
+  transform: translateY(-1px);
+  box-shadow: var(--shadow-sm);
+}
+
+.pagination-btn:disabled {
+  background: var(--border-light);
+  color: var(--text-muted);
+  cursor: not-allowed;
+  opacity: 0.6;
+}
