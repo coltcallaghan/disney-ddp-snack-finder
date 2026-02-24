@@ -1,6 +1,7 @@
 import { useState, useMemo, useEffect, useCallback, useRef } from 'react'
 import { InfoModal } from './components/InfoModal';
 import { AuthModal } from './components/AuthModal';
+import { ProfileModal } from './components/ProfileModal';
 import './App.css'
 
 import restaurantLocationsRaw from '../data/locations/restaurant_locations.json';
@@ -51,6 +52,7 @@ function App() {
   // Auth and favorites state
   const [currentUser, setCurrentUser] = useState<User | null>(null);
   const [showAuthModal, setShowAuthModal] = useState(false);
+  const [showProfileModal, setShowProfileModal] = useState(false);
   const [pendingFavoriteKey, setPendingFavoriteKey] = useState<string | null>(null);
   const [favoritedIds, setFavoritedIds] = useState<Set<string>>(new Set());
 
@@ -92,6 +94,17 @@ function App() {
   useEffect(() => {
     requestGPS();
   }, [requestGPS]);
+
+  // Handle removing a favorite from the profile modal
+  const handleRemoveFavorite = useCallback((key: string) => {
+    const [restaurant, item] = key.split('|||');
+    setFavoritedIds(prev => {
+      const next = new Set(prev);
+      next.delete(key);
+      return next;
+    });
+    removeFavoriteDB(restaurant, item);
+  }, []);
 
   // Auth state listener
   useEffect(() => {
@@ -376,7 +389,7 @@ function App() {
               aria-label={currentUser ? `Signed in as ${currentUser.email}` : 'Sign in'}
               onClick={() => {
                 if (currentUser) {
-                  supabaseSignOut().then(() => setCurrentUser(null));
+                  setShowProfileModal(true);
                 } else {
                   setShowAuthModal(true);
                 }
@@ -405,6 +418,19 @@ function App() {
         onClose={() => setShowAuthModal(false)}
         onAuthSuccess={() => {/* pendingFavoriteKey effect handles it */}}
       />
+      {currentUser && (
+        <ProfileModal
+          open={showProfileModal}
+          onClose={() => setShowProfileModal(false)}
+          user={currentUser}
+          favoritedIds={favoritedIds}
+          onRemoveFavorite={handleRemoveFavorite}
+          onSignOut={() => {
+            supabaseSignOut().then(() => setCurrentUser(null));
+            setShowProfileModal(false);
+          }}
+        />
+      )}
 
       {/* ---- HERO SEARCH BAR ---- */}
       <div className="search-hero">
