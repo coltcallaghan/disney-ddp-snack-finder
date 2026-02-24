@@ -1,5 +1,6 @@
 import { useState, useMemo, useEffect, useCallback, useRef } from 'react'
 import { InfoModal } from './components/InfoModal';
+import { AuthModal } from './components/AuthModal';
 import './App.css'
 
 import restaurantLocationsRaw from '../restaurant_locations.json';
@@ -9,7 +10,7 @@ import { getDirectionsUrl } from './mapLinkUtils';
 import { parseCSV } from './csvUtils';
 import type { SnackItem } from './csvUtils';
 import { supabase, isSupabaseAvailable } from './supabaseClient';
-import { getFavorites, addFavorite, removeFavorite as _removeFavoriteDB, logSearch as logSearchDB, signOut as _supabaseSignOut, getCurrentUser } from './supabaseUtils';
+import { getFavorites, addFavorite, removeFavorite as removeFavoriteDB, logSearch as logSearchDB, signOut as supabaseSignOut, getCurrentUser } from './supabaseUtils';
 import type { User } from '@supabase/supabase-js';
 
 
@@ -49,9 +50,9 @@ function App() {
 
   // Auth and favorites state
   const [currentUser, setCurrentUser] = useState<User | null>(null);
-  const [_showAuthModal, _setShowAuthModal] = useState(false);
-  const [_pendingFavoriteKey, _setPendingFavoriteKey] = useState<string | null>(null);
-  const [_favoritedIds, _setFavoritedIds] = useState<Set<string>>(new Set());
+  const [showAuthModal, setShowAuthModal] = useState(false);
+  const [pendingFavoriteKey, setPendingFavoriteKey] = useState<string | null>(null);
+  const [favoritedIds, setFavoritedIds] = useState<Set<string>>(new Set());
 
   // Search debounce timer
   const searchDebounceRef = useRef<ReturnType<typeof setTimeout> | null>(null);
@@ -108,7 +109,7 @@ function App() {
   // Load favorites when user logs in
   useEffect(() => {
     if (!currentUser) {
-      _setFavoritedIds(new Set());
+      setFavoritedIds(new Set());
       return;
     }
 
@@ -116,20 +117,20 @@ function App() {
       const keys = new Set(
         favs.map((f: any) => `${f.restaurant_name}|||${f.item_name}`)
       );
-      _setFavoritedIds(keys);
+      setFavoritedIds(keys);
     });
   }, [currentUser]);
 
   // Handle pending favorite after sign-in
   useEffect(() => {
-    if (!currentUser || !_pendingFavoriteKey) return;
+    if (!currentUser || !pendingFavoriteKey) return;
 
-    const [restaurant, item] = _pendingFavoriteKey.split('|||');
+    const [restaurant, item] = pendingFavoriteKey.split('|||');
     addFavorite(restaurant, item).then(() => {
-      _setFavoritedIds((prev: Set<string>) => new Set(prev).add(_pendingFavoriteKey!));
-      _setPendingFavoriteKey(null);
+      setFavoritedIds((prev: Set<string>) => new Set(prev).add(pendingFavoriteKey!));
+      setPendingFavoriteKey(null);
     });
-  }, [currentUser, _pendingFavoriteKey]);
+  }, [currentUser, pendingFavoriteKey]);
 
   // Load data from Supabase or fall back to CSV
   const loadData = async () => {
@@ -325,21 +326,42 @@ function App() {
         <div className="header-inner">
           <img src="/Disney_wordmark.svg.png" alt="Disney" className="disney-logo" />
           <span className="header-title">DDP Snack Finder</span>
-          <button
-            className="info-btn"
-            aria-label="About DDP"
-            onClick={() => setShowInfo(true)}
-          >
-            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
-              <circle cx="12" cy="12" r="10"></circle>
-              <path d="M12 16v-4"></path>
-              <path d="M12 8h.01"></path>
-            </svg>
-          </button>
+          <div style={{ display: 'flex', gap: '8px' }}>
+            {/* User auth button */}
+            <button
+              className="user-btn"
+              aria-label={currentUser ? `Signed in as ${currentUser.email}` : 'Sign in'}
+              onClick={() => {
+                if (currentUser) {
+                  supabaseSignOut().then(() => setCurrentUser(null));
+                } else {
+                  setShowAuthModal(true);
+                }
+              }}
+            >
+              {currentUser ? (currentUser.email?.[0]?.toUpperCase() ?? '★') : '★'}
+            </button>
+            <button
+              className="info-btn"
+              aria-label="About DDP"
+              onClick={() => setShowInfo(true)}
+            >
+              <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+                <circle cx="12" cy="12" r="10"></circle>
+                <path d="M12 16v-4"></path>
+                <path d="M12 8h.01"></path>
+              </svg>
+            </button>
+          </div>
         </div>
       </header>
 
       <InfoModal open={showInfo} onClose={() => setShowInfo(false)} />
+      <AuthModal
+        open={showAuthModal}
+        onClose={() => setShowAuthModal(false)}
+        onAuthSuccess={() => {/* pendingFavoriteKey effect handles it */}}
+      />
 
       {/* ---- HERO SEARCH BAR ---- */}
       <div className="search-hero">
@@ -484,6 +506,29 @@ function App() {
                 ? getDirectionsUrl(lat, lng, userLocation.lat, userLocation.lng)
                 : null;
 
+              const isFavorited = favoritedIds.has(`${snack.restaurant}|||${snack.item}`);
+
+              const handleFavoriteClick = (e: React.MouseEvent) => {
+                e.stopPropagation();
+                const key = `${snack.restaurant}|||${snack.item}`;
+                if (!currentUser) {
+                  setPendingFavoriteKey(key);
+                  setShowAuthModal(true);
+                  return;
+                }
+                if (isFavorited) {
+                  removeFavoriteDB(snack.restaurant, snack.item);
+                  setFavoritedIds(prev => {
+                    const next = new Set(prev);
+                    next.delete(key);
+                    return next;
+                  });
+                } else {
+                  addFavorite(snack.restaurant, snack.item);
+                  setFavoritedIds(prev => new Set(prev).add(key));
+                }
+              };
+
               return (
                 <div
                   className={`snack-card palette-card${snack.isDDPSnack === 'true' ? ' snack-card--ddp' : ''}`}
@@ -497,15 +542,32 @@ function App() {
                     </div>
                   )}
 
-                  {/* DISTANCE BADGE — top-right */}
-                  {distLabel && (
-                    <div className="distance-badge">{distLabel}</div>
-                  )}
+                  {/* Top right cluster: heart + distance */}
+                  <div className="card-top-right">
+                    <button
+                      className={`favorite-btn${isFavorited ? ' favorite-btn--active' : ''}`}
+                      aria-label={isFavorited ? 'Remove from favorites' : 'Add to favorites'}
+                      onClick={handleFavoriteClick}
+                    >
+                      {isFavorited ? '♥' : '♡'}
+                    </button>
+                    {distLabel && <div className="distance-badge">{distLabel}</div>}
+                  </div>
 
                   {/* CARD BODY */}
                   <div className="card-body">
                     <h3 className="snack-name">{snack.item}</h3>
                     <p className="snack-restaurant">{snack.restaurant}</p>
+
+                    {/* Star rating */}
+                    {snack.average_rating != null && snack.average_rating > 0 && (
+                      <div className="snack-rating">
+                        ★ {snack.average_rating.toFixed(1)}
+                        {snack.total_reviews != null && (
+                          <span className="snack-rating-count">({snack.total_reviews})</span>
+                        )}
+                      </div>
+                    )}
 
                     <div className="card-chips">
                       {snack.category && (
@@ -515,6 +577,18 @@ function App() {
                         <span className="chip chip--park">{snack.park}</span>
                       )}
                     </div>
+
+                    {/* Availability badge */}
+                    {snack.most_recent_availability != null && (
+                      <div className="snack-availability">
+                        <span
+                          className={`availability-dot availability-dot--${
+                            snack.most_recent_availability ? 'available' : 'unavailable'
+                          }`}
+                        />
+                        {snack.most_recent_availability ? 'Recently available' : 'Recently unavailable'}
+                      </div>
+                    )}
 
                     {snack.price && snack.isDDPSnack !== 'true' && (
                       <p className="snack-price">{snack.price}</p>
