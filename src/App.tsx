@@ -392,8 +392,7 @@ function App() {
       {/* ---- STICKY HEADER ---- */}
       <header className="header palette-header">
         <div className="header-inner">
-          <img src="/Disney_wordmark.svg.png" alt="Disney" className="disney-logo" />
-          <span className="header-title">DDP Snack Finder</span>
+          <span className="header-title">Doherty Dining Plan Snack Finder</span>
           <div style={{ display: 'flex', gap: '8px' }}>
             {/* User auth button */}
             <button
@@ -411,7 +410,7 @@ function App() {
             </button>
             <button
               className="info-btn"
-              aria-label="About DDP"
+              aria-label="About Doherty Dining Plan"
               onClick={() => setShowInfo(true)}
             >
               <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
@@ -494,7 +493,7 @@ function App() {
           className={`ddp-pill ${selectedDiningPlan === 'Included' ? 'ddp-pill--active' : ''}`}
           onClick={() => setSelectedDiningPlan(s => s === 'Included' ? '' : 'Included')}
         >
-          ★ FREE with DDP
+          ★ FREE with Doherty Dining Plan
         </button>
 
         <select
@@ -676,7 +675,7 @@ function App() {
                   {/* DDP BADGE — top-left, visually dominant */}
                   {snack.isDDPSnack === 'true' && (
                     <div className="ddp-badge" aria-label="Free with Disney Dining Plan">
-                      <span className="ddp-badge-star">★</span> FREE with DDP
+                      <span className="ddp-badge-star">★</span> FREE with Doherty Dining Plan
                     </div>
                   )}
 
@@ -803,7 +802,7 @@ function App() {
           margin: '0 auto',
         }}>
           <p style={{ margin: '0 0 16px 0' }}>
-            <strong>Disclaimer:</strong> This is not an official Disney product. Disney DDP Snack Finder is a fan-made tool created by <strong>Colt Callaghan</strong> for the Doherty's trip to Disney World.
+            <strong>Disclaimer:</strong> This is not an official Disney product. Doherty Dining Plan Snack Finder is a fan-made tool created by <strong>Colt Callaghan</strong> for the Doherty's trip to Disney World.
           </p>
           <p style={{ margin: '0 0 16px 0' }}>
             Welcome to the adventure: <strong>Steve, Nuala, Aoife, Josh, Joe, Callum, and Aidan</strong> ✨

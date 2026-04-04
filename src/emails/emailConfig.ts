@@ -26,7 +26,7 @@ export interface EmailTemplate {
 
 export const emailTemplates = {
   confirmSignup: {
-    subject: 'Confirm Your Signup - Disney DDP Snack Finder',
+    subject: 'Confirm Your Signup - Doherty Dining Plan Snack Finder',
     description: 'Email sent when user signs up to confirm their email address',
   },
   magicLink: {
@@ -34,7 +34,7 @@ export const emailTemplates = {
     description: 'Email sent for magic link sign-in (passwordless)',
   },
   resetPassword: {
-    subject: 'Reset Your Password - Disney DDP Snack Finder',
+    subject: 'Reset Your Password - Doherty Dining Plan Snack Finder',
     description: 'Email sent when user requests to reset their password',
   },
   changeEmail: {
@@ -46,7 +46,7 @@ export const emailTemplates = {
     description: 'Email sent for account recovery',
   },
   inviteEmail: {
-    subject: 'You\'ve Been Invited to Disney DDP Snack Finder',
+    subject: 'You\'ve Been Invited to Doherty Dining Plan Snack Finder',
     description: 'Email sent to invite users to sign up',
   },
 };
@@ -105,7 +105,7 @@ export interface EmailCustomizationOptions {
  * - Update both colors for consistent theming
  *
  * Option 2: Update company info
- * - Replace "Disney DDP Snack Finder" with your app name
+ * - Replace "Doherty Dining Plan Snack Finder" with your app name
  * - Update support email and links
  * - Change copyright year if needed
  *
